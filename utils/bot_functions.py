@@ -1,29 +1,11 @@
 import discord
 from .data_storage import jeronimo_martins
-from datetime import datetime, timedelta
+import datetime as dt
+from discord.ext import tasks
 import asyncio
 
 data_container = jeronimo_martins()
 client = discord.Client
-
-def timer():
-    now = datetime.now()
-    seconds_till_midnight = (timedelta(hours=24) - (now - now.replace(hour=0, minute=0, second=0, microsecond=0))).total_seconds() % (24 * 3600)
-
-
-class AsyncTask:
-    def __init__(self, timeout, callback):
-        self._timeout = timeout
-        self._callback = callback
-        self._task = asyncio.ensure_future(self._job())
-
-    async def _job(self):
-        await asyncio.sleep(self._timeout)
-        await self._callback()
-
-    async def cancel(self):
-        self._task.cancel()
-
 
 
 class ShinshaBrain(client):
@@ -32,6 +14,22 @@ class ShinshaBrain(client):
         print(self.user.name)
         print(self.user.id)
         print('------')
+        self.day_summary.start()
+
+    @tasks.loop(hours=24)
+    async def day_summary(self):
+       message_channel = self.get_channel(789853206053126147)
+       message_channel.send(data_container.counter_status)
+       data_container.clear_data()
+       await message_channel.send("Nastał nowy dzień!")
+
+    @day_summary.before_loop
+    async def before_day_summary(self):
+       for _ in range(60 * 60 * 24):  # loop the whole day
+           if dt.datetime.now().strftime("%H:%M:%S") == dt.time(hour=0, minute=0, second=0).strftime("%H:%M:%S"):  # 24 hour format
+              print('It is rewind time!')
+              return
+           await asyncio.sleep(1)  # wait a second before looping again. You can make it more
 
 
     async def on_message(self, message):
@@ -46,9 +44,6 @@ class ShinshaBrain(client):
         if message.content.startswith('$message_count'):
             await message.channel.send(data_container.counter_status)
 
-    async def testTimerCorrectness(self):
-        channel = client.get_channel(789853206053126147)
-        await channel.send('Timer Dziala')
 
 
 

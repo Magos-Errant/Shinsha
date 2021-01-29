@@ -11,8 +11,7 @@ logger.addHandler(handler)
 
 #Uruchamianie bota i jego funkcji.
 client = bot_functions.ShinshaBrain()
-test_timer = bot_functions.AsyncTask(10, client.testTimerCorrectness())
-client.run('TOKEN-HERE')
+client.run('ODA0MzQ4MjIxNzQ4OTM2NzA0.YBLBqA.iFZa05rXjQAP9rAX__pNbBgQdGA')
 
 
 
