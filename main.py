@@ -11,7 +11,7 @@ logger.addHandler(handler)
 
 #Uruchamianie bota i jego funkcji.
 client = bot_functions.ShinshaBrain()
-client.run('ODA0MzQ4MjIxNzQ4OTM2NzA0.YBLBqA.iFZa05rXjQAP9rAX__pNbBgQdGA')
+client.run('TOKEN')
 
 
 
