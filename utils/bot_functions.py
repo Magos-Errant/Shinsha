@@ -17,48 +17,54 @@ class ShinshaBrain(client):
         print('------')
         self.day_summary.start()
         keep_alive()
-        
-#funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
+
+    # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
     @tasks.loop(hours=24)
     async def day_summary(self):
-       message_channel = self.get_channel(789853206053126147)
-       message_channel.send(data_container.counter_status)
-       data_container.clear_data()
-       await message_channel.send("Nastał nowy dzień!")
+        message_channel = self.get_channel(789853206053126147)
+        message_channel.send(data_container.counter_status)
+        data_container.clear_data()
+        await message_channel.send("Nastał nowy dzień!")
 
     @day_summary.before_loop
     async def before_day_summary(self):
-       for _ in range(60 * 60 * 24):  # loop the whole day
-           if dt.datetime.now().strftime("%H:%M:%S") == dt.time(hour=0, minute=0, second=0).strftime("%H:%M:%S"):  # 24 hour format
-              print('It is rewind time!')
-              return
-           await asyncio.sleep(1)  # wait a second before looping again. You can make it more
+        for _ in range(60 * 60 * 24):  # loop the whole day
+            if dt.datetime.now().strftime("%H:%M:%S") == dt.time(hour=0, minute=0, second=0).strftime(
+                    "%H:%M:%S"):  # 24 hour format
+                print('It is rewind time!')
+                return
+            await asyncio.sleep(1)  # wait a second before looping again. You can make it more
 
-#funkcje poniżej obsługują reakcje bota na wiadomości
+    # funkcje poniżej obsługują reakcje bota na wiadomości
     async def on_message(self, message):
         if message.author == self.user:
             return
 
-        data_container.message_counter(message.channel.name)
-
         if message.content.startswith('!hello'):
-            await message.channel.send('Hello!')
+            await message.delete()
+            message = await message.channel.send('Hello!')
+            await asyncio.sleep(30)
+            await message.delete()
 
-        if message.content.startswith('!message_count'):
-            await message.channel.send(data_container.counter_status)
+        elif message.content.startswith('!message_count'):
+            await message.delete()
+            message = await message.channel.send(data_container.counter_status)
+            await asyncio.sleep(30)
+            await message.delete()
 
-        if message.content.startswith('!commands'):
+        elif message.content.startswith('!commands'):
+            await message.delete()
             _commands_dict = data_container.avaliable_commands
             _string = '''Lista komend:\n'''
             for key in _commands_dict:
-              value = _commands_dict[key]
-              _string = _string + f'{key} - {value}\n'
-            await message.channel.send(_string)
+                value = _commands_dict[key]
+                _string = _string + f'{key} - {value}\n'
+            message = await message.channel.send(_string)
+            await asyncio.sleep(30)
+            await message.delete()
 
-
-
-
-
+        else:
+            data_container.message_counter(message.channel.name)
 
         # if message.content.startswith('$counter_reset'):
         #     data_container.clear_data()
