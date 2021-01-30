@@ -49,7 +49,7 @@ class ShinshaBrain(client):
 
         if message.content.startswith('!commands'):
             _commands_dict = data_container.avaliable_commands
-            _string = ''''''
+            _string = '''Lista komend:\n'''
             for key in _commands_dict:
               value = _commands_dict[key]
               _string = _string + f'{key} - {value}\n'
