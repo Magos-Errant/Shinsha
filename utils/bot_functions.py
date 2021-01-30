@@ -1,8 +1,9 @@
 import discord
-from .data_storage import jeronimo_martins
-import datetime as dt
-from discord.ext import tasks
 import asyncio
+import datetime as dt
+from .keep_alive import keep_alive
+from discord.ext import tasks
+from .data_storage import jeronimo_martins
 
 data_container = jeronimo_martins()
 client = discord.Client
@@ -15,7 +16,9 @@ class ShinshaBrain(client):
         print(self.user.id)
         print('------')
         self.day_summary.start()
-
+        keep_alive()
+        
+#funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
     @tasks.loop(hours=24)
     async def day_summary(self):
        message_channel = self.get_channel(789853206053126147)
@@ -31,7 +34,7 @@ class ShinshaBrain(client):
               return
            await asyncio.sleep(1)  # wait a second before looping again. You can make it more
 
-
+#funkcje poniżej obsługują reakcje bota na wiadomości
     async def on_message(self, message):
         if message.author == self.user:
             return
@@ -43,6 +46,14 @@ class ShinshaBrain(client):
 
         if message.content.startswith('!message_count'):
             await message.channel.send(data_container.counter_status)
+
+        if message.content.startswith('!commands'):
+            _commands_dict = data_container.avaliable_commands
+            _string = ''''''
+            for key in _commands_dict:
+              value = _commands_dict[key]
+              _string = _string + f'{key} - {value}\n'
+            await message.channel.send(_string)
 
 
 

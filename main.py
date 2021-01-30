@@ -1,8 +1,6 @@
 #import logging
 import os
 from utils import bot_functions
-from flask import Flask
-from threading import Thread
 
 #logowanie błędów
 # logger = logging.getLogger('discord')
@@ -13,20 +11,4 @@ from threading import Thread
 
 #Uruchamianie bota i jego funkcji.
 client = bot_functions.ShinshaBrain()
-app = Flask('')
-
-@app.route('/')
-def main():
-  return "Your Bot Is Ready"
-
-def run():
-  app.run(host="0.0.0.0", port=8000)
-
-def keep_alive():
-  server = Thread(target=run)
-  server.start()
-
 client.run(os.getenv('TOKEN'))
-
-
-

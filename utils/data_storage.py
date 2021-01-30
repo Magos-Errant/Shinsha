@@ -36,6 +36,15 @@ class jeronimo_martins():
         for channel in self.messages_in_channel:
             self.messages_in_channel[channel]=0
 
+    @property
+    def avaliable_commands(self) -> dict:
+      avaliable_commands = {
+        "!commands":"Shinsha wyświetli listę komend",
+        "!hello":"Shinsha odpisze - Hello",
+        "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj."
+      }
+      return avaliable_commands
+
     def __repr__(self):
         return f'messages_in_channel={self.messages_in_channel}'
 
