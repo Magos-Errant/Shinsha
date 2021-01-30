@@ -38,10 +38,10 @@ class ShinshaBrain(client):
 
         data_container.message_counter(message.channel.name)
 
-        if message.content.startswith('$hello'):
+        if message.content.startswith('!hello'):
             await message.channel.send('Hello!')
 
-        if message.content.startswith('$message_count'):
+        if message.content.startswith('!message_count'):
             await message.channel.send(data_container.counter_status)
 
 

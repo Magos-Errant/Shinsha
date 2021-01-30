@@ -1,8 +1,7 @@
-from datetime import datetime, timedelta
+import datetime as dt
 
-def sleep_time():
-    now = datetime.now()
-    seconds_till_midnight = (timedelta(hours=24) - (now - now.replace(hour=0, minute=0, second=0, microsecond=0))).total_seconds() % (24 * 3600)
-    print(seconds_till_midnight)
 
-sleep_time()
+if dt.datetime.now().strftime("%H:%M") == dt.time(hour=2, minute=16).strftime("%H:%M"):  # 24 hour format
+    print('It is time')
+else:
+    print('There is time to wait')
