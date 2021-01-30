@@ -41,7 +41,8 @@ class jeronimo_martins():
       avaliable_commands = {
         "!commands":"Shinsha wyświetli listę komend",
         "!hello":"Shinsha odpisze - Hello",
-        "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj."
+        "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj.",
+        "!tao":"Shinsha podzieli się cytatem z Tao Te Ching"
       }
       return avaliable_commands
 
