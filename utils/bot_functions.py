@@ -4,6 +4,7 @@ import datetime as dt
 from .keep_alive import keep_alive
 from discord.ext import tasks
 from .data_storage import jeronimo_martins
+from .tao import TaoTeChing
 
 data_container = jeronimo_martins()
 client = discord.Client
@@ -62,6 +63,14 @@ class ShinshaBrain(client):
             message = await message.channel.send(_string)
             await asyncio.sleep(30)
             await message.delete()
+
+        elif message.content.startswith('!tao'):
+            await message.delete()
+            _taoteching = TaoTeChing()
+            message = await message.channel.send(_taoteching.random_quote())
+            await asyncio.sleep(60)
+            await message.delete()
+
 
         else:
             data_container.message_counter(message.channel.name)
