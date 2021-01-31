@@ -75,18 +75,19 @@ class ShinshaBrain(client):
             await asyncio.sleep(message_timeout)
             await message.delete()
 
-        elif message.content.startswith('!danbo:'):
-            _tags = message.content[8:]
+        elif message.content.startswith('!danbo'):
+            _tags = message.content[7:]
             await message.delete()
             danbo_client = Danbooru('danbooru')
-            posts = danbo_client.post_list(tags=f'{_tags}', limit=100)
-            random_pool = {}
-            i = 0
-            for post in posts:
-                random_pool[i] = post['file_url']
-                i += 1
-
-            message = await message.channel.send(random_pool[int(random.randint(0, 99))])
+            posts = danbo_client.post_list(tags=_tags, limit=1, random=True)
+            _i = 20
+            while len(posts) == 0 and _i != 0:
+              await asyncio.sleep(1)
+              _i -= 1
+            if len(posts) == 0:
+              message = await message.channel.send('¯\_(ツ)_/¯')
+            else:  
+              message = await message.channel.send(posts[0]['file_url'])
             await asyncio.sleep(message_timeout)
             await message.delete()
 
