@@ -8,6 +8,7 @@ from .tao import TaoTeChing
 
 data_container = jeronimo_martins()
 client = discord.Client
+message_timeout = 120
 
 
 class ShinshaBrain(client):
@@ -44,13 +45,13 @@ class ShinshaBrain(client):
         if message.content.startswith('!hello'):
             await message.delete()
             message = await message.channel.send('Hello!')
-            await asyncio.sleep(30)
+            await asyncio.sleep(message_timeout)
             await message.delete()
 
         elif message.content.startswith('!message_count'):
             await message.delete()
             message = await message.channel.send(data_container.counter_status)
-            await asyncio.sleep(30)
+            await asyncio.sleep(message_timeout)
             await message.delete()
 
         elif message.content.startswith('!commands'):
@@ -61,14 +62,14 @@ class ShinshaBrain(client):
                 value = _commands_dict[key]
                 _string = _string + f'{key} - {value}\n'
             message = await message.channel.send(_string)
-            await asyncio.sleep(30)
+            await asyncio.sleep(message_timeout)
             await message.delete()
 
         elif message.content.startswith('!tao'):
             await message.delete()
             _taoteching = TaoTeChing()
             message = await message.channel.send(_taoteching.random_quote())
-            await asyncio.sleep(60)
+            await asyncio.sleep(message_timeout)
             await message.delete()
 
 
