@@ -77,6 +77,7 @@ class ShinshaBrain(client):
 
         elif message.content.startswith('!danbo:'):
             _tags = message.content[8:]
+            await message.delete()
             danbo_client = Danbooru('danbooru')
             posts = danbo_client.post_list(tags=f'{_tags}', limit=100)
             random_pool = {}
