@@ -1,7 +1,17 @@
-import datetime as dt
+from __future__ import unicode_literals
+from pybooru import Danbooru
+import random
 
-if dt.datetime.now().strftime("%H:%M") == dt.time(
-        hour=2, minute=16).strftime("%H:%M"):  # 24 hour format
-    print('It is time')
-else:
-    print('There is time to wait')
+tags = "!danbo: asanagi breasts"
+tags = tags[8:]
+print(tags)
+
+client = Danbooru('danbooru')
+posts = client.post_list(tags=f'{tags}', limit=100)
+random_pool = {}
+i = 0
+for post in posts:
+    random_pool[i] = post['file_url']
+    i += 1
+
+print(random_pool[int(random.randint(0, 99))])
