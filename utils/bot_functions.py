@@ -1,9 +1,10 @@
+from __future__ import unicode_literals
 import discord
 import asyncio
 import datetime as dt
+import random
 from .keep_alive import keep_alive
 from discord.ext import tasks
-from __future__ import unicode_literals
 from pybooru import Danbooru
 from .data_storage import jeronimo_martins
 from .tao import TaoTeChing
@@ -74,10 +75,8 @@ class ShinshaBrain(client):
             await asyncio.sleep(message_timeout)
             await message.delete()
 
-        elif message.content.startswith('!danbo'):
+        elif message.content.startswith('!danbo:'):
             _tags = message.content[8:]
-            await asyncio.sleep(message_timeout)
-            await message.delete()
             danbo_client = Danbooru('danbooru')
             posts = danbo_client.post_list(tags=f'{_tags}', limit=100)
             random_pool = {}
@@ -86,7 +85,7 @@ class ShinshaBrain(client):
                 random_pool[i] = post['file_url']
                 i += 1
 
-            message = await message.channel.send(random_pool[int(TaoTeChing.random.randint(0, 99))])
+            message = await message.channel.send(random_pool[int(random.randint(0, 99))])
             await asyncio.sleep(message_timeout)
             await message.delete()
 

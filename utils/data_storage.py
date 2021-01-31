@@ -42,7 +42,8 @@ class jeronimo_martins():
         "!commands":"Shinsha wyświetli listę komend",
         "!hello":"Shinsha odpisze - Hello",
         "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj.",
-        "!tao":"Shinsha podzieli się cytatem z Tao Te Ching"
+        "!tao":"Shinsha podzieli się cytatem z Tao Te Ching",
+        "!danbo: tag1 tag2": "Shinsa wyświetli losowy obrazek z tymi tagami"
       }
       return avaliable_commands
 
