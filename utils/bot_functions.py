@@ -114,15 +114,23 @@ class ShinshaBrain(client):
                         continue
 
                 #formatting string to send as a message
-                i = 0
                 string = ""
                 for _dict in _selected_animu:
-                    string = string + f"Name: {_dict[i]['name']}\nYer booty isle: {_dict[i]['url']}\nCoffer!: {_dict[i]['download_url']}\nMayteys: {_dict[i]['seeders']}\nScallywags: {_dict[i]['leechers']}\nHeave Ho: {_dict[i]['size']}\n\n"
-                    i += 1
-                message = await message.channel.send(string)
+                    string = string + f"{_dict['name']}\n{_dict['url']} S: {_dict['seeders']} L: {_dict['leechers']} Size: {_dict['size']}\n\n"
 
+                if len(string) < 2000:
+                  message = await message.channel.send(string)
+                else:
+                  firstpart, secondpart = string[:len(string)//2], string[len(string)//2:]
+                    
+                if len(firstpart) >= 2000:
+                  message = await message.channel.send('Shiver me timbers maytey! Be more specific')
+                else:
+                  message = await message.channel.send(firstpart)
+                  message1 = await message.channel.send(secondpart)        
             await asyncio.sleep(message_timeout)
             await message.delete()
+            await message1.delete()
         else:
             data_container.message_counter(message.channel.name)
 
