@@ -43,12 +43,14 @@ class ShinshaBrain(client):
     #definicje metody wywołwywanych on message
     async def chop_long_string(self, string, message):
       if len(string) < 2000:
-          message = await message.channel.send(string)
+         message = await message.channel.send(string)
+         return message
       else:
         firstpart, secondpart = string[:len(string)//2], string[len(string)//2:]
                     
         if len(firstpart) >= 2000:
           message = await message.channel.send('Shiver me timbers maytey! Be more specific')
+          return message
         else:
             message = await message.channel.send(firstpart)
             message1 = await message.channel.send(secondpart)
@@ -56,7 +58,7 @@ class ShinshaBrain(client):
 
     async def hello(self, message):
       if message.channel.id == 805839570201608252:
-        message = await message.channel.send('Hello!')
+        await message.channel.send('Hello!')
       else:
         await message.delete()
         message = await message.channel.send('Hello!')
@@ -65,7 +67,7 @@ class ShinshaBrain(client):
 
     async def message_count(self, message):
       if message.channel.id == 805839570201608252:
-        message = await message.channel.send(data_container.counter_status)
+        await message.channel.send(data_container.counter_status)
       else:  
         await message.delete()
         message = await message.channel.send(data_container.counter_status)
@@ -79,8 +81,7 @@ class ShinshaBrain(client):
         for key in _commands_dict:
           value = _commands_dict[key]
           _string = _string + f'{key} - {value}\n'
-        message = await message.channel.send(_string)
-        await asyncio.sleep(message_timeout)
+        await message.channel.send(_string)
       else:
         await message.delete()
         _commands_dict = data_container.avaliable_commands
@@ -95,7 +96,7 @@ class ShinshaBrain(client):
     async def tao(self, message):
       _taoteching = TaoTeChing()
       if message.channel.id == 805839570201608252:
-        message = await message.channel.send(_taoteching.random_quote())
+        await message.channel.send(_taoteching.random_quote())
       else:
         await message.delete()
         message = await message.channel.send(_taoteching.random_quote())
@@ -114,9 +115,9 @@ class ShinshaBrain(client):
           await asyncio.sleep(1)
           _i -= 1
         if len(posts) == 0:
-          message = await message.channel.send('¯\_(ツ)_/¯')
+          await message.channel.send('¯\_(ツ)_/¯')
         else:  
-          message = await message.channel.send(posts[0]['file_url'])
+          await message.channel.send(posts[0]['file_url'])
       else:
         await message.delete()
         if 'rating:' not in _tags:
@@ -185,11 +186,11 @@ class ShinshaBrain(client):
           for _dict in _selected_animu:
             string = string + f"{_dict['name']}\n{_dict['url']} S: {_dict['seeders']} L: {_dict['leechers']} Size: {_dict['size']}\n\n"
            
-          await self.chop_long_string(string, message)
+          message_container = await self.chop_long_string(string, message)
 
       await asyncio.sleep(message_timeout)
-      await message.delete()
-      await message1.delete()
+      for message in message_container:
+          message.delete()
 
 
 # funkcje poniżej obsługują reakcje bota na wiadomości
