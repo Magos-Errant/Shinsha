@@ -78,6 +78,8 @@ class ShinshaBrain(client):
         elif message.content.startswith('!danbo'):
             _tags = message.content[7:]
             await message.delete()
+            if 'rating:' not in _tags:
+              _tags = _tags + ' rating:safe'
             danbo_client = Danbooru('danbooru')
             posts = danbo_client.post_list(tags=_tags, limit=1, random=True)
             _i = 20
