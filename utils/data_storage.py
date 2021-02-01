@@ -43,7 +43,8 @@ class jeronimo_martins():
         "!hello":"Shinsha odpisze - Hello",
         "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj.",
         "!tao":"Shinsha podzieli się cytatem z Tao Te Ching",
-        "!danbo: tag1 tag2": "Shinsa wyświetli losowy obrazek z tymi tagami"
+        "!danbo tag1 tag2": "Shinsa wyświetli losowy obrazek z tymi tagami",
+        "!arr tags": "Shinsa wyruszy w podróż po siedmiu morzach"
       }
       return avaliable_commands
 

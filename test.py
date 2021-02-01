@@ -1,17 +1,18 @@
-from __future__ import unicode_literals
-from pybooru import Danbooru
-import random
+import NyaaPy
 
-tags = "!danbo: asanagi breasts"
-tags = tags[8:]
-print(tags)
+Arr = NyaaPy.Nyaa
 
-client = Danbooru('danbooru')
-posts = client.post_list(tags=f'{tags}', limit=100)
-random_pool = {}
+x = Arr.search('tatoeba last dungeon 05')
+print(x)
+
+_selected_animu = []
+for _dict in x:
+    if _dict['category'] == 'Anime - English-translated':
+        _selected_animu.append(_dict)
+    else:
+        continue
+
 i = 0
-for post in posts:
-    random_pool[i] = post['file_url']
+for _dicts in _selected_animu:
+    print(f"Name: {x[i]['name']}\nYer booty isle: {x[i]['url']}\nCoffer!: {x[i]['download_url']}\nMayteys: {x[i]['seeders']}\nScallywags: {x[i]['leechers']}\nHeave Ho: {x[i]['size']}\n\n")
     i += 1
-
-print(random_pool[int(random.randint(0, 99))])

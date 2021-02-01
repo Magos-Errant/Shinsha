@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import discord
 import asyncio
 import datetime as dt
-import random
+import NyaaPy
 from .keep_alive import keep_alive
 from discord.ext import tasks
 from pybooru import Danbooru
@@ -91,6 +91,38 @@ class ShinshaBrain(client):
             await asyncio.sleep(message_timeout)
             await message.delete()
 
+        #Some Pirate funcionality
+        elif message.content.startswith('!arr '):
+            _tags = message.content[5:]
+            await message.delete()
+            Arr = NyaaPy.Nyaa
+            _result = Arr.search(_tags)
+
+            #ensuring that server will respond and catching situation when it does not
+            _i = 20
+            while len(_result) == 0 and _i != 0:
+                await asyncio.sleep(1)
+                _i -= 1
+            if len(_result) == 0:
+                message = await message.channel.send('¯\_(ツ)_/¯')
+            else:
+                _selected_animu = []
+                for _dict in _result:
+                    if _dict['category'] == 'Anime - English-translated':
+                        _selected_animu.append(_dict)
+                    else:
+                        continue
+
+                #formatting string to send as a message
+                i = 0
+                string = ""
+                for _dict in _selected_animu:
+                    string = string + f"Name: {_dict[i]['name']}\nYer booty isle: {_dict[i]['url']}\nCoffer!: {_dict[i]['download_url']}\nMayteys: {_dict[i]['seeders']}\nScallywags: {_dict[i]['leechers']}\nHeave Ho: {_dict[i]['size']}\n\n"
+                    i += 1
+                message = await message.channel.send(string)
+
+            await asyncio.sleep(message_timeout)
+            await message.delete()
         else:
             data_container.message_counter(message.channel.name)
 
