@@ -41,20 +41,23 @@ class ShinshaBrain(client):
             await asyncio.sleep(1)  # wait a second before looping again. You can make it more
 
     #definicje metody wywołwywanych on message
-    async def chop_long_string(self, string, message):
+    async def chop_long_string(self, string, message) -> list:
       if len(string) < 2000:
          message = await message.channel.send(string)
-         return message
+         _resulting_list = [message]
+         return _resulting_list
       else:
         firstpart, secondpart = string[:len(string)//2], string[len(string)//2:]
                     
         if len(firstpart) >= 2000:
           message = await message.channel.send('Shiver me timbers maytey! Be more specific')
-          return message
+          _resulting_list = [message]
+          return _resulting_list
         else:
-            message = await message.channel.send(firstpart)
-            message1 = await message.channel.send(secondpart)
-            return message, message1
+          message = await message.channel.send(firstpart)
+          message1 = await message.channel.send(secondpart)
+          _resulting_list = [message, message1]
+          return _resulting_list
 
     async def hello(self, message):
       if message.channel.id == 805839570201608252:
@@ -190,7 +193,7 @@ class ShinshaBrain(client):
 
       await asyncio.sleep(message_timeout)
       for message in message_container:
-          message.delete()
+          await message.delete()
 
 
 # funkcje poniżej obsługują reakcje bota na wiadomości
