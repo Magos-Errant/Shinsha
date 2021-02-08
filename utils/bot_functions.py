@@ -27,7 +27,7 @@ class ShinshaBrain(client):
     @tasks.loop(hours=24)
     async def day_summary(self):
         message_channel = self.get_channel(790949987609608212)
-        message_channel.send(data_container.counter_status)
+        await message_channel.send(data_container.counter_status)
         data_container.clear_data()
         await message_channel.send("Nastał nowy dzień!")
 
@@ -38,7 +38,7 @@ class ShinshaBrain(client):
                     "%H:%M:%S"):  # 24 hour format
                 print('It is rewind time!')
                 return
-            await asyncio.sleep(1)  # wait a second before looping again. You can make it more
+            await asyncio.sleep(1)  # wait a second before looping again. Can make it more
 
     #definicje metody wywołwywanych on message
     async def chop_long_string(self, string, message) -> list:
