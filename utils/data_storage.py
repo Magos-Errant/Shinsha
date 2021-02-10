@@ -20,14 +20,14 @@ class jeronimo_martins():
     def counter_status(self):
         return f'''
         Dziś na kanałach wysłano:
-        ogólny: {self.messages_in_channel['ogólny']}
-        dnd: {self.messages_in_channel['dnd']}   
-        memery: {self.messages_in_channel['memery']}
-        nsfr: {self.messages_in_channel['nsfr']}
-        vtube: {self.messages_in_channel['vtube']}
-        gacha-impact_asia: {self.messages_in_channel['gacha-impact_asia']}
-        kucowanie: {self.messages_in_channel['kucowanie']}
-        cyberbullying-2077: {self.messages_in_channel['cyberbullying-2077']}
+        ogólny: {self.messages_in_channel[602620718441693303]}
+        dnd: {self.messages_in_channel[719290056031862817]}   
+        memery: {self.messages_in_channel[726218082066104350]}
+        nsfr: {self.messages_in_channel[748478326934470678]}
+        vtube: {self.messages_in_channel[755492710797934602]}
+        gacha-impact_asia: {self.messages_in_channel[762589721120997386]}
+        kucowanie: {self.messages_in_channel[790949987609608212]}
+        cyberbullying-2077: {self.messages_in_channel[789418296591384576]}
         
         wiadomości.
         '''
