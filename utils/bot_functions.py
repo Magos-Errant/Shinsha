@@ -221,7 +221,7 @@ class ShinshaBrain(client):
           await self.nyaar(message)        
           
         else:
-          data_container.message_counter(message.channel.name)
+            data_container.message_counter(message.channel.id)
 
         # if message.content.startswith('$counter_reset'):
         #     data_container.clear_data()

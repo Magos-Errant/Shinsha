@@ -1,18 +1,18 @@
 class jeronimo_martins():
     def __init__(self):
         self.messages_in_channel = {
-            'ogólny':0,
-            'dnd':0,
-            'memery':0,
-            'nsfr':0,
-            'vtube':0,
-            'gacha-impact_asia':0,
-            'kucowanie':0,
-            'cyberbullying-2077':0
+            602620718441693303:0,
+            719290056031862817:0,
+            726218082066104350:0,
+            748478326934470678:0,
+            755492710797934602:0,
+            762589721120997386:0,
+            790949987609608212:0,
+            789418296591384576:0
         }
-    def message_counter(self, channel):
-        if channel in self.messages_in_channel:
-            self.messages_in_channel[channel] = self.messages_in_channel[channel]+1
+    def message_counter(self, channelID):
+        if channelID in self.messages_in_channel:
+            self.messages_in_channel[channelID] = self.messages_in_channel[channelID]+1
         else:
             pass
 
