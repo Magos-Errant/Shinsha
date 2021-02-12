@@ -21,14 +21,15 @@ class ShinshaBrain(client):
         print(self.user.id)
         print('------')
         self.day_summary.start()
+        self.autobackup.start()
         data_container.recall_data
         keep_alive()
 
     # data backup
-    @tasks.loop(minutes=1)
-    async def backup(self):
-        await data_container.store_data
-    
+    @tasks.loop(seconds=10)
+    async def autobackup(self):
+        data_container.store_data
+
     # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
     @tasks.loop(hours=24)
     async def day_summary(self):
