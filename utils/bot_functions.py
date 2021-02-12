@@ -128,7 +128,7 @@ class ShinshaBrain(client):
         if len(posts) == 0:
           await message.channel.send('¯\_(ツ)_/¯')
         else:  
-          await message.channel.send(posts[0]['file_url'])
+          await message.channel.send(posts[0]['large_file_url'])
       else:
         await message.delete()
         if 'rating:' not in _tags:
@@ -142,7 +142,7 @@ class ShinshaBrain(client):
         if len(posts) == 0:
           message = await message.channel.send('¯\_(ツ)_/¯')
         else:  
-          message = await message.channel.send(posts[0]['file_url'])
+          message = await message.channel.send(posts[0]['large_file_url'])
         await asyncio.sleep(message_timeout)
         await message.delete()
 
