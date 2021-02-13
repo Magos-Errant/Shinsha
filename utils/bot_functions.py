@@ -33,7 +33,7 @@ class ShinshaBrain(client):
     # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
     @tasks.loop(hours=24)
     async def day_summary(self):
-        await data_container.recall_data
+        data_container.recall_data
         message_channel = self.get_channel(790949987609608212)
         await message_channel.send(data_container.counter_status)
         data_container.clear_data()
