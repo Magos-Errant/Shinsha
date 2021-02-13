@@ -74,7 +74,7 @@ class ShinshaBrain(client):
       else:
         await message.delete()
         _user_name = message.author.mention
-        await message.channel.send(f'Hello {_user_name}!')
+        message = await message.channel.send(f'Hello {_user_name}!')
         await asyncio.sleep(message_timeout)
         await message.delete()
 
@@ -228,7 +228,11 @@ class ShinshaBrain(client):
 
         #Some Pirate funcionality
         elif message.content.startswith('!arr '):
-          await self.nyaar(message)        
+          await self.nyaar(message)
+
+        # Some Pirate funcionality
+        elif message.content.startswith('!fiasco'):
+            pass
           
         else:
             data_container.message_counter(message.channel.id)
