@@ -69,10 +69,12 @@ class ShinshaBrain(client):
 
     async def hello(self, message):
       if message.channel.id == 805839570201608252:
-        await message.channel.send('Hello!')
+        _user_name = message.author.mention
+        await message.channel.send(f'Hello {_user_name}!')
       else:
         await message.delete()
-        message = await message.channel.send('Hello!')
+        _user_name = message.author.mention
+        await message.channel.send(f'Hello {_user_name}!')
         await asyncio.sleep(message_timeout)
         await message.delete()
 
