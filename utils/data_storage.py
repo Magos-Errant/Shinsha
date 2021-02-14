@@ -1,4 +1,4 @@
-class jeronimo_martins():
+class JeronimoMartins:
     def __init__(self):
         self.messages_in_channel = {
             602620718441693303: 0,
@@ -21,11 +21,13 @@ class jeronimo_martins():
     def store_data(self):
         with open("saved_counter.txt", 'w') as self.file:
             self.file.write(str(self.messages_in_channel))
+        return
 
     @property
     def recall_data(self):
         with open("saved_counter.txt", 'r') as self.file:
             self.messages_in_channel = eval(self.file.read())
+        return
 
     @property
     def counter_status(self):

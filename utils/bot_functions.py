@@ -6,10 +6,10 @@ import NyaaPy
 from .keep_alive import keep_alive
 from discord.ext import tasks
 from pybooru import Danbooru
-from .data_storage import jeronimo_martins
+from .data_storage import JeronimoMartins
 from .tao import TaoTeChing
 
-data_container = jeronimo_martins()
+data_container = JeronimoMartins()
 client = discord.Client
 message_timeout = 120
 
