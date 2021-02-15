@@ -1,24 +1,21 @@
 class JeronimoMartins:
-    def __init__(self, client):
-        self.guild = client.get_guild(602620718433304604)
+    def __init__(self):
         self.channels_info = {}
 
-    def update_channels(self):
-        #tworzy listę aktualnych kanałów
-        text_channels = self.guild.text_channels
+    def update_channels(self, text_channels):
+        #tworzy listę aktualnych kanałów   
         for channel in text_channels:
             self.channels_info[channel.id] = [0, channel.name]
-
         #sprawdza czy zachowały się kanały o tym samym id, i dodaje info o wiadomościach
         with open('saved_counter.txt', 'r') as file:
             file = eval(file.read())
             for key in file:
                 if key in self.channels_info:
-                    self.channels_info[key] = [file[key], self.channels_info[key][1]]
+                    self.channels_info[key] = [file[key][0], self.channels_info[key][1]]
 
     def message_counter(self, channelID):
         if channelID in self.channels_info:
-            self.channels_info[channelID] = self.channels_info[channelID][0] + 1
+            self.channels_info[channelID][0] += 1
         else:
             pass
 
@@ -44,7 +41,7 @@ class JeronimoMartins:
 
     def clear_data(self):
         for channel in self.channels_info:
-            self.channels_info[channel]=0
+            self.channels_info[channel][0]=0
 
     @property
     def avaliable_commands(self) -> dict:
@@ -54,7 +51,8 @@ class JeronimoMartins:
         "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj.",
         "!tao":"Shinsha podzieli się cytatem z Tao Te Ching",
         "!danbo tag1 tag2": "Shinsa wyświetli losowy obrazek z tymi tagami",
-        "!arr tags": "Shinsha wyruszy w podróż po siedmiu morzach"
+        "!arr tags": "Shinsha wyruszy w podróż po siedmiu morzach",
+        "!UpdateChannels": "Shinsha zaktualizuje stan kanałów zachowując stan liczników"
       }
       return avaliable_commands
 

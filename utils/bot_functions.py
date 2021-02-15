@@ -9,12 +9,11 @@ from pybooru import Danbooru
 from .data_storage import JeronimoMartins
 from .tao import TaoTeChing
 
-client = discord.Client
-data_container = JeronimoMartins(client)
+data_container = JeronimoMartins()
 message_timeout = 120
 
 
-class ShinshaBrain(client):
+class ShinshaBrain(discord.Client):
     async def on_ready(self):
         print('Logged in as')
         print(self.user.name)
@@ -229,8 +228,11 @@ class ShinshaBrain(client):
         elif message.content.startswith('!arr '):
             await self.nyaar(message)
 
-        elif message.content.startswith('!updatechannels'):
-            await data_container.update_channels()
+        elif message.content.startswith('!UpdateChannels'):
+            guild = self.get_guild(602620718433304604)
+            text_channels = guild.text_channels
+            data_container.update_channels(text_channels)
+            await message.channel.send(f'Gotowe {message.author.mention}!')
 
         else:
             data_container.message_counter(message.channel.id)
