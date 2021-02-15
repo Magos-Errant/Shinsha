@@ -1,53 +1,50 @@
 class JeronimoMartins:
-    def __init__(self):
-        self.messages_in_channel = {
-            602620718441693303: 0,
-            719290056031862817: 0,
-            726218082066104350: 0,
-            748478326934470678: 0,
-            755492710797934602: 0,
-            762589721120997386: 0,
-            790949987609608212: 0,
-            789418296591384576: 0
-        }
+    def __init__(self, client):
+        self.guild = client.get_guild(602620718433304604)
+        self.channels_info = {}
+
+    def update_channels(self):
+        #tworzy listę aktualnych kanałów
+        text_channels = self.guild.text_channels
+        for channel in text_channels:
+            self.channels_info[channel.id] = [0, channel.name]
+
+        #sprawdza czy zachowały się kanały o tym samym id, i dodaje info o wiadomościach
+        with open('saved_counter.txt', 'r') as file:
+            file = eval(file.read())
+            for key in file:
+                if key in self.channels_info:
+                    self.channels_info[key] = [file[key], self.channels_info[key][1]]
 
     def message_counter(self, channelID):
-        if channelID in self.messages_in_channel:
-            self.messages_in_channel[channelID] = self.messages_in_channel[channelID] + 1
+        if channelID in self.channels_info:
+            self.channels_info[channelID] = self.channels_info[channelID][0] + 1
         else:
             pass
 
-    @property
     def store_data(self):
-        with open("saved_counter.txt", 'w') as self.file:
-            self.file.write(str(self.messages_in_channel))
+        with open("saved_counter.txt", 'w') as file:
+            file.write(str(self.channels_info))
         return
 
-    @property
     def recall_data(self):
-        with open("saved_counter.txt", 'r') as self.file:
-            self.messages_in_channel = eval(self.file.read())
+        with open("saved_counter.txt", 'r') as file:
+            self.channels_info = eval(file.read())
         return
 
     @property
     def counter_status(self):
-        return f'''
-        Dziś na kanałach wysłano:
-        ogólny: {self.messages_in_channel[602620718441693303]}
-        dnd: {self.messages_in_channel[719290056031862817]}   
-        memery: {self.messages_in_channel[726218082066104350]}
-        nsfr: {self.messages_in_channel[748478326934470678]}
-        vtube: {self.messages_in_channel[755492710797934602]}
-        gacha-impact_asia: {self.messages_in_channel[762589721120997386]}
-        kucowanie: {self.messages_in_channel[790949987609608212]}
-        cyberbullying-2077: {self.messages_in_channel[789418296591384576]}
-        
-        wiadomości.
-        '''
+        _AnswerString = f'Dziś na kanałach wysłano:\n'
+        for channel in self.channels_info:
+            _AnswerString = _AnswerString + f'{self.channels_info[channel][1]}: {self.channels_info[channel][0]}\n'
+        _AnswerString = _AnswerString + f'wiadomości.'
+
+        return _AnswerString
+
 
     def clear_data(self):
-        for channel in self.messages_in_channel:
-            self.messages_in_channel[channel]=0
+        for channel in self.channels_info:
+            self.channels_info[channel]=0
 
     @property
     def avaliable_commands(self) -> dict:
@@ -62,7 +59,7 @@ class JeronimoMartins:
       return avaliable_commands
 
     def __repr__(self):
-        return f'messages_in_channel={self.messages_in_channel}'
+        return f'channels_info={self.channels_info}'
 
     def __str__(self):
         return 'Klasa przechowująca informacje i metodę ich modyfikacji "message_counter"'
