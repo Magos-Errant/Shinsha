@@ -1,13 +1,6 @@
-file = str({602620718441693303: 0, 719290056031862817: 0, 726218082066104350: 1, 748478326934470678: 0, 755492710797934602: 0, 762589721120997386: 0, 790949987609608212: 5, 789418296591384576: 0})
+import datetime as dt
 
-channels_info = {602620718441693303: [0, 'dupa'], 719290056031862817: [0, 'kutacz'], 726218082066104350: [0, 'cycki']}
-
-file = eval(file)
-for key in file:
-    if key in channels_info:
-        channels_info[key] = [file[key], channels_info[key][1]]
-
-print(channels_info)
+print(dt.datetime.now())
 
 
 

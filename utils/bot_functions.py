@@ -236,7 +236,12 @@ class ShinshaBrain(discord.Client):
 
         else:
             data_container.message_counter(message.channel.id)
-
+            with open("ArchiLogs.txt", "a") as logfile:
+                logfile.write(
+                    f"[{dt.datetime.now()}] {message.author} posted on {message.channel.name}. Current counters:\n {data_container.counter_status}\n"
+                )
+        # [24-02-2021 12:34:55] Pooky posted on #kucowanie - current counters: ogólny: 10 dnd: 0 memery: 21 nsfr: 0 vtube: 0 kucowanie: 37 gry: 4 anime: 20 bot-chan: 0; posted message was:
+        # `Tak właśnie wyobrażam sobie przykładowy log Shinshy kiedy ktoś postuje wiadomość`
         # if message.content.startswith('$counter_reset'):
         #     data_container.clear_data()
         #     await message.channel.send('Data cleared!')
