@@ -42,6 +42,7 @@ class JeronimoMartins:
     def clear_data(self):
         for channel in self.channels_info:
             self.channels_info[channel][0]=0
+            self.store_data()
 
     @property
     def avaliable_commands(self) -> dict:
