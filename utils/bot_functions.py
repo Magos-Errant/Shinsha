@@ -206,6 +206,9 @@ class ShinshaBrain(discord.Client):
 
     # funkcje poniżej obsługują reakcje bota na wiadomości
     async def on_message(self, message):
+        with open("ArchiLogs2.txt", "a") as logfile:
+            logfile.write(f"[{dt.datetime.now()}] on_message event triggered by {message.author}\n Posting on {message.channel.name}.\nCurrent counters: {data_container.counter_status_single_string}\n")
+
         if message.author == self.user:
             return
 
@@ -240,8 +243,4 @@ class ShinshaBrain(discord.Client):
         
         else:
             data_container.message_counter(message.channel.id)
-            with open("ArchiLogs.txt", "a") as logfile:
-                logfile.write(
-                    f"[{dt.datetime.now()}] {message.author} posted on {message.channel.name}. Current counters:\n {data_container.counter_status}\n"
-                )
 

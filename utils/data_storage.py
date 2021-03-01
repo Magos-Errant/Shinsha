@@ -27,8 +27,16 @@ class JeronimoMartins:
     def recall_data(self):
         with open("saved_counter.txt", 'r') as file:
             self.channels_info = eval(file.read())
+            print(self.channels_info)
         return
 
+    @property
+    def counter_status_single_string(self):
+        _AnswerString = f''
+        for channel in self.channels_info:
+            _AnswerString = _AnswerString + f'{self.channels_info[channel][1]}: {self.channels_info[channel][0]}, '
+        return _AnswerString
+    
     @property
     def counter_status(self):
         _AnswerString = f'Dziś na kanałach wysłano:\n'
