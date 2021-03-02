@@ -72,7 +72,7 @@ class ShinshaBrain(discord.Client):
             picture = danbo_client.post_list(tags=_tags, limit=1, random=True)
             yield picture
 
-    def picture_filter(self, _tags, banned_tags, message):
+    async def picture_filter(self, _tags, banned_tags, message):
         picture = self.picture_generator(_tags)
         current_picture = next(picture)
         x = 0
@@ -80,21 +80,19 @@ class ShinshaBrain(discord.Client):
         while x < len(banned_tags):
             if banned_tags[x] in current_picture[0]['tag_string']:
                 x = 0
-                print('Found tag!')
                 check_counter += 1
-                print(f'On try: {check_counter}')
-                print(current_picture[0]['tag_string'])
                 current_picture = next(picture)
 
             if banned_tags[x] not in current_picture[0]['tag_string']:
                 x += 1
+                
             if check_counter == 10:
                 await message.channel.send("Po 10 próbach gejoza dalej obecna, zmień tagi ( ͡° ͜ʖ ͡°)")
                 break
-            else:
-                return current_picture
+        else:
+            return current_picture
 
-    def send_picture(self, picture):
+    async def send_picture(self, picture):
         _i = 20
         while len(picture) == 0 and _i != 0:
             await asyncio.sleep(1)
@@ -159,13 +157,13 @@ class ShinshaBrain(discord.Client):
         if message.channel.id == 805839570201608252:
             if 'rating:' not in _tags:
                 _tags = _tags + ' rating:safe'
-            choosen_picture = self.picture_filter(_tags, data_container.banned_tags, message)
-            answer = self.send_picture(choosen_picture)
+            choosen_picture = await self.picture_filter(_tags, data_container.banned_tags, message)
+            answer = await self.send_picture(choosen_picture)
             await message.channel.send(answer)
         else:
             await message.delete()
-            choosen_picture = self.picture_filter(_tags, data_container.banned_tags, message)
-            answer = self.send_picture(choosen_picture)
+            choosen_picture = await self.picture_filter(_tags, data_container.banned_tags, message)
+            answer = await self.send_picture(choosen_picture)
             await message.channel.send(answer)
             await asyncio.sleep(message_timeout)
             await message.delete()
