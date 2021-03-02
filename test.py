@@ -1,6 +1,23 @@
-import datetime as dt
+from pybooru import Danbooru
 
-print(dt.datetime.now())
+def picture_generator(_tags):
+    while 1:
+        post = danbo_client.post_list(tags=_tags, limit=1, random=True)
+        yield post
+
+banned_tags = ['animal_ears', 'blonde_hair']
+_tags = "yakumo_ran"
+danbo_client = Danbooru('danbooru')
+post = picture_generator(_tags)
+current_post = next(post)
+print(current_post)
+print(current_post[0]["tag_string"])
+for tag in banned_tags:
+    if tag in current_post[0]['tag_string']:
+        print('Mimi found!')
+        current_post = next(post)
+        print(current_post)
+        break
 
 
 
