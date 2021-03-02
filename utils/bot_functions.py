@@ -66,6 +66,45 @@ class ShinshaBrain(discord.Client):
                 _resulting_list = [message, message1]
                 return _resulting_list
 
+    def picture_generator(self, _tags):
+        danbo_client = Danbooru('danbooru')
+        while 1:
+            picture = danbo_client.post_list(tags=_tags, limit=1, random=True)
+            yield picture
+
+    def picture_filter(self, _tags, banned_tags, message):
+        picture = self.picture_generator(_tags)
+        current_picture = next(picture)
+        x = 0
+        check_counter = 0
+        while x < len(banned_tags):
+            if banned_tags[x] in current_picture[0]['tag_string']:
+                x = 0
+                print('Found tag!')
+                check_counter += 1
+                print(f'On try: {check_counter}')
+                print(current_picture[0]['tag_string'])
+                current_picture = next(picture)
+
+            if banned_tags[x] not in current_picture[0]['tag_string']:
+                x += 1
+            if check_counter == 10:
+                await message.channel.send("Po 10 próbach gejoza dalej obecna, zmień tagi ( ͡° ͜ʖ ͡°)")
+                break
+            else:
+                return current_picture
+
+    def send_picture(self, picture):
+        _i = 20
+        while len(picture) == 0 and _i != 0:
+            await asyncio.sleep(1)
+            _i -= 1
+        if len(picture) == 0:
+            message = '¯\_(ツ)_/¯'
+        else:
+            message = picture[0]['large_file_url']
+        return message
+
     async def hello(self, message):
         if message.channel.id == 805839570201608252:
             _user_name = message.author.mention
@@ -120,30 +159,14 @@ class ShinshaBrain(discord.Client):
         if message.channel.id == 805839570201608252:
             if 'rating:' not in _tags:
                 _tags = _tags + ' rating:safe'
-            danbo_client = Danbooru('danbooru')
-            posts = danbo_client.post_list(tags=_tags, limit=1, random=True)
-            _i = 20
-            while len(posts) == 0 and _i != 0:
-                await asyncio.sleep(1)
-                _i -= 1
-            if len(posts) == 0:
-                await message.channel.send('¯\_(ツ)_/¯')
-            else:
-                await message.channel.send(posts[0]['large_file_url'])
+            choosen_picture = self.picture_filter(_tags, data_container.banned_tags, message)
+            answer = self.send_picture(choosen_picture)
+            await message.channel.send(answer)
         else:
             await message.delete()
-            if 'rating:' not in _tags:
-                _tags = _tags + ' rating:safe'
-            danbo_client = Danbooru('danbooru')
-            posts = danbo_client.post_list(tags=_tags, limit=1, random=True)
-            _i = 20
-            while len(posts) == 0 and _i != 0:
-                await asyncio.sleep(1)
-                _i -= 1
-            if len(posts) == 0:
-                message = await message.channel.send('¯\_(ツ)_/¯')
-            else:
-                message = await message.channel.send(posts[0]['large_file_url'])
+            choosen_picture = self.picture_filter(_tags, data_container.banned_tags, message)
+            answer = self.send_picture(choosen_picture)
+            await message.channel.send(answer)
             await asyncio.sleep(message_timeout)
             await message.delete()
 

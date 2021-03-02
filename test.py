@@ -1,6 +1,45 @@
-import datetime as dt
-
-print(dt.datetime.now())
+# from pybooru import Danbooru
+#
+# banned_tags = ['animal_ears', 'blonde_hair']
+# _tags = "yakumo_ran"
+# danbo_client = Danbooru('danbooru')
+# 
+# def picture_generator(_tags):
+#     while 1:
+#         picture = danbo_client.post_list(tags=_tags, limit=1, random=True)
+#         yield picture
+#
+# def picture_filter():
+#     picture = picture_generator(_tags)
+#     current_picture = next(picture)
+#     x = 0
+#     check_counter = 0
+#     while x < len(banned_tags):
+#         if banned_tags[x] in current_picture[0]['tag_string']:
+#             x = 0
+#             print('Found tag!')
+#             check_counter += 1
+#             print(f'On try: {check_counter}')
+#             print(current_picture[0]['tag_string'])
+#             current_picture = next(picture)
+#
+#         if banned_tags[x] not in current_picture[0]['tag_string']:
+#             x += 1
+#         if check_counter == 10:
+#             await message.channel.send("Po 10 próbach gejoza dalej obecna, zmień tagi ( ͡° ͜ʖ ͡°)")
+#             break
+#         else:
+#             return current_picture
+#
+# def send_picture(message):
+#     _i = 20
+#     while len(posts) == 0 and _i != 0:
+#         await asyncio.sleep(1)
+#         _i -= 1
+#     if len(posts) == 0:
+#         message = await message.channel.send('¯\_(ツ)_/¯')
+#     else:
+#         message = await message.channel.send(posts[0]['large_file_url'])
 
 
 
