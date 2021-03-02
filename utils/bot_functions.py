@@ -12,11 +12,6 @@ from .tao import TaoTeChing
 data_container = JeronimoMartins()
 message_timeout = 120
 
-def picture_generator(_tags):
-    danbo_client = Danbooru('danbooru')
-    while 1:
-        post = danbo_client.post_list(tags=_tags, limit=1, random=True)
-        yield post
 
 class ShinshaBrain(discord.Client):
     async def on_ready(self):
@@ -122,56 +117,33 @@ class ShinshaBrain(discord.Client):
 
     async def danbo(self, message):
         _tags = message.content[7:]
-        if 'rating:' not in _tags:
-            _tags = _tags + ' rating:safe'
-        picture = picture_generator(_tags)
-        current_picture = next(picture)
-
         if message.channel.id == 805839570201608252:
-            #yaoi filter
-            x = 0
-            found_count = 0
-            while x < len(data_container.banned_tags):
-                if not found_count >= 10 and data_container.banned_tags[x] in current_picture[0]['tag_string']:
-                    found_count += 1
-                    x = 0
-                    current_picture = next(picture)
-                    continue
-                x += 1
-            else:
-                message.channel.send('Po 10 próbach gejoza dalej obecna, zmień tagi ( ͡° ͜ʖ ͡°)')
-
+            if 'rating:' not in _tags:
+                _tags = _tags + ' rating:safe'
+            danbo_client = Danbooru('danbooru')
+            posts = danbo_client.post_list(tags=_tags, limit=1, random=True)
             _i = 20
-            while len(current_picture) == 0 and _i != 0:
+            while len(posts) == 0 and _i != 0:
                 await asyncio.sleep(1)
                 _i -= 1
-            if len(current_picture) == 0:
+            if len(posts) == 0:
                 await message.channel.send('¯\_(ツ)_/¯')
             else:
-                await message.channel.send(current_picture[0]['large_file_url'])
+                await message.channel.send(posts[0]['large_file_url'])
         else:
             await message.delete()
-            # yaoi filter
-            x = 0
-            found_count = 0
-            while x < len(data_container.banned_tags):
-                if not found_count >= 10 and data_container.banned_tags[x] in current_picture[0]['tag_string']:
-                    found_count += 1
-                    x = 0
-                    current_picture = next(picture)
-                    continue
-                x += 1
-            else:
-                message.channel.send('Po 10 próbach gejoza dalej obecna, zmień tagi ( ͡° ͜ʖ ͡°)')
-
+            if 'rating:' not in _tags:
+                _tags = _tags + ' rating:safe'
+            danbo_client = Danbooru('danbooru')
+            posts = danbo_client.post_list(tags=_tags, limit=1, random=True)
             _i = 20
-            while len(current_picture) == 0 and _i != 0:
+            while len(posts) == 0 and _i != 0:
                 await asyncio.sleep(1)
                 _i -= 1
-            if len(current_picture) == 0:
+            if len(posts) == 0:
                 message = await message.channel.send('¯\_(ツ)_/¯')
             else:
-                message = await message.channel.send(current_picture[0]['large_file_url'])
+                message = await message.channel.send(posts[0]['large_file_url'])
             await asyncio.sleep(message_timeout)
             await message.delete()
 
