@@ -92,16 +92,16 @@ class ShinshaBrain(discord.Client):
         else:
             return current_picture
 
-    async def send_picture(self, picture):
+    async def waiting_and_responding(self, picture):
         _i = 20
         while len(picture) == 0 and _i != 0:
             await asyncio.sleep(1)
             _i -= 1
         if len(picture) == 0:
-            message = '¯\_(ツ)_/¯'
+            response = '¯\_(ツ)_/¯'
         else:
-            message = picture[0]['large_file_url']
-        return message
+            response = picture[0]['large_file_url']
+        return response
 
     async def hello(self, message):
         if message.channel.id == 805839570201608252:
@@ -154,17 +154,17 @@ class ShinshaBrain(discord.Client):
 
     async def danbo(self, message):
         _tags = message.content[7:]
+        if 'rating:' not in _tags:
+            _tags = _tags + ' rating:safe'
         if message.channel.id == 805839570201608252:
-            if 'rating:' not in _tags:
-                _tags = _tags + ' rating:safe'
             choosen_picture = await self.picture_filter(_tags, data_container.banned_tags, message)
-            answer = await self.send_picture(choosen_picture)
+            answer = await self.waiting_and_responding(choosen_picture)
             await message.channel.send(answer)
         else:
             await message.delete()
             choosen_picture = await self.picture_filter(_tags, data_container.banned_tags, message)
-            answer = await self.send_picture(choosen_picture)
-            await message.channel.send(answer)
+            answer = await self.waiting_and_responding(choosen_picture)
+            message = await message.channel.send(answer)
             await asyncio.sleep(message_timeout)
             await message.delete()
 
