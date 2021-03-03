@@ -200,3 +200,261 @@ Current counters: ogólny: 76, dnd: 1, memery: 27, nsfr: 2, vtube: 0, gacha-game
 [2021-03-02 16:38:45.638324] on_message event triggered by Shinsha#7590
  Posting on bot-test.
 Current counters: ogólny: 76, dnd: 1, memery: 27, nsfr: 2, vtube: 0, gacha-games: 2, kucowanie: 115, gry: 3, anime: 0, muzyka: 0, bot-chan: 18, 
+[2021-03-03 06:51:43.072697] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 06:51:43.644744] on_message event triggered by Shinsha#7590
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 06:52:03.565443] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 06:52:04.423065] on_message event triggered by Shinsha#7590
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 06:52:19.498782] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 06:52:22.227338] on_message event triggered by Shinsha#7590
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 06:56:46.823145] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 06:56:47.426896] on_message event triggered by Shinsha#7590
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 06:57:17.993685] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 17:28:16.589919] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 12, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 17:28:32.055293] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 13, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 17:28:45.623719] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 14, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 17:29:05.562205] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 15, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 17:29:11.629534] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 16, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 17:36:17.155683] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 17, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 17:54:23.674203] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 18, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 17:54:38.857646] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 19, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:02:15.743725] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 20, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:24:08.969478] on_message event triggered by Kriss Hietala#9407
+ Posting on memery.
+Current counters: ogólny: 20, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:24:18.293109] on_message event triggered by Kriss Hietala#9407
+ Posting on memery.
+Current counters: ogólny: 20, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:25:57.749647] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 20, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:25:57.867530] on_message event triggered by SithSama#7432
+ Posting on ogólny.
+Current counters: ogólny: 21, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:26:22.273390] on_message event triggered by SithSama#7432
+ Posting on ogólny.
+Current counters: ogólny: 22, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:26:41.153702] on_message event triggered by SithSama#7432
+ Posting on ogólny.
+Current counters: ogólny: 23, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:26:46.161017] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 24, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:26:48.181065] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 25, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:28:17.006678] on_message event triggered by SithSama#7432
+ Posting on ogólny.
+Current counters: ogólny: 26, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:29:53.601043] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 27, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:30:07.590022] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 28, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:32:30.800309] on_message event triggered by Archi#2229
+ Posting on gacha-games.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:34:16.643077] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:34:33.820769] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 2, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:34:47.907834] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 3, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:34:58.707930] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 4, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:37:17.871866] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 5, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:37:21.863343] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:37:34.560736] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:40:37.613651] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 8, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:40:50.917534] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 9, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:41:04.409000] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 10, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:41:08.852997] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 11, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:41:50.130350] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 12, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:42:05.537865] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 13, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:42:22.753527] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 14, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:50:24.171176] on_message event triggered by Raion-chan#2673
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 15, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:52:08.525424] on_message event triggered by Raion-chan#2673
+ Posting on kucowanie.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:57:14.834128] on_message event triggered by SithSama#7432
+ Posting on ogólny.
+Current counters: ogólny: 29, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 17, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:57:42.874333] on_message event triggered by SithSama#7432
+ Posting on ogólny.
+Current counters: ogólny: 30, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 17, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:59:45.778761] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 31, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 17, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 18:59:59.941073] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 32, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 17, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:03:13.178025] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 17, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:03:21.242836] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 18, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:06:47.084515] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 19, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:07:04.902374] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 20, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:07:10.121495] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 21, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:08:22.692777] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 22, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:09:14.066633] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 23, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:09:24.367839] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 24, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:12:17.269894] on_message event triggered by Kriss Hietala#9407
+ Posting on memery.
+Current counters: ogólny: 33, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 25, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:20:05.921744] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 25, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:23:06.061717] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 26, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:23:13.038699] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 27, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:23:20.916191] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 28, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:23:34.527926] on_message event triggered by Archi#2229
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 29, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:28:59.397089] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 33, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 30, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:38:14.540295] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 33, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 31, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:42:55.203844] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 31, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:42:55.498676] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 31, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:43:23.069835] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 31, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:43:28.030982] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 31, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-03 19:43:48.109404] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 31, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 19:57:08.149431] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 32, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 19:57:29.023599] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 33, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 19:58:32.435552] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 34, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:01:01.642900] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 34, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:01:21.985561] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 34, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:01:22.143491] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 34, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:01:22.252826] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 34, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:01:49.493912] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 34, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:02:09.805133] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 34, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:03:43.842318] on_message event triggered by Kriss Hietala#9407
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 34, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:04:12.434824] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 35, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:04:12.723633] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 35, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:04:21.203939] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 35, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:04:22.633593] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 35, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 20:04:35.833873] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 35, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 

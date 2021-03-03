@@ -22,7 +22,9 @@ class ShinshaBrain(discord.Client):
         self.day_summary.start()
         self.autobackup.start()
         data_container.recall_data()
+        await self.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='DAS HEILIGE UBERBYTE'))
         keep_alive()
+        
 
     # data backup
     @tasks.loop(seconds=10)
@@ -72,16 +74,15 @@ class ShinshaBrain(discord.Client):
             picture = danbo_client.post_list(tags=_tags, limit=1, random=True)
             yield picture
 
-    async def picture_filter(self, _tags, banned_tags, message):
-        picture = self.picture_generator(_tags)
-        current_picture = next(picture)
+    async def picture_filter(self, _tags, banned_tags, message, current_picture):
+        _picture = self.picture_generator(_tags)
         x = 0
         check_counter = 0
         while x < len(banned_tags):
             if banned_tags[x] in current_picture[0]['tag_string']:
                 x = 0
                 check_counter += 1
-                current_picture = next(picture)
+                current_picture = next(_picture)
 
             if banned_tags[x] not in current_picture[0]['tag_string']:
                 x += 1
@@ -92,7 +93,7 @@ class ShinshaBrain(discord.Client):
         else:
             return current_picture
 
-    async def waiting_and_responding(self, picture):
+    async def waiting_and_responding(self, _tags, banned_tags, message, picture):
         _i = 20
         while len(picture) == 0 and _i != 0:
             await asyncio.sleep(1)
@@ -100,7 +101,8 @@ class ShinshaBrain(discord.Client):
         if len(picture) == 0:
             response = '¯\_(ツ)_/¯'
         else:
-            response = picture[0]['large_file_url']
+            response = await self.picture_filter(_tags, banned_tags, message, picture)
+            response = response[0]['large_file_url']
         return response
 
     async def hello(self, message):
@@ -157,13 +159,15 @@ class ShinshaBrain(discord.Client):
         if 'rating:' not in _tags:
             _tags = _tags + ' rating:safe'
         if message.channel.id == 805839570201608252:
-            choosen_picture = await self.picture_filter(_tags, data_container.banned_tags, message)
-            answer = await self.waiting_and_responding(choosen_picture)
+            picture = self.picture_generator(_tags)
+            picture = next(picture)
+            answer = await self.waiting_and_responding(_tags, data_container.banned_tags, message, picture)
             await message.channel.send(answer)
         else:
             await message.delete()
-            choosen_picture = await self.picture_filter(_tags, data_container.banned_tags, message)
-            answer = await self.waiting_and_responding(choosen_picture)
+            picture = self.picture_generator(_tags)
+            picture = next(picture)
+            answer = await self.waiting_and_responding(_tags, data_container.banned_tags, message, picture)
             message = await message.channel.send(answer)
             await asyncio.sleep(message_timeout)
             await message.delete()
