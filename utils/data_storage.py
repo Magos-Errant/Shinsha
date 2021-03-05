@@ -1,7 +1,7 @@
 class JeronimoMartins:
     def __init__(self):
         self.channels_info = {}
-        self.banned_tags = ['yaoi', 'bara']
+        self.banned_tags = [' yaoi ', ' bara ']
 
     def update_channels(self, text_channels):
         #tworzy listę aktualnych kanałów   

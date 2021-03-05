@@ -458,3 +458,1257 @@ Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games
 [2021-03-03 20:04:35.833873] on_message event triggered by Archi#2229
  Posting on bot-chan.
 Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 35, gry: 0, anime: 0, muzyka: 0, bot-chan: 1, 
+[2021-03-03 23:42:42.373601] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 35, gry: 0, anime: 0, muzyka: 0, bot-chan: 2, 
+[2021-03-03 23:43:13.924585] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 36, gry: 0, anime: 0, muzyka: 0, bot-chan: 2, 
+[2021-03-03 23:44:06.625199] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 37, gry: 0, anime: 0, muzyka: 0, bot-chan: 2, 
+[2021-03-03 23:46:07.230701] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 38, gry: 0, anime: 0, muzyka: 0, bot-chan: 2, 
+[2021-03-03 23:46:24.850406] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 39, gry: 0, anime: 0, muzyka: 0, bot-chan: 2, 
+[2021-03-03 23:47:15.522119] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 40, gry: 0, anime: 0, muzyka: 0, bot-chan: 2, 
+[2021-03-03 23:47:30.136225] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 41, gry: 0, anime: 0, muzyka: 0, bot-chan: 2, 
+[2021-03-03 23:48:03.808343] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 42, gry: 0, anime: 0, muzyka: 0, bot-chan: 2, 
+[2021-03-04 00:00:01.028194] on_message event triggered by Shinsha#7590
+ Posting on kucowanie.
+Current counters: ogólny: 34, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 1, kucowanie: 43, gry: 0, anime: 0, muzyka: 0, bot-chan: 2, 
+[2021-03-04 00:00:01.261209] on_message event triggered by Shinsha#7590
+ Posting on kucowanie.
+Current counters: ogólny: 0, dnd: 0, memery: 0, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 00:07:46.625923] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 0, dnd: 0, memery: 0, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 00:08:54.837231] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 0, dnd: 0, memery: 0, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 00:16:51.066674] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 0, dnd: 0, memery: 0, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 2, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 00:17:00.437847] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 0, dnd: 0, memery: 0, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 3, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 00:46:38.300799] on_message event triggered by vasi1#2317
+ Posting on memery.
+Current counters: ogólny: 0, dnd: 0, memery: 0, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 4, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 01:11:19.102172] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 0, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 4, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 01:15:15.194616] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 0, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 4, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 01:15:34.441623] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 0, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 4, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 03:13:03.893183] on_message event triggered by vasi1#2317
+ Posting on memery.
+Current counters: ogólny: 0, dnd: 0, memery: 1, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 4, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 05:52:49.615769] on_message event triggered by Raion-chan#2673
+ Posting on kucowanie.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 4, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 05:57:06.129828] on_message event triggered by Raion-chan#2673
+ Posting on kucowanie.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 5, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 06:16:10.624914] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 06:16:10.769154] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 06:16:33.439086] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, 
+[2021-03-04 06:16:33.555154] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 0, 
+[2021-03-04 06:16:55.459697] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 0, 
+[2021-03-04 06:16:55.574689] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 0, 
+[2021-03-04 06:44:17.962583] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 0, 
+[2021-03-04 06:44:48.890479] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-04 06:44:49.072032] on_message event triggered by Shinsha#7590
+ Posting on tech-general.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-04 06:45:04.225674] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 0, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-04 06:45:15.294492] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 1, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-04 06:45:15.522742] on_message event triggered by Shinsha#7590
+ Posting on ogólny.
+Current counters: ogólny: 1, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-04 07:59:42.171556] on_message event triggered by Raion-chan#2673
+ Posting on tech-general.
+Current counters: ogólny: 1, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-04 08:27:41.192334] on_message event triggered by SithSama#7432
+ Posting on tech-general.
+Current counters: ogólny: 1, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-04 08:32:36.192392] on_message event triggered by Kriss Hietala#9407
+ Posting on tech-general.
+Current counters: ogólny: 1, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 3, 
+[2021-03-04 08:45:22.765073] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 1, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 4, 
+[2021-03-04 08:53:24.626932] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 2, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 4, 
+[2021-03-04 08:54:18.382435] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 3, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 4, 
+[2021-03-04 08:56:07.156713] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 3, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 4, 
+[2021-03-04 08:56:32.268914] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 4, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 4, 
+[2021-03-04 08:56:32.478895] on_message event triggered by Shinsha#7590
+ Posting on ogólny.
+Current counters: ogólny: 4, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 4, 
+[2021-03-04 08:59:49.381981] on_message event triggered by Pooky#7047
+ Posting on tech-general.
+Current counters: ogólny: 4, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 4, 
+[2021-03-04 09:00:17.967131] on_message event triggered by Pooky#7047
+ Posting on tech-general.
+Current counters: ogólny: 4, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 5, 
+[2021-03-04 09:00:48.235188] on_message event triggered by Pooky#7047
+ Posting on tech-general.
+Current counters: ogólny: 4, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 6, 
+[2021-03-04 09:01:12.515584] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 4, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 7, 
+[2021-03-04 09:03:40.151839] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 4, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 8, 
+[2021-03-04 09:03:40.694013] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 4, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 9, 
+[2021-03-04 09:10:01.849477] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 4, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 10, 
+[2021-03-04 09:10:14.666795] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 5, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 10, 
+[2021-03-04 09:35:26.636347] on_message event triggered by Kriss Hietala#9407
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 10, 
+[2021-03-04 09:35:38.218638] on_message event triggered by Kriss Hietala#9407
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 11, 
+[2021-03-04 09:35:51.258840] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 12, 
+[2021-03-04 09:36:02.098158] on_message event triggered by Kriss Hietala#9407
+ Posting on memery.
+Current counters: ogólny: 6, dnd: 0, memery: 2, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 13, 
+[2021-03-04 09:36:04.091824] on_message event triggered by Kriss Hietala#9407
+ Posting on memery.
+Current counters: ogólny: 6, dnd: 0, memery: 3, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 13, 
+[2021-03-04 09:36:29.024754] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 13, 
+[2021-03-04 09:37:12.034587] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 14, 
+[2021-03-04 09:37:27.395071] on_message event triggered by Pooky#7047
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 15, 
+[2021-03-04 09:38:33.314268] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 16, 
+[2021-03-04 09:41:03.405088] on_message event triggered by Archi#2229
+ Posting on vtube.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 17, 
+[2021-03-04 09:46:00.170067] on_message event triggered by Kriss Hietala#9407
+ Posting on anime.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 17, 
+[2021-03-04 09:46:03.239283] on_message event triggered by Kriss Hietala#9407
+ Posting on anime.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 1, muzyka: 0, bot-chan: 0, tech-general: 17, 
+[2021-03-04 09:48:53.159003] on_message event triggered by Archi#2229
+ Posting on anime.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 2, muzyka: 0, bot-chan: 0, tech-general: 17, 
+[2021-03-04 09:52:56.574194] on_message event triggered by Mevcore#3933
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 17, 
+[2021-03-04 09:55:39.637514] on_message event triggered by Mevcore#3933
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 18, 
+[2021-03-04 09:57:00.545512] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 19, 
+[2021-03-04 09:57:34.623964] on_message event triggered by Mevcore#3933
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 20, 
+[2021-03-04 09:57:58.439974] on_message event triggered by Mevcore#3933
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 21, 
+[2021-03-04 09:58:02.224943] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 22, 
+[2021-03-04 09:59:02.242051] on_message event triggered by Mevcore#3933
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 23, 
+[2021-03-04 10:00:03.478981] on_message event triggered by Mevcore#3933
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 24, 
+[2021-03-04 10:01:08.591561] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 25, 
+[2021-03-04 10:05:56.907194] on_message event triggered by SithSama#7432
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 26, 
+[2021-03-04 10:11:07.359314] on_message event triggered by Kriss Hietala#9407
+ Posting on gry.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 0, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 27, 
+[2021-03-04 10:21:28.591756] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 27, 
+[2021-03-04 10:22:02.137138] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 28, 
+[2021-03-04 10:22:47.128682] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 29, 
+[2021-03-04 10:23:45.381763] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 30, 
+[2021-03-04 10:24:15.030196] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 31, 
+[2021-03-04 10:24:48.058697] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 32, 
+[2021-03-04 10:25:08.103070] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 33, 
+[2021-03-04 10:25:40.370208] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 34, 
+[2021-03-04 10:25:54.103777] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 35, 
+[2021-03-04 10:26:49.213145] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 36, 
+[2021-03-04 10:27:03.347107] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 37, 
+[2021-03-04 10:27:31.386880] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 38, 
+[2021-03-04 10:28:35.479659] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 39, 
+[2021-03-04 10:29:12.085912] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 40, 
+[2021-03-04 10:29:21.292247] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 41, 
+[2021-03-04 10:29:30.061762] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 42, 
+[2021-03-04 10:29:44.531678] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 43, 
+[2021-03-04 10:30:33.231250] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 44, 
+[2021-03-04 10:31:09.296842] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 45, 
+[2021-03-04 10:31:19.803914] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 46, 
+[2021-03-04 10:31:52.091656] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 47, 
+[2021-03-04 10:31:55.986471] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 48, 
+[2021-03-04 10:32:32.897069] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 49, 
+[2021-03-04 10:32:55.274961] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 50, 
+[2021-03-04 10:33:01.291892] on_message event triggered by SithSama#7432
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 51, 
+[2021-03-04 10:33:32.051617] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 52, 
+[2021-03-04 10:33:42.674813] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 53, 
+[2021-03-04 10:34:20.870928] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 54, 
+[2021-03-04 10:34:21.333664] on_message event triggered by SithSama#7432
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 55, 
+[2021-03-04 10:35:56.910172] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 56, 
+[2021-03-04 10:36:08.972395] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 57, 
+[2021-03-04 10:36:27.278363] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 58, 
+[2021-03-04 10:36:34.000735] on_message event triggered by SithSama#7432
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 59, 
+[2021-03-04 10:36:39.328830] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 60, 
+[2021-03-04 10:36:50.639704] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 61, 
+[2021-03-04 10:37:14.028555] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 62, 
+[2021-03-04 10:37:22.510559] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 63, 
+[2021-03-04 10:37:26.900137] on_message event triggered by SithSama#7432
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 64, 
+[2021-03-04 10:37:41.155790] on_message event triggered by SithSama#7432
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 65, 
+[2021-03-04 10:38:08.170032] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 66, 
+[2021-03-04 10:38:09.546401] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 67, 
+[2021-03-04 10:38:39.970295] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 68, 
+[2021-03-04 10:38:52.232759] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 69, 
+[2021-03-04 10:39:05.824818] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 70, 
+[2021-03-04 10:39:12.314155] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 71, 
+[2021-03-04 10:39:28.844470] on_message event triggered by SithSama#7432
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 72, 
+[2021-03-04 10:39:36.039112] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 73, 
+[2021-03-04 10:39:54.165390] on_message event triggered by SithSama#7432
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 74, 
+[2021-03-04 10:40:35.073321] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 75, 
+[2021-03-04 10:41:31.189093] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 76, 
+[2021-03-05 02:16:37.771090] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 77, 
+[2021-03-05 02:17:55.981154] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 78, 
+[2021-03-05 02:26:24.266327] on_message event triggered by vasi1#2317
+ Posting on tech-general.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 79, 
+[2021-03-05 04:36:24.776785] on_message event triggered by Flantastic#1238
+ Posting on gry.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 1, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 04:39:47.962658] on_message event triggered by Flantastic#1238
+ Posting on ogólny.
+Current counters: ogólny: 6, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 04:40:45.635819] on_message event triggered by Flantastic#1238
+ Posting on ogólny.
+Current counters: ogólny: 7, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:18:19.322079] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 8, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:24:50.943997] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 9, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:25:02.205123] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 10, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:25:05.187127] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:25:07.891310] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 12, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:26:09.633775] on_message event triggered by Flantastic#1238
+ Posting on ogólny.
+Current counters: ogólny: 13, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:26:12.534584] on_message event triggered by Flantastic#1238
+ Posting on ogólny.
+Current counters: ogólny: 14, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:26:15.256163] on_message event triggered by Flantastic#1238
+ Posting on ogólny.
+Current counters: ogólny: 15, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:26:21.990533] on_message event triggered by Flantastic#1238
+ Posting on ogólny.
+Current counters: ogólny: 16, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:35:51.766348] on_message event triggered by Raion-chan#2673
+ Posting on memery.
+Current counters: ogólny: 17, dnd: 0, memery: 4, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:36:49.428089] on_message event triggered by Archi#2229
+ Posting on vtube.
+Current counters: ogólny: 17, dnd: 0, memery: 5, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:41:19.785664] on_message event triggered by Archi#2229
+ Posting on vtube.
+Current counters: ogólny: 17, dnd: 0, memery: 5, nsfr: 0, vtube: 2, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:41:54.413988] on_message event triggered by Flantastic#1238
+ Posting on memery.
+Current counters: ogólny: 17, dnd: 0, memery: 5, nsfr: 0, vtube: 3, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 05:42:03.226861] on_message event triggered by Flantastic#1238
+ Posting on memery.
+Current counters: ogólny: 17, dnd: 0, memery: 6, nsfr: 0, vtube: 3, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 06:25:13.218320] on_message event triggered by Archi#2229
+ Posting on kucowanie.
+Current counters: ogólny: 17, dnd: 0, memery: 7, nsfr: 0, vtube: 3, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 06:25:13.462085] on_message event triggered by Shinsha#7590
+ Posting on kucowanie.
+Current counters: ogólny: 17, dnd: 0, memery: 7, nsfr: 0, vtube: 3, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 06:29:07.566345] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 17, dnd: 0, memery: 7, nsfr: 0, vtube: 3, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 06:29:55.733454] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 17, dnd: 0, memery: 7, nsfr: 0, vtube: 3, gacha-games: 0, kucowanie: 7, gry: 2, anime: 3, muzyka: 0, bot-chan: 0, tech-general: 80, 
+[2021-03-05 06:29:55.884588] on_message event triggered by Shinsha#7590
+ Posting on ogólny.
+Current counters: ogólny: 0, dnd: 0, memery: 0, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 0, 
+[2021-03-05 06:30:43.151998] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 0, dnd: 0, memery: 0, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 0, 
+[2021-03-05 06:56:43.873394] on_message event triggered by Mevcore#3933
+ Posting on vtube.
+Current counters: ogólny: 1, dnd: 0, memery: 0, nsfr: 0, vtube: 0, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 0, 
+[2021-03-05 07:16:57.990022] on_message event triggered by Flantastic#1238
+ Posting on nsfr.
+Current counters: ogólny: 1, dnd: 0, memery: 0, nsfr: 0, vtube: 1, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 0, 
+[2021-03-05 07:32:55.431822] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 1, dnd: 0, memery: 0, nsfr: 1, vtube: 1, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 0, 
+[2021-03-05 07:34:52.451984] on_message event triggered by Mevcore#3933
+ Posting on tech-general.
+Current counters: ogólny: 2, dnd: 0, memery: 0, nsfr: 1, vtube: 1, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 0, 
+[2021-03-05 07:39:05.060045] on_message event triggered by Archi#2229
+ Posting on vtube.
+Current counters: ogólny: 2, dnd: 0, memery: 0, nsfr: 1, vtube: 1, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 07:57:25.883922] on_message event triggered by Raion-chan#2673
+ Posting on memery.
+Current counters: ogólny: 2, dnd: 0, memery: 0, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 07:59:31.906075] on_message event triggered by Raion-chan#2673
+ Posting on memery.
+Current counters: ogólny: 2, dnd: 0, memery: 1, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:06:53.061614] on_message event triggered by Raion-chan#2673
+ Posting on memery.
+Current counters: ogólny: 2, dnd: 0, memery: 2, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:09:39.179030] on_message event triggered by Raion-chan#2673
+ Posting on dnd.
+Current counters: ogólny: 2, dnd: 0, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:11:23.358524] on_message event triggered by Raion-chan#2673
+ Posting on dnd.
+Current counters: ogólny: 2, dnd: 1, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:11:46.548495] on_message event triggered by Archi#2229
+ Posting on dnd.
+Current counters: ogólny: 2, dnd: 2, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:12:12.856300] on_message event triggered by Archi#2229
+ Posting on dnd.
+Current counters: ogólny: 2, dnd: 3, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:12:43.209236] on_message event triggered by Archi#2229
+ Posting on dnd.
+Current counters: ogólny: 2, dnd: 4, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:12:43.965556] on_message event triggered by Archi#2229
+ Posting on dnd.
+Current counters: ogólny: 2, dnd: 5, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:13:27.830845] on_message event triggered by Archi#2229
+ Posting on dnd.
+Current counters: ogólny: 2, dnd: 6, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:13:54.606639] on_message event triggered by Raion-chan#2673
+ Posting on dnd.
+Current counters: ogólny: 2, dnd: 7, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:13:59.630427] on_message event triggered by Raion-chan#2673
+ Posting on dnd.
+Current counters: ogólny: 2, dnd: 8, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:14:02.964506] on_message event triggered by Archi#2229
+ Posting on tech-general.
+Current counters: ogólny: 2, dnd: 9, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 1, 
+[2021-03-05 08:14:28.174978] on_message event triggered by Raion-chan#2673
+ Posting on dnd.
+Current counters: ogólny: 2, dnd: 9, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 09:20:21.163802] on_message event triggered by Archi#2229
+ Posting on kucowanie.
+Current counters: ogólny: 2, dnd: 10, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 0, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 09:20:26.354777] on_message event triggered by Archi#2229
+ Posting on kucowanie.
+Current counters: ogólny: 2, dnd: 10, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 09:20:26.653306] on_message event triggered by Shinsha#7590
+ Posting on kucowanie.
+Current counters: ogólny: 2, dnd: 10, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 09:35:59.979738] on_message event triggered by Mevcore#3933
+ Posting on vtube.
+Current counters: ogólny: 2, dnd: 10, memery: 3, nsfr: 1, vtube: 2, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 09:53:37.506475] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 2, dnd: 10, memery: 3, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 09:54:00.896645] on_message event triggered by Kriss Hietala#9407
+ Posting on ogólny.
+Current counters: ogólny: 3, dnd: 10, memery: 3, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 10:14:35.949179] on_message event triggered by Kriss Hietala#9407
+ Posting on memery.
+Current counters: ogólny: 4, dnd: 10, memery: 3, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 10:14:58.417406] on_message event triggered by Infamis#6795
+ Posting on memery.
+Current counters: ogólny: 4, dnd: 10, memery: 4, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 10:15:54.208239] on_message event triggered by Infamis#6795
+ Posting on memery.
+Current counters: ogólny: 4, dnd: 10, memery: 5, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:18:25.389656] on_message event triggered by Raion-chan#2673
+ Posting on memery.
+Current counters: ogólny: 4, dnd: 10, memery: 6, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:22:33.552218] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 4, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:22:47.135906] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 5, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:23:01.776669] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 6, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:23:13.571405] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 7, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:23:31.093972] on_message event triggered by Raion-chan#2673
+ Posting on kucowanie.
+Current counters: ogólny: 8, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 1, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:23:40.021051] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 8, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 2, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:23:46.059002] on_message event triggered by Archi#2229
+ Posting on kucowanie.
+Current counters: ogólny: 9, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 2, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:23:50.095959] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 9, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 3, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:24:22.296842] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 10, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 3, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:24:43.802231] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 11, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 3, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:25:08.369458] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 12, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 3, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:25:14.709748] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 13, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 3, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:26:07.717773] on_message event triggered by Raion-chan#2673
+ Posting on kucowanie.
+Current counters: ogólny: 13, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 4, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:26:26.197110] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 13, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 5, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:28:09.852893] on_message event triggered by Archi#2229
+ Posting on kucowanie.
+Current counters: ogólny: 14, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 5, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:28:55.055896] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 14, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:35:26.822408] on_message event triggered by Raion-chan#2673
+ Posting on gacha-games.
+Current counters: ogólny: 15, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 0, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:36:37.255484] on_message event triggered by Pooky#7047
+ Posting on muzyka.
+Current counters: ogólny: 15, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 0, bot-chan: 0, tech-general: 2, 
+[2021-03-05 11:46:24.488810] on_message event triggered by Raion-chan#2673
+ Posting on ogólny.
+Current counters: ogólny: 15, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:05:43.722189] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 16, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:05:59.862281] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 17, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:06:57.103778] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 18, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:07:25.010979] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 19, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:07:57.563406] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 20, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:09:03.870112] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 21, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:09:59.992024] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 22, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:11:13.547175] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 23, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:12:45.243068] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 24, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:15:07.366286] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 25, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:17:16.895122] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 26, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:18:48.574561] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 27, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:18:49.591131] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 28, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:20:17.816773] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 29, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:20:24.834533] on_message event triggered by Archi#2229
+ Posting on memery.
+Current counters: ogólny: 30, dnd: 10, memery: 7, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:22:41.452627] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 30, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:23:15.690621] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 31, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:24:29.463273] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 32, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:25:12.738888] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 33, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:26:23.490616] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 34, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:28:22.200166] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 35, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:28:59.468853] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 36, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:30:38.763931] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 37, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:32:23.935272] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 38, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:35:16.063734] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 39, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:35:28.156011] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 40, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:35:37.497878] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 41, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:38:55.183933] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 42, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:40:56.972794] on_message event triggered by Archi#2229
+ Posting on nsfr.
+Current counters: ogólny: 43, dnd: 10, memery: 8, nsfr: 1, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:42:19.383169] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 43, dnd: 10, memery: 8, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:57:50.039733] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 44, dnd: 10, memery: 8, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:58:28.066376] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 45, dnd: 10, memery: 8, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:58:39.639982] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 46, dnd: 10, memery: 8, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 13:59:50.472820] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 47, dnd: 10, memery: 8, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:00:26.213612] on_message event triggered by Raion-chan#2673
+ Posting on ogólny.
+Current counters: ogólny: 48, dnd: 10, memery: 8, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:11:38.117084] on_message event triggered by Raion-chan#2673
+ Posting on memery.
+Current counters: ogólny: 49, dnd: 10, memery: 8, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:27:09.182864] on_message event triggered by Pooky#7047
+ Posting on bot-chan.
+Current counters: ogólny: 49, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:27:18.857708] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 49, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:28:02.692644] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 49, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:28:30.628015] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 50, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:28:39.975937] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 51, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:28:54.439210] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 52, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:31:15.059949] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 53, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:31:30.087212] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 54, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:31:45.936368] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 55, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:31:58.940798] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 56, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:33:04.277084] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 57, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:33:49.687977] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 58, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:33:53.519850] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 59, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:34:11.014244] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 60, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:34:15.481694] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 61, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:34:29.703945] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 62, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:34:42.059612] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 63, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:34:52.708605] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 64, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:35:17.732491] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 65, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:35:34.069269] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 66, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:36:13.578192] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 67, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:36:48.368688] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 68, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:37:04.494855] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 69, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:37:17.523661] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 70, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:37:22.440958] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 71, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:38:12.898216] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 72, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:38:24.984993] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 73, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:41:53.838719] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 74, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:42:05.487923] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 75, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:42:34.828118] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 76, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:44:11.872549] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 77, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:44:46.225490] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 78, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:45:15.212107] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 79, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:45:32.792584] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 80, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:45:48.242883] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 81, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:46:12.086718] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 82, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:46:23.627088] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 83, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:46:52.809684] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 84, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:47:29.318826] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 85, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:47:48.011030] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 86, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:47:54.149883] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 87, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:48:26.746091] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 88, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:48:29.664572] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 89, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:51:55.947121] on_message event triggered by Pooky#7047
+ Posting on memery.
+Current counters: ogólny: 90, dnd: 10, memery: 9, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:58:48.695011] on_message event triggered by Archi#2229
+ Posting on memery.
+Current counters: ogólny: 90, dnd: 10, memery: 10, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:58:49.354494] on_message event triggered by Archi#2229
+ Posting on memery.
+Current counters: ogólny: 90, dnd: 10, memery: 11, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:58:54.667435] on_message event triggered by Archi#2229
+ Posting on memery.
+Current counters: ogólny: 90, dnd: 10, memery: 12, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:58:57.777198] on_message event triggered by Archi#2229
+ Posting on memery.
+Current counters: ogólny: 90, dnd: 10, memery: 13, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 14:59:16.627970] on_message event triggered by Raion-chan#2673
+ Posting on ogólny.
+Current counters: ogólny: 90, dnd: 10, memery: 14, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 15:04:39.584327] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 91, dnd: 10, memery: 14, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 15:05:28.017394] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 92, dnd: 10, memery: 14, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 15:06:40.943651] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 93, dnd: 10, memery: 14, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 15:09:12.037421] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 94, dnd: 10, memery: 14, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 15:10:40.974897] on_message event triggered by Mevcore#3933
+ Posting on ogólny.
+Current counters: ogólny: 95, dnd: 10, memery: 14, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 15:12:23.700891] on_message event triggered by Raion-chan#2673
+ Posting on ogólny.
+Current counters: ogólny: 96, dnd: 10, memery: 14, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 15:12:52.473778] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 97, dnd: 10, memery: 14, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 15:13:08.275501] on_message event triggered by Pooky#7047
+ Posting on ogólny.
+Current counters: ogólny: 98, dnd: 10, memery: 14, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 15:45:25.934389] on_message event triggered by Infamis#6795
+ Posting on memery.
+Current counters: ogólny: 99, dnd: 10, memery: 14, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 15:47:15.999184] on_message event triggered by vasi1#2317
+ Posting on ogólny.
+Current counters: ogólny: 99, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 16:07:16.603632] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 100, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 16:07:42.868717] on_message event triggered by Archi#2229
+ Posting on ogólny.
+Current counters: ogólny: 101, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 16:14:36.202913] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 16:14:37.223377] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 16:14:44.501035] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 16:14:44.936749] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 16:14:56.547646] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 16:14:58.757314] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 16:15:41.630346] on_message event triggered by Pooky#7047
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 0, tech-general: 2, 
+[2021-03-05 16:15:51.559804] on_message event triggered by Pooky#7047
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 1, tech-general: 2, 
+[2021-03-05 16:16:10.420075] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 2, tech-general: 2, 
+[2021-03-05 16:16:44.920887] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 3, tech-general: 2, 
+[2021-03-05 16:16:45.408271] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 3, tech-general: 2, 
+[2021-03-05 16:17:08.053430] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 3, tech-general: 2, 
+[2021-03-05 16:17:13.911564] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 4, tech-general: 2, 
+[2021-03-05 16:17:15.008996] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 4, tech-general: 2, 
+[2021-03-05 16:17:39.243520] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 4, tech-general: 2, 
+[2021-03-05 16:17:48.320824] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 4, tech-general: 2, 
+[2021-03-05 16:18:08.158771] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 5, tech-general: 2, 
+[2021-03-05 16:18:08.640585] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 5, tech-general: 2, 
+[2021-03-05 16:18:20.755928] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 5, tech-general: 2, 
+[2021-03-05 16:19:07.606522] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:19:28.278250] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:19:38.840351] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:19:40.731348] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:19:51.182544] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:19:52.131254] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:20:00.519459] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:20:01.061098] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:20:55.259958] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:20:57.437641] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:21:09.450884] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:21:10.707866] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:21:21.216417] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:21:22.230904] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:21:47.866883] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:21:48.872829] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:21:53.564694] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:21:54.295111] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:23:00.719026] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:23:01.622913] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:23:05.852661] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:23:06.387766] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:24:29.831532] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:24:40.973760] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:24:50.511456] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:24:59.942378] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:25:00.491532] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:25:01.533048] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:25:15.687282] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:25:16.912345] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:25:28.066776] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:25:28.988040] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:02.748348] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:03.116192] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:08.464983] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:08.863021] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:26.654689] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:27.026548] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:40.296423] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:40.632332] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:49.579732] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:49.903745] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:57.715380] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:26:58.085587] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:27:17.948399] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:27:18.738018] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:28:22.312214] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:28:22.794911] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:28:32.439393] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:29:26.620074] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:29:27.746583] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:29:34.503875] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:29:34.909232] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:30:06.960831] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:30:08.094050] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:30:25.554857] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:30:25.985152] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:32:44.281435] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:33:15.158972] on_message event triggered by Raion-chan#2673
+ Posting on memery.
+Current counters: ogólny: 102, dnd: 10, memery: 15, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:33:52.588761] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:33:53.148779] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:42:30.605219] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:42:32.477991] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:42:32.986037] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 6, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:42:39.955725] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 7, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:42:41.337016] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 7, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:42:43.060555] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 7, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:42:48.716679] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 8, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:43:09.181081] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 9, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:43:27.378236] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 10, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:43:32.738151] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 11, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:43:49.954496] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 12, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:43:50.283006] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 12, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:44:17.370140] on_message event triggered by vasi1#2317
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 12, gry: 0, anime: 0, muzyka: 1, bot-chan: 6, tech-general: 2, 
+[2021-03-05 16:44:26.022492] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 12, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:44:29.738481] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 13, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:44:31.694908] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 13, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:44:45.675226] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 13, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:44:48.283230] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 13, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:45:15.464011] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 13, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:45:21.985405] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 14, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:45:22.638266] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 14, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:45:43.131367] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 14, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:45:43.735952] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 14, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:46:02.043952] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 14, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:46:24.402768] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 14, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:46:33.715015] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 15, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:47:56.400901] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:48:11.924285] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:48:12.493039] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:49:12.011892] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:49:13.034219] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:49:42.374885] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:49:42.972141] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:50:42.221322] on_message event triggered by Raion-chan#2673
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:51:03.113690] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:51:22.253488] on_message event triggered by Pooky#7047
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 7, tech-general: 2, 
+[2021-03-05 16:51:53.178894] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 16, gry: 0, anime: 0, muzyka: 1, bot-chan: 8, tech-general: 2, 
+[2021-03-05 16:52:25.116463] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 17, gry: 0, anime: 0, muzyka: 1, bot-chan: 8, tech-general: 2, 
+[2021-03-05 16:52:36.236763] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 18, gry: 0, anime: 0, muzyka: 1, bot-chan: 8, tech-general: 2, 
+[2021-03-05 16:52:47.207385] on_message event triggered by Pooky#7047
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 19, gry: 0, anime: 0, muzyka: 1, bot-chan: 8, tech-general: 2, 
+[2021-03-05 16:54:03.846306] on_message event triggered by vasi1#2317
+ Posting on kucowanie.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 20, gry: 0, anime: 0, muzyka: 1, bot-chan: 8, tech-general: 2, 
+[2021-03-05 16:54:04.969277] on_message event triggered by Archi#2229
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 21, gry: 0, anime: 0, muzyka: 1, bot-chan: 8, tech-general: 2, 
+[2021-03-05 16:54:06.969489] on_message event triggered by Shinsha#7590
+ Posting on bot-chan.
+Current counters: ogólny: 102, dnd: 10, memery: 16, nsfr: 2, vtube: 3, gacha-games: 1, kucowanie: 21, gry: 0, anime: 0, muzyka: 1, bot-chan: 8, tech-general: 2, 

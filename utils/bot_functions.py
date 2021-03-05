@@ -22,7 +22,6 @@ class ShinshaBrain(discord.Client):
         self.day_summary.start()
         self.autobackup.start()
         data_container.recall_data()
-        await self.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='DAS HEILIGE UBERBYTE'))
         keep_alive()
         
 
@@ -37,6 +36,7 @@ class ShinshaBrain(discord.Client):
         data_container.recall_data()
         message_channel = self.get_channel(790949987609608212)
         await message_channel.send(data_container.counter_status)
+        await asyncio.sleep(1)
         data_container.clear_data()
         await message_channel.send("Nastał nowy dzień!")
 
@@ -93,6 +93,15 @@ class ShinshaBrain(discord.Client):
         else:
             return current_picture
 
+    def rating_formatter(self, message):
+        _tags = message.content[7:]
+        if 'rating:' not in _tags:
+            _tags = _tags + ' rating:safe'
+            return _tags
+        if 'rating:any' in _tags:
+            _tags = _tags.replace('rating:any','')
+            return _tags
+
     async def waiting_and_responding(self, _tags, banned_tags, message, picture):
         _i = 20
         while len(picture) == 0 and _i != 0:
@@ -102,7 +111,11 @@ class ShinshaBrain(discord.Client):
             response = '¯\_(ツ)_/¯'
         else:
             response = await self.picture_filter(_tags, banned_tags, message, picture)
-            response = response[0]['large_file_url']
+            print(response)
+            try:
+              response = response[0]['large_file_url']
+            except:
+              response = response[0]['file_url']
         return response
 
     async def hello(self, message):
@@ -155,9 +168,7 @@ class ShinshaBrain(discord.Client):
             await message.delete()
 
     async def danbo(self, message):
-        _tags = message.content[7:]
-        if 'rating:' not in _tags:
-            _tags = _tags + ' rating:safe'
+        _tags = self.rating_formatter(message)
         if message.channel.id == 805839570201608252:
             picture = self.picture_generator(_tags)
             picture = next(picture)
@@ -262,9 +273,9 @@ class ShinshaBrain(discord.Client):
             data_container.update_channels(text_channels)
             await message.channel.send(f'Gotowe {message.author.mention}!')
         
-        # elif message.content.startswith('$counter_reset'):
-        #     data_container.clear_data()
-        #     await message.channel.send('Data cleared!')
+        elif message.content.startswith('$counter_reset'):
+            data_container.clear_data()
+            await message.channel.send('Data cleared!')
         
         else:
             data_container.message_counter(message.channel.id)
