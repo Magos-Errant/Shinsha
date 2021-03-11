@@ -111,7 +111,6 @@ class ShinshaBrain(discord.Client):
             response = '¯\_(ツ)_/¯'
         else:
             response = await self.picture_filter(_tags, banned_tags, message, picture)
-            print(response)
             try:
               response = response[0]['large_file_url']
             except:
