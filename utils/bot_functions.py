@@ -22,7 +22,7 @@ class ShinshaBrain(discord.Client):
         self.day_summary.start()
         self.autobackup.start()
         data_container.recall_data()
-        keep_alive()
+
         
 
     # data backup
