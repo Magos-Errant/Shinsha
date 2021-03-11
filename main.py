@@ -11,4 +11,6 @@ from utils import bot_functions
 
 #Uruchamianie bota i jego funkcji.
 client = bot_functions.ShinshaBrain()
-client.run(os.getenv('TOKEN'))
+with open('Token.txt', 'r') as token:
+    tok = str(token.readlines()[0]).strip()
+client.run(tok)
