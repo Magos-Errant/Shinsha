@@ -78,12 +78,13 @@ class ShinshaBrain(discord.Client):
         x = 0
         check_counter = 0
         while x < len(banned_tags):
-            if banned_tags[x] in current_picture[0]['tag_string']:
+            current_picture_tags = current_picture[0]['tag_string'].split(' ')
+            if banned_tags[x] in current_picture_tags:
                 x = 0
                 check_counter += 1
                 current_picture = next(_picture)
 
-            if banned_tags[x] not in current_picture[0]['tag_string']:
+            if banned_tags[x] not in current_picture_tags:
                 x += 1
                 
             if check_counter == 10:
