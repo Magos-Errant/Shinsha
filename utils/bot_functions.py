@@ -101,6 +101,8 @@ class ShinshaBrain(discord.Client):
         if 'rating:any' in _tags:
             _tags = _tags.replace('rating:any','')
             return _tags
+        else:
+            return _tags
 
     async def waiting_and_responding(self, _tags, banned_tags, message, picture):
         _i = 20
