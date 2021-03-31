@@ -20,7 +20,9 @@ class ShinshaBrain(discord.Client):
         print('------')
         self.day_summary.start()
         self.autobackup.start()
-        data_container.recall_data()
+        guild = self.get_guild(602620718433304604)
+        text_channels = guild.text_channels
+        data_container.recall_data(text_channels)
 
         
 
@@ -260,11 +262,6 @@ class ShinshaBrain(discord.Client):
         for message in message_container:
             await message.delete()
 
-    async def UpdateChannels(self, message):
-        guild = self.get_guild(602620718433304604)
-        text_channels = guild.text_channels
-        data_container.update_channels(text_channels)
-        await message.channel.send(f'Gotowe {message.author.mention}!')
 
     async def counter_reset(self, message):
         data_container.clear_data()
@@ -282,7 +279,6 @@ class ShinshaBrain(discord.Client):
             '!danbo': self.danbo,
             '!danbo_count': self.danbo_count,
             '!arr ': self.nyaar,
-            '!UpdateChannels': self.UpdateChannels,
             '!counter_reset': self.counter_reset
         }
 
