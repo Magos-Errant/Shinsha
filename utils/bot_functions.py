@@ -38,7 +38,9 @@ class ShinshaBrain(discord.Client):
     # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
     @tasks.loop(hours=24)
     async def day_summary(self):
-        data_container.recall_data()
+        guild = self.get_guild(602620718433304604)
+        text_channels = guild.text_channels
+        data_container.recall_data(text_channels)
         message_channel = self.get_channel(790949987609608212)
         await message_channel.send(data_container.counter_status)
         await asyncio.sleep(1)
