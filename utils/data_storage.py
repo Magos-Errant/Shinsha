@@ -56,11 +56,12 @@ class JeronimoMartins:
     @property
     def avaliable_commands(self) -> dict:
       avaliable_commands = {
-        "!commands":"Shinsha wyświetli listę komend",
+        "!help":"Shinsha wyświetli listę komend",
         "!hello":"Shinsha odpisze - Hello",
         "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj.",
         "!tao":"Shinsha podzieli się cytatem z Tao Te Ching",
-        "!danbo tag1 tag2": "Shinsa wyświetli losowy obrazek z tymi tagami",
+        "!danbo tag1 tag2": "Shinsha wyświetli losowy obrazek z tymi tagami",
+        "!danbo_count tag1 tag2": "Shinsha poda liczbę postów na danbooru zawierających podane tagi",
         "!arr tags": "Shinsha wyruszy w podróż po siedmiu morzach",
         "!UpdateChannels": "Shinsha zaktualizuje stan kanałów zachowując stan liczników"
       }

@@ -185,6 +185,7 @@ class ShinshaBrain(discord.Client):
             await message.delete()
 
     async def danbo_count(self, message):
+        await message.delete()
         _tags = message.content[12:]
         danbo_client = Danbooru('danbooru')
         this_many_posts = danbo_client.count_posts(_tags)['counts']['posts']
