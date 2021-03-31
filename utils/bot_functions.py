@@ -43,7 +43,8 @@ class ShinshaBrain(discord.Client):
         await message_channel.send(data_container.counter_status)
         await asyncio.sleep(1)
         data_container.clear_data()
-        await message_channel.send("Nastał nowy dzień!")
+        message = await message_channel.send("Nastał nowy dzień!")
+        await self.GraphMaker(message)
 
 
     @day_summary.before_loop
