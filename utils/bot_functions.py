@@ -287,17 +287,21 @@ class ShinshaBrain(discord.Client):
         wdv = data_container.recall_week_data_vector()
         markers = ['.', ',', 'o', 'v', '^', '<', '>', '1', '2', '3', '4', '8', 's', 'p', 'P', '*', 'h', 'H', '+', 'x',
                    'X', 'D', 'd', '|', '_']
+
+        plt.style.use('dark_background')
+        plt.figure(figsize=(10, 5), dpi=300)
         i = 0
         for ID in data_container.channels_info:
             plt.plot(dni_tygodnia, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
                      markerfacecolor='none', markersize=8)
             i += 1
 
+        plt.grid()
         plt.legend(title='Kanały:')
         plt.legend(bbox_to_anchor=(1.05, 1.0), loc='upper left')
         plt.tight_layout()
         plt.title('Aktywność kanałów')
-        plt.savefig('channelactivity.png', bbox_inches='tight')
+        plt.savefig('channelactivity.png', bbox_inches='tight', orientation='landscape', pad_inches=0.2)
         file = discord.File("channelactivity.png", filename="channelactivity.png")
         await message.channel.send("Requested graph", file=file)
         plt.clf()
