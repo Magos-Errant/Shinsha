@@ -289,7 +289,10 @@ class ShinshaBrain(discord.Client):
                 await _cases[command](message)
             except KeyError:
                 await message.channel.send('Nieznana komenda :<')
-
+                return
+            except Exception:
+                await message.channel.send('Cosik nie bangala User-kun TT_TT')
+                return 
         else:
             data_container.message_counter(message.channel.id)
 
