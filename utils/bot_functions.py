@@ -274,7 +274,7 @@ class ShinshaBrain(discord.Client):
             '!danbo_count': self.danbo_count,
             '!arr ': self.nyaar,
             '!UpdateChannels': self.UpdateChannels,
-            '$counter_reset': self.counter_reset
+            '!counter_reset': self.counter_reset
         }
 
         with open("ArchiLogs2.txt", "a") as logfile:
@@ -282,12 +282,13 @@ class ShinshaBrain(discord.Client):
 
         if message.author == self.user:
             return
-        else:
+        elif message.content.statswith('!'):
             command = message.content.split(' ')[0]
             try:
                 await _cases[command](message)
             except KeyError:
                 await message.channel.send('Nieznana komenda :<')
 
+        else:
             data_container.message_counter(message.channel.id)
 
