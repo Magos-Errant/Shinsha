@@ -185,15 +185,23 @@ class ShinshaBrain(discord.Client):
             await message.delete()
 
     async def danbo_count(self, message):
-        await message.delete()
         _tags = message.content[12:]
         danbo_client = Danbooru('danbooru')
         this_many_posts = danbo_client.count_posts(_tags)['counts']['posts']
         tags_list = _tags.split(' ')
-        if not len(tags_list)>2:
-            await message.channel.send(f'{this_many_posts} posts found for tag {_tags}, I will leave it here :3')
+
+        if message.channel.id == 805839570201608252:
+            if not len(tags_list)>2:
+                await message.channel.send(f'{this_many_posts} posts found for tag {_tags}, I will leave it here :3')
+            else:
+                await message.channel.send(f'{this_many_posts} posts found for tags {_tags}, I will leave it here :3')
         else:
-            await message.channel.send(f'{this_many_posts} posts found for tags {_tags}, I will leave it here :3')
+            await message.delete()
+            if not len(tags_list)>2:
+                await message.channel.send(f'{this_many_posts} posts found for tag {_tags}, I will leave it here :3')
+            else:
+                await message.channel.send(f'{this_many_posts} posts found for tags {_tags}, I will leave it here :3')
+
 
     async def nyaar(self, message):
         _tags = message.content[5:]
@@ -292,7 +300,7 @@ class ShinshaBrain(discord.Client):
                 return
             except Exception:
                 await message.channel.send('Cosik nie bangala User-kun TT_TT')
-                return 
+                return
         else:
             data_container.message_counter(message.channel.id)
 
