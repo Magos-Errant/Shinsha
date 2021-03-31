@@ -3,14 +3,18 @@ import discord
 import asyncio
 import datetime as dt
 import NyaaPy
+import os
+import math
+import matplotlib.pyplot as plt
 from discord.ext import tasks
 from pybooru import Danbooru
 from .data_storage import JeronimoMartins
 from .tao import TaoTeChing
+from numpy import *
+
 
 data_container = JeronimoMartins()
 message_timeout = 120
-
 
 class ShinshaBrain(discord.Client):
     async def on_ready(self):
@@ -40,6 +44,7 @@ class ShinshaBrain(discord.Client):
         await asyncio.sleep(1)
         data_container.clear_data()
         await message_channel.send("Nastał nowy dzień!")
+
 
     @day_summary.before_loop
     async def before_day_summary(self):
@@ -267,6 +272,37 @@ class ShinshaBrain(discord.Client):
         data_container.clear_data()
         await message.channel.send('Data cleared!')
 
+    def GraphDataCollect(self):
+        day = dt.datetime.today().weekday()
+        wdv = data_container.recall_week_data_vector()
+        for ID in data_container.channels_info:
+            lista = [data_container.channels_info[ID].messages_count if x == day else wdv[ID][x] for x in range(0, 7)]
+            wdv[ID] = lista
+        data_container.store_week_data_vector(wdv)
+
+
+    async def GraphMaker(self, message):
+        self.GraphDataCollect()
+        dni_tygodnia = ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela']
+        wdv = data_container.recall_week_data_vector()
+        markers = ['.', ',', 'o', 'v', '^', '<', '>', '1', '2', '3', '4', '8', 's', 'p', 'P', '*', 'h', 'H', '+', 'x',
+                   'X', 'D', 'd', '|', '_']
+        i = 0
+        for ID in data_container.channels_info:
+            plt.plot(dni_tygodnia, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
+                     markerfacecolor='none', markersize=8)
+            i += 1
+
+        plt.legend(title='Kanały:')
+        plt.legend(bbox_to_anchor=(1.05, 1.0), loc='upper left')
+        plt.tight_layout()
+        plt.title('Aktywność kanałów')
+        plt.savefig('channelactivity.png', bbox_inches='tight')
+        file = discord.File("channelactivity.png", filename="channelactivity.png")
+        await message.channel.send("Requested graph", file=file)
+        plt.clf()
+        plt.close()
+        os.remove("channelactivity.png")
 
 
     # funkcje poniżej obsługują reakcje bota na wiadomości
@@ -279,7 +315,8 @@ class ShinshaBrain(discord.Client):
             '!danbo': self.danbo,
             '!danbo_count': self.danbo_count,
             '!arr ': self.nyaar,
-            '!counter_reset': self.counter_reset
+            '!counter_reset': self.counter_reset,
+            '!w_graph': self.GraphMaker
         }
 
         with open("ArchiLogs2.txt", "a") as logfile:

@@ -1,3 +1,5 @@
+import datetime as dt
+
 class JeronimoMartins:
     def __init__(self):
         self.channels_info = {}
@@ -61,9 +63,36 @@ class JeronimoMartins:
         "!tao":"Shinsha podzieli się cytatem z Tao Te Ching",
         "!danbo tag1 tag2": "Shinsha wyświetli losowy obrazek z tymi tagami",
         "!danbo_count tag1 tag2": "Shinsha poda liczbę postów na danbooru zawierających podane tagi",
-        "!arr tags": "Shinsha wyruszy w podróż po siedmiu morzach"
+        "!arr tags": "Shinsha wyruszy w podróż po siedmiu morzach",
+        "!w_graph": "Shinsha wyśle graficzne podsumowanie aktywności kanałów"
       }
       return avaliable_commands
+
+    def store_week_data_vector(self, wdv):
+        with open("wdv.txt", 'w') as file:
+            _formattedString = ''
+
+            for ID in wdv:
+                vec = ''
+                for item in wdv[ID]:
+                    vec += f' {item}'
+                _formattedString += f'{ID} {vec}\n'
+            if dt.datetime.today().weekday() == 0:
+                _formattedString += f'new_week {dt.date.today()}\n'
+
+            file.write(_formattedString)
+        return
+
+    def recall_week_data_vector(self):
+        wdv = {}
+        with open("wdv.txt", 'r') as file:
+            file = file.readlines()
+        for line in file:
+            splitted = line.split()
+            ID = int(splitted[0])
+            staty_dni = [int(x) for x in splitted[1:8]]
+            wdv[ID] = staty_dni
+        return wdv
 
     def __repr__(self):
         return f'channels_info={self.channels_info}'
