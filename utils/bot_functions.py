@@ -282,7 +282,7 @@ class ShinshaBrain(discord.Client):
 
         if message.author == self.user:
             return
-        elif message.content.statswith('!'):
+        elif message.content.split(' ')[0][:1] == '!':
             command = message.content.split(' ')[0]
             try:
                 await _cases[command](message)
