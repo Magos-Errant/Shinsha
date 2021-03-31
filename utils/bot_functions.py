@@ -184,6 +184,16 @@ class ShinshaBrain(discord.Client):
             await asyncio.sleep(message_timeout)
             await message.delete()
 
+    async def danbo_count(self, message):
+        _tags = message.content[12:]
+        danbo_client = Danbooru('danbooru')
+        this_many_posts = danbo_client.count_posts(_tags)['counts']['posts']
+        tags_list = _tags.split(' ')
+        if not len(tags_list)>2:
+            await message.channel.send(f'{this_many_posts} posts found for tag {_tags}, I will leave it here :3')
+        else:
+            await message.channel.send(f'{this_many_posts} posts found for tags {_tags}, I will leave it here :3')
+
     async def nyaar(self, message):
         _tags = message.content[5:]
         if message.channel.id == 805839570201608252:
@@ -241,43 +251,43 @@ class ShinshaBrain(discord.Client):
         for message in message_container:
             await message.delete()
 
+    async def UpdateChannels(self, message):
+        guild = self.get_guild(602620718433304604)
+        text_channels = guild.text_channels
+        data_container.update_channels(text_channels)
+        await message.channel.send(f'Gotowe {message.author.mention}!')
+
+    async def counter_reset(self, message):
+        data_container.clear_data()
+        await message.channel.send('Data cleared!')
+
+
+
     # funkcje poniżej obsługują reakcje bota na wiadomości
     async def on_message(self, message):
+        _cases = {
+            '!hello': self.hello,
+            '!message_count': self.message_count,
+            '!help': self.commands,
+            '!tao': self.tao,
+            '!danbo': self.danbo,
+            '!danbo_count': self.danbo_count,
+            '!arr ': self.nyaar,
+            '!UpdateChannels': self.UpdateChannels,
+            '$counter_reset': self.counter_reset
+        }
+
         with open("ArchiLogs2.txt", "a") as logfile:
             logfile.write(f"[{dt.datetime.now()}] on_message event triggered by {message.author}\n Posting on {message.channel.name}.\nCurrent counters: {data_container.counter_status_single_string}\n")
 
         if message.author == self.user:
             return
-
-        elif message.content.startswith('!hello'):
-            await self.hello(message)
-
-        elif message.content.startswith('!message_count'):
-            await self.message_count(message)
-
-        elif message.content.startswith('!commands'):
-            await self.commands(message)
-
-        elif message.content.startswith('!tao'):
-            await self.tao(message)
-
-        elif message.content.startswith('!danbo'):
-            await self.danbo(message)
-
-        # Some Pirate funcionality
-        elif message.content.startswith('!arr '):
-            await self.nyaar(message)
-
-        elif message.content.startswith('!UpdateChannels'):
-            guild = self.get_guild(602620718433304604)
-            text_channels = guild.text_channels
-            data_container.update_channels(text_channels)
-            await message.channel.send(f'Gotowe {message.author.mention}!')
-        
-        elif message.content.startswith('$counter_reset'):
-            data_container.clear_data()
-            await message.channel.send('Data cleared!')
-        
         else:
+            command = message.content.split(' ')[0]
+            try:
+                await _cases[command](message)
+            except KeyError:
+                await message.channel.send('Nieznana komenda :<')
+
             data_container.message_counter(message.channel.id)
 
