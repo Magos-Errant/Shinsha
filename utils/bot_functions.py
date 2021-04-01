@@ -313,10 +313,10 @@ class ShinshaBrain(discord.Client):
 
     async def GraphMessageHandler(self, message):
         if message.channel.id == 805839570201608252:
-            self.GraphMaker(message)
+            await self.GraphMaker(message)
         else:
             await message.delete()
-            self.GraphMaker(message)
+            await self.GraphMaker(message)
             await asyncio.sleep(message_timeout)
             await message.delete()
 
