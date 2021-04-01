@@ -316,7 +316,7 @@ class ShinshaBrain(discord.Client):
         return message
 
     async def GraphMessageHandler(self, message):
-        if message.channel.id == 805839570201608252:
+        if message.channel.id == 805839570201608252 or 790949987609608212:
             await self.GraphMaker(message)
         else:
             await message.delete()
