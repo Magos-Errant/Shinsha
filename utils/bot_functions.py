@@ -316,8 +316,9 @@ class ShinshaBrain(discord.Client):
         return message
 
     async def GraphMessageHandler(self, message):
-        await self.GraphMaker(message)
-        if message.channel.id != 805839570201608252:
+        if message.channel.id == 805839570201608252:
+            await self.GraphMaker(message)
+        else:
             await message.delete()
             message = await self.GraphMaker(message)
             await asyncio.sleep(message_timeout)
