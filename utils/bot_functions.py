@@ -293,9 +293,12 @@ class ShinshaBrain(discord.Client):
 
         plt.style.use('dark_background')
         plt.figure(figsize=(10, 5), dpi=300)
+
+        i = 0
         for ID in data_container.channels_info:
             plt.plot(dni_tygodnia, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
                      markerfacecolor='none', markersize=8)
+            i += 1
 
         plt.grid()
         plt.legend(title='Kanały:')
@@ -347,8 +350,9 @@ class ShinshaBrain(discord.Client):
             except KeyError:
                 await message.channel.send('Nieznana komenda :<')
                 return
-            except Exception:
+            except Exception as e:
                 await message.channel.send('Cosik nie bangala User-kun TT_TT')
+                print(e)
                 return
         else:
             data_container.message_counter(message.channel.id)
