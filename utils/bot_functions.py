@@ -309,17 +309,17 @@ class ShinshaBrain(discord.Client):
         plt.ylabel('Liczba wiadomości')
         plt.savefig('channelactivity.png', bbox_inches='tight', orientation='landscape', pad_inches=0.2)
         file = discord.File("channelactivity.png", filename="channelactivity.png")
-        await message.channel.send("Requested graph", file=file)
+        message = await message.channel.send("Requested graph", file=file)
         plt.clf()
         plt.close()
         os.remove("channelactivity.png")
+        return message
 
     async def GraphMessageHandler(self, message):
-        if message.channel.id == 805839570201608252:
-            await self.GraphMaker(message)
-        else:
-            await self.GraphMaker(message)
+        await self.GraphMaker(message)
+        if message.channel.id != 805839570201608252:
             await message.delete()
+            message = await self.GraphMaker(message)
             await asyncio.sleep(message_timeout)
             await message.delete()
 
