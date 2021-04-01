@@ -311,7 +311,7 @@ class ShinshaBrain(discord.Client):
         plt.close()
         os.remove("channelactivity.png")
 
-    def GraphMessageHandler(self, message):
+    async def GraphMessageHandler(self, message):
         if message.channel.id == 805839570201608252:
             self.GraphMaker(message)
         else:
