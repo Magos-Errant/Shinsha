@@ -293,11 +293,9 @@ class ShinshaBrain(discord.Client):
 
         plt.style.use('dark_background')
         plt.figure(figsize=(10, 5), dpi=300)
-        i = 0
         for ID in data_container.channels_info:
             plt.plot(dni_tygodnia, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
                      markerfacecolor='none', markersize=8)
-            i += 1
 
         plt.grid()
         plt.legend(title='Kanały:')
@@ -313,6 +311,15 @@ class ShinshaBrain(discord.Client):
         plt.close()
         os.remove("channelactivity.png")
 
+    def GraphMessageHandler(self, message):
+        if message.channel.id == 805839570201608252:
+            self.GraphMaker(message)
+        else:
+            await message.delete()
+            self.GraphMaker(message)
+            await asyncio.sleep(message_timeout)
+            await message.delete()
+
 
     # funkcje poniżej obsługują reakcje bota na wiadomości
     async def on_message(self, message):
@@ -325,7 +332,7 @@ class ShinshaBrain(discord.Client):
             '!danbo_count': self.danbo_count,
             '!arr ': self.nyaar,
             '!counter_reset': self.counter_reset,
-            '!w_graph': self.GraphMaker
+            '!w_graph': self.GraphMessageHandler
         }
 
         with open("ArchiLogs2.txt", "a") as logfile:
