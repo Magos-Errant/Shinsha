@@ -318,8 +318,8 @@ class ShinshaBrain(discord.Client):
         if message.channel.id == 805839570201608252:
             await self.GraphMaker(message)
         else:
-            await message.delete()
             await self.GraphMaker(message)
+            await message.delete()
             await asyncio.sleep(message_timeout)
             await message.delete()
 
