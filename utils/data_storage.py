@@ -4,6 +4,8 @@ class JeronimoMartins:
     def __init__(self):
         self.channels_info = {}
         self.banned_tags = ['yaoi', 'bara']
+        #flags
+        self.already_written_flag = False
 
     def message_counter(self, channelID):
         if channelID in self.channels_info:
@@ -77,8 +79,34 @@ class JeronimoMartins:
                 for item in wdv[ID]:
                     vec += f' {item}'
                 _formattedString += f'{ID} {vec}\n'
-            if dt.datetime.today().weekday() == 0:
-                _formattedString += f'new_week {dt.date.today()}\n'
+
+            if dt.datetime.today().weekday() == 0 and self.already_written_flag is False:
+                with open("wdv.txt", 'w') as file:
+                    _formattedString = ''
+
+                    for ID in wdv:
+                        vec = ''
+                        for item in wdv[ID]:
+                            vec += f' {item}'
+                        _formattedString += f'{ID} {vec}\n'
+                    file.write(_formattedString)
+
+                with open("wdv_archive.txt", 'a') as file:
+                    _formattedString = ''
+
+                    for ID in wdv:
+                        vec = ''
+                        for item in wdv[ID]:
+                            vec += f' {item}'
+                        _formattedString += f'{ID} {vec}\n'
+                        _formattedString += f'new_week {dt.date.today()}\n'
+                    file.write(_formattedString)
+
+                self.already_written_flag = True
+                return
+
+            elif dt.datetime.today().weekday() != 0 and self.already_written_flag is True:
+                self.already_written_flag = False
 
             file.write(_formattedString)
         return
