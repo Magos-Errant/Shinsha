@@ -334,7 +334,7 @@ class ShinshaBrain(discord.Client):
             '!tao': self.tao,
             '!danbo': self.danbo,
             '!danbo_count': self.danbo_count,
-            '!arr ': self.nyaar,
+            '!arr': self.nyaar,
             '!counter_reset': self.counter_reset,
             '!w_graph': self.GraphMessageHandler
         }
