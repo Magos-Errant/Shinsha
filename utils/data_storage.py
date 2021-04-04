@@ -99,7 +99,7 @@ class JeronimoMartins:
                         for item in wdv[ID]:
                             vec += f' {item}'
                         _formattedString += f'{ID} {vec}\n'
-                        _formattedString += f'new_week {dt.date.today()}\n'
+                    _formattedString += f'new_week {dt.date.today()}\n'
                     file.write(_formattedString)
 
                 self.already_written_flag = True
