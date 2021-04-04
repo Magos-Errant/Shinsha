@@ -215,6 +215,8 @@ class ShinshaBrain(discord.Client):
 
     async def nyaar(self, message):
         _tags = message.content[5:]
+        message_container = [message]
+        _selected_animu = []
         if message.channel.id == 805839570201608252:
             Arr = NyaaPy.Nyaa
             _result = Arr.search(_tags)
@@ -227,7 +229,6 @@ class ShinshaBrain(discord.Client):
             if len(_result) == 0:
                 message = await message.channel.send('¯\_(ツ)_/¯')
             else:
-                _selected_animu = []
                 for _dict in _result:
                     if _dict['category'] == 'Anime - English-translated':
                         _selected_animu.append(_dict)
