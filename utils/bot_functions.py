@@ -4,13 +4,13 @@ import asyncio
 import datetime as dt
 import NyaaPy
 import os
-import math
 import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+import numpy as np
 from discord.ext import tasks
 from pybooru import Danbooru
 from .data_storage import JeronimoMartins
 from .tao import TaoTeChing
-from numpy import *
 
 
 data_container = JeronimoMartins()
@@ -295,10 +295,14 @@ class ShinshaBrain(discord.Client):
         plt.style.use('dark_background')
         plt.figure(figsize=(10, 5), dpi=300)
 
+        evenly_spaced_interval = np.linspace(0, 1, len(data_container.channels_info))
+        colors = [cm.get_cmap('tab20')(x) for x in evenly_spaced_interval]
+
+
         i = 0
         for ID in data_container.channels_info:
             plt.plot(dni_tygodnia, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
-                     markerfacecolor='none', markersize=8)
+                     markerfacecolor='none', markersize=8, color=colors[i])
             i += 1
 
         plt.grid()
