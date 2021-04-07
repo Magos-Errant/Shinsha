@@ -214,7 +214,6 @@ class ShinshaBrain(discord.Client):
             else:
                 await message.channel.send(f'{this_many_posts} posts found for tags {_tags}, I will leave it here :3')
 
-
     async def nyaar(self, message):
         _tags = message.content[5:]
         message_container = [message]
@@ -273,7 +272,6 @@ class ShinshaBrain(discord.Client):
         for message in message_container:
             await message.delete()
 
-
     async def counter_reset(self, message):
         data_container.clear_data()
         await message.channel.send('Data cleared!')
@@ -288,7 +286,6 @@ class ShinshaBrain(discord.Client):
             else:
                 wdv[ID] = [data_container.channels_info[ID].messages_count if x == day else wdv[ID][x] for x in range(0, 7)]
         data_container.store_week_data_vector(wdv)
-
 
     async def GraphMaker(self, message):
         self.GraphDataCollect()
@@ -335,6 +332,44 @@ class ShinshaBrain(discord.Client):
             await asyncio.sleep(message_timeout)
             await message.delete()
 
+    async def CustomMentionsRegister(self, message):
+        keywords = message.content.split()[1:]
+        user_id = message.author.id
+
+        if user_id not in data_container.UserCustomMentions:
+            data_container.UserCustomMentions[user_id] = []
+
+        for word in keywords:
+            if word not in data_container.UserCustomMentions[user_id]:
+                data_container.UserCustomMentions[user_id].append(word)
+
+    async def CustomMentionsDelete(self, message):
+        keywords = message.content.split()[1:]
+        _user_id = message.author.id
+        _user_name = message.author.mention
+
+        if _user_id not in data_container.UserCustomMentions:
+            await message.channel.send(f'Nie zarejestrowałeś jeszcze ani jednego highlighta {_user_name} :<')
+        for word in keywords:
+            if word in data_container.UserCustomMentions[_user_id]:
+                data_container.UserCustomMentions[_user_id].remove(word)
+        await message.channel.send(
+            f'Zapisane higlighty dla użytkownika {_user_name}:\n{data_container.UserCustomMentions[_user_id]}')
+
+    async def CustomMentionsCheck(self, message):
+        _user_name = message.author.mention
+        _user_id = message.author.id
+        await message.channel.send(f'Zapisane higlighty dla użytkownika {_user_name}:\n{data_container.UserCustomMentions[_user_id]}')
+
+    async def CheckForMentions(self, message):
+        _message_content = message.content.split()
+        for ID in data_container.UserCustomMentions:
+            for word in _message_content:
+                if word in data_container.UserCustomMentions[ID]:
+                    await message.channel.send(f'<@{ID}>')
+                    return
+
+
 
     # funkcje poniżej obsługują reakcje bota na wiadomości
     async def on_message(self, message):
@@ -347,12 +382,17 @@ class ShinshaBrain(discord.Client):
             '!danbo_count': self.danbo_count,
             '!arr': self.nyaar,
             '!counter_reset': self.counter_reset,
-            '!w_graph': self.GraphMessageHandler
+            '!w_graph': self.GraphMessageHandler,
+            '!register_mentions': self.CustomMentionsRegister,
+            '!my_mentions': self.CustomMentionsCheck,
+            '!delete_mentions': self.CustomMentionsDelete,
         }
 
         with open("ArchiLogs2.txt", "a") as logfile:
             logfile.write(f"[{dt.datetime.now()}] on_message event triggered by {message.author}\n Posting on {message.channel.name}.\nCurrent counters: {data_container.counter_status_single_string}\n")
 
+        await self.CheckForMentions(message)
+        
         if message.author == self.user:
             return
         elif message.content.split(' ')[0][:1] == '!':

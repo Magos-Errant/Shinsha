@@ -4,6 +4,7 @@ class JeronimoMartins:
     def __init__(self):
         self.channels_info = {}
         self.banned_tags = ['yaoi', 'bara']
+        self.UserCustomMentions = {}
         #flags
         self.already_written_flag = False
 
@@ -14,10 +15,21 @@ class JeronimoMartins:
             pass
 
     def store_data(self):
+        #channel data
         with open("saved_counter.txt", 'w') as file:
             _formattedString = ''
             for ID in self.channels_info:
                 _formattedString += f'{ID} {self.channels_info[ID].messages_count}\n'
+            file.write(_formattedString)
+
+        #user mentions
+        with open("custom_mentions.txt", 'w') as file:
+            _formattedString = ''
+            _sznurek = ''
+            for ID in self.UserCustomMentions:
+                for item in self.UserCustomMentions[ID]:
+                    _sznurek += f' {item}'
+                _formattedString += f'{ID} {_sznurek}\n'
             file.write(_formattedString)
         return
 
@@ -33,7 +45,17 @@ class JeronimoMartins:
             ID = int(stripped_line[0])
             if ID in self.channels_info:
                 self.channels_info[ID] = ChannelData(self.channels_info[ID].name, int(stripped_line[1]))
+
+        #load stored user mentions
+        with open("custom_mentions.txt", 'r') as file:
+            file = file.readlines()
+        for line in file:
+            splitted = line.split()
+            ID = int(splitted[0])
+            slowa = [word for word in splitted[1:]]
+            self.UserCustomMentions[ID] = slowa
         return
+
 
     @property
     def counter_status_single_string(self):
