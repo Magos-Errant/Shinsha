@@ -12,7 +12,9 @@ from pybooru import Danbooru
 from .data_storage import JeronimoMartins
 from .tao import TaoTeChing
 
-
+#
+#  Witty comment here
+#
 data_container = JeronimoMartins()
 message_timeout = 120
 
@@ -279,9 +281,12 @@ class ShinshaBrain(discord.Client):
     def GraphDataCollect(self):
         day = dt.datetime.today().weekday()
         wdv = data_container.recall_week_data_vector()
+
         for ID in data_container.channels_info:
-            lista = [data_container.channels_info[ID].messages_count if x == day else wdv[ID][x] for x in range(0, 7)]
-            wdv[ID] = lista
+            if ID not in wdv:
+                wdv[ID] = [0, 0, 0, 0, 0, 0, 0]
+            else:
+                wdv[ID] = [data_container.channels_info[ID].messages_count if x == day else wdv[ID][x] for x in range(0, 7)]
         data_container.store_week_data_vector(wdv)
 
 
@@ -353,8 +358,9 @@ class ShinshaBrain(discord.Client):
             command = message.content.split(' ')[0]
             try:
                 await _cases[command](message)
-            except KeyError:
+            except KeyError as e:
                 await message.channel.send('Nieznana komenda :<')
+                print(e)
                 return
             except Exception as e:
                 await message.channel.send('Cosik nie bangala User-kun TT_TT')
