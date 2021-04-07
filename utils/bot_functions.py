@@ -359,7 +359,7 @@ class ShinshaBrain(discord.Client):
     async def CustomMentionsCheck(self, message):
         _user_name = message.author.mention
         _user_id = message.author.id
-        await message.channel.send(f'Zapisane higlighty dla użytkownika {_user_name}:\n{data_container.UserCustomMentions[_user_id]}')
+        await message.channel.send(f'Zapisane wzmianki dla użytkownika {_user_name}:\n{data_container.UserCustomMentions[_user_id]}')
 
     async def CheckForMentions(self, message):
         _message_content = message.content.split()
@@ -385,14 +385,14 @@ class ShinshaBrain(discord.Client):
             '!w_graph': self.GraphMessageHandler,
             '!register_mentions': self.CustomMentionsRegister,
             '!my_mentions': self.CustomMentionsCheck,
-            '!delete_mentions': self.CustomMentionsDelete,
+            '!delete_mentions': self.CustomMentionsDelete
         }
 
         with open("ArchiLogs2.txt", "a") as logfile:
             logfile.write(f"[{dt.datetime.now()}] on_message event triggered by {message.author}\n Posting on {message.channel.name}.\nCurrent counters: {data_container.counter_status_single_string}\n")
 
         await self.CheckForMentions(message)
-        
+
         if message.author == self.user:
             return
         elif message.content.split(' ')[0][:1] == '!':
