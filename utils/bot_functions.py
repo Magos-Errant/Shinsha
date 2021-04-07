@@ -317,6 +317,7 @@ class ShinshaBrain(discord.Client):
         plt.title('Aktywność kanałów')
         plt.xlabel('Dni tygodnia')
         plt.ylabel('Liczba wiadomości')
+        plt.gca().get_xticklabels()[dt.datetime.today().weekday()].set_color('red')
         plt.savefig('channelactivity.png', bbox_inches='tight', orientation='landscape', pad_inches=0.2)
         file = discord.File("channelactivity.png", filename="channelactivity.png")
         message = await message.channel.send("Requested graph", file=file)
