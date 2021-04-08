@@ -45,10 +45,10 @@ class ShinshaBrain(discord.Client):
         data_container.recall_data(text_channels)
         message_channel = self.get_channel(790949987609608212)
         await message_channel.send(data_container.counter_status)
-        await asyncio.sleep(1)
-        data_container.clear_data()
         message = await message_channel.send("Nastał nowy dzień!")
         await self.GraphMessageHandler(message)
+        await asyncio.sleep(1)
+        data_container.clear_data()
 
 
     @day_summary.before_loop
