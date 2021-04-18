@@ -36,6 +36,7 @@ class ShinshaBrain(discord.Client):
     @tasks.loop(seconds=10)
     async def autobackup(self):
         data_container.store_data()
+        self.GraphDataCollect()
 
     # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
     @tasks.loop(hours=24)
