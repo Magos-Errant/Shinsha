@@ -340,10 +340,10 @@ class ShinshaBrain(discord.Client):
 
         if user_id not in data_container.UserCustomMentions:
             data_container.UserCustomMentions[user_id] = []
-
         for word in keywords:
             if word not in data_container.UserCustomMentions[user_id]:
                 data_container.UserCustomMentions[user_id].append(word)
+        keywords.clear()
 
     async def CustomMentionsDelete(self, message):
         keywords = message.content.split()[1:]
