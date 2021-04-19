@@ -24,13 +24,13 @@ class JeronimoMartins:
 
         #user mentions
         with open("custom_mentions.txt", 'w') as file:
-            _formattedString = ''
+            formatted_string = ''
             for ID in self.UserCustomMentions:
-                _sznurek = ''
+                temporary_string = ''
                 for item in self.UserCustomMentions[ID]:
-                    _sznurek += f' {item}'
-                _formattedString += f'{ID}{_sznurek}\n'
-            file.write(_formattedString)
+                    temporary_string += f' {item}'
+                formatted_string += f'{ID}{temporary_string}\n'
+            file.write(formatted_string)
         return
 
     def recall_data(self, text_channels):

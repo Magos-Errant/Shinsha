@@ -371,12 +371,14 @@ class ShinshaBrain(discord.Client):
         await message.channel.send(f'Zapisane wzmianki dla użytkownika {_user_name}:\n{data_container.UserCustomMentions[_user_id]}')
 
     async def CheckForMentions(self, message):
-        _message_content = message.content.split()
+        message_content = message.content.split()
+        temporary_string = ''
         for ID in data_container.UserCustomMentions:
-            for word in _message_content:
+            for word in message_content:
                 if word in data_container.UserCustomMentions[ID]:
-                    await message.channel.send(f'<@{ID}>')
-                    return
+                    temporary_string += f' <@{ID}>'
+                    break
+        return await message.channel.send(temporary_string)
 
 
 
