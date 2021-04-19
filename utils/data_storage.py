@@ -25,13 +25,11 @@ class JeronimoMartins:
         #user mentions
         with open("custom_mentions.txt", 'w') as file:
             _formattedString = ''
-            _sznurek = ''
             for ID in self.UserCustomMentions:
+                _sznurek = ''
                 for item in self.UserCustomMentions[ID]:
                     _sznurek += f'{item}'
-                    _formattedString += f'{ID} {_sznurek}\n'
-                _formattedString = ''
-                _sznurek = ''
+                _formattedString += f'{ID} {_sznurek}\n'
             file.write(_formattedString)
         return
 
