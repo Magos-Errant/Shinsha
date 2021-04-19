@@ -28,8 +28,8 @@ class JeronimoMartins:
             for ID in self.UserCustomMentions:
                 _sznurek = ''
                 for item in self.UserCustomMentions[ID]:
-                    _sznurek += f'{item}'
-                _formattedString += f'{ID} {_sznurek}\n'
+                    _sznurek += f' {item}'
+                _formattedString += f'{ID}{_sznurek}\n'
             file.write(_formattedString)
         return
 
