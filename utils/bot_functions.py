@@ -378,7 +378,11 @@ class ShinshaBrain(discord.Client):
                 if word in data_container.UserCustomMentions[ID]:
                     temporary_string += f' <@{ID}>'
                     break
-        return await message.channel.send(temporary_string)
+        try:
+            await message.channel.send(temporary_string)
+        except discord.errors.HTTPException:
+            pass
+        return
 
 
 
