@@ -19,6 +19,11 @@ data_container = JeronimoMartins()
 message_timeout = 120
 
 class ShinshaBrain(discord.Client):
+
+    def __init__(self):
+        super().__init__()
+        self.day_changed = False
+
     async def on_ready(self):
         print('Logged in as')
         print(self.user.name)
@@ -29,8 +34,7 @@ class ShinshaBrain(discord.Client):
         guild = self.get_guild(602620718433304604)
         text_channels = guild.text_channels
         data_container.recall_data(text_channels)
-
-        
+        # flags
 
     # data backup
     @tasks.loop(seconds=10)
@@ -41,6 +45,7 @@ class ShinshaBrain(discord.Client):
     # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
     @tasks.loop(hours=24)
     async def day_summary(self):
+        self.day_changed = True
         guild = self.get_guild(602620718433304604)
         text_channels = guild.text_channels
         data_container.recall_data(text_channels)
@@ -50,8 +55,6 @@ class ShinshaBrain(discord.Client):
         await self.GraphMessageHandler(message)
         await asyncio.sleep(1)
         data_container.clear_data()
-
-
 
 
     @day_summary.before_loop
@@ -286,8 +289,20 @@ class ShinshaBrain(discord.Client):
         for ID in data_container.channels_info:
             if ID not in wdv:
                 wdv[ID] = [0, 0, 0, 0, 0, 0, 0]
+            elif self.day_changed:
+                day = day-1
+                if day == -1:
+                    day = 6
+                for x in range(0, 7):
+                    if x == day:
+                        wdv[ID][x] = data_container.channels_info[ID].messages_count
+                        wdv[ID][day] = 0
+                    else:
+                        wdv[ID][x] = wdv[ID][x]
+                self.day_changed = False
             else:
-                wdv[ID] = [data_container.channels_info[ID].messages_count if x == day else wdv[ID][x] for x in range(0, 7)]
+                wdv[ID] = [data_container.channels_info[ID].messages_count if x == day else wdv[ID][x] for x in
+                           range(0, 7)]
         data_container.store_week_data_vector(wdv)
 
     async def GraphMaker(self, message):
@@ -383,7 +398,6 @@ class ShinshaBrain(discord.Client):
         except discord.errors.HTTPException:
             pass
         return
-
 
 
     # funkcje poniżej obsługują reakcje bota na wiadomości
