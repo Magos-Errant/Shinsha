@@ -52,7 +52,7 @@ class ShinshaBrain(discord.Client):
         message_channel = self.get_channel(790949987609608212)
         await message_channel.send(data_container.counter_status)
         message = await message_channel.send("Nastał nowy dzień!")
-        await self.GraphMessageHandler(message)
+        await self.GraphMessageHandler(message, self.day_changed)
         await asyncio.sleep(1)
         data_container.clear_data()
 
@@ -282,31 +282,29 @@ class ShinshaBrain(discord.Client):
         data_container.clear_data()
         await message.channel.send('Data cleared!')
 
-    def GraphDataCollect(self):
+    def GraphDataCollect(self, day_changed):
         day = dt.datetime.today().weekday()
         wdv = data_container.recall_week_data_vector()
 
         for ID in data_container.channels_info:
             if ID not in wdv:
                 wdv[ID] = [0, 0, 0, 0, 0, 0, 0]
-            elif self.day_changed:
+            elif day_changed:
+                wdv[ID][day] = 0
+
                 day = day-1
                 if day == -1:
                     day = 6
-                for x in range(0, 7):
-                    if x == day:
-                        wdv[ID][x] = data_container.channels_info[ID].messages_count
-                        wdv[ID][day] = 0
-                    else:
-                        wdv[ID][x] = wdv[ID][x]
+                wdv[ID][day] = data_container.channels_info[ID].messages_count
+
                 self.day_changed = False
             else:
                 wdv[ID] = [data_container.channels_info[ID].messages_count if x == day else wdv[ID][x] for x in
                            range(0, 7)]
         data_container.store_week_data_vector(wdv)
 
-    async def GraphMaker(self, message):
-        self.GraphDataCollect()
+    async def GraphMaker(self, message, day_changed):
+        self.GraphDataCollect(day_changed)
         dni_tygodnia = ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela']
         wdv = data_container.recall_week_data_vector()
         markers = ['.', ',', 'o', 'v', '^', '<', '>', '1', '2', '3', '4', '8', 's', 'p', 'P', '*', 'h', 'H', '+', 'x',
@@ -341,12 +339,12 @@ class ShinshaBrain(discord.Client):
         os.remove("channelactivity.png")
         return message
 
-    async def GraphMessageHandler(self, message):
+    async def GraphMessageHandler(self, message, day_changed=False):
         if message.channel.id == 805839570201608252 or 790949987609608212:
-            await self.GraphMaker(message)
+            await self.GraphMaker(message, day_changed)
         else:
             await message.delete()
-            message = await self.GraphMaker(message)
+            message = await self.GraphMaker(message, day_changed)
             await asyncio.sleep(message_timeout)
             await message.delete()
 
