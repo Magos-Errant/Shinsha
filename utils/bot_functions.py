@@ -348,7 +348,7 @@ class ShinshaBrain(discord.Client):
             data_container.UserCustomMentions[user_id] = []
         for word in keywords:
             if word not in data_container.UserCustomMentions[user_id]:
-                data_container.UserCustomMentions[user_id].append(word)
+                data_container.UserCustomMentions[user_id].append(word.lower())
 
         await message.channel.send(f'Dodano następujące wzmianki {keywords} dla {_user_name}')
         keywords.clear()
@@ -379,7 +379,7 @@ class ShinshaBrain(discord.Client):
         temporary_string = ''
         for ID in data_container.UserCustomMentions:
             for word in message_content:
-                if word.lower() in data_container.UserCustomMentions[ID].lower():
+                if word.lower() in data_container.UserCustomMentions[ID]:
                     temporary_string += f' <@{ID}>'
                     break
         try:
