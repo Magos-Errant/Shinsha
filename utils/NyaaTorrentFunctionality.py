@@ -27,10 +27,12 @@ async def nyaar(message):
                 else:
                     continue
     # formatting string to send as a message
-    string = ""
-    for _dict in _selected_animu:
-        string = string + f"{_dict['name']}\n{_dict['url']} S: {_dict['seeders']} L: {_dict['leechers']} Size: {_dict['size']}\n\n"
+        string = ""
+        for _dict in _selected_animu:
+            string = string + f"{_dict['name']}\n{_dict['url']} S: {_dict['seeders']} L: {_dict['leechers']} Size: {_dict['size']}\n\n"
+
         await chop_long_string(string, message)
+
     else:
         await message.delete()
         Arr = NyaaPy.Nyaa
@@ -55,10 +57,10 @@ async def nyaar(message):
         for _dict in _selected_animu:
             string = string + f"{_dict['name']}\n{_dict['url']} S: {_dict['seeders']} L: {_dict['leechers']} Size: {_dict['size']}\n\n"
 
-            message_container = await chop_long_string(string, message)
-    await asyncio.sleep(message_timeout)
-    for message in message_container:
-        await message.delete()
+        message_container = await chop_long_string(string, message)
+        await asyncio.sleep(message_timeout)
+        for message in message_container:
+            await message.delete()
 
 
 async def chop_long_string(string, message):
