@@ -1,0 +1,76 @@
+import os
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+import numpy as np
+import datetime as dt
+import asyncio
+import discord
+from .data_storage import JeronimoMartins
+
+
+data_container = JeronimoMartins()
+message_timeout = 120
+
+
+def GraphDataCollect(day_changed):
+    day = dt.datetime.today().weekday()
+    wdv = data_container.recall_week_data_vector()
+
+    for ID in data_container.channels_info:
+        if ID not in wdv:
+            wdv[ID] = [0, 0, 0, 0, 0, 0, 0]
+        elif day_changed:
+            day = day - 1
+            if day == -1:
+                day = 6
+            wdv[ID][day] = data_container.channels_info[ID].messages_count
+        else:
+            wdv[ID] = [data_container.channels_info[ID].messages_count if x == day else wdv[ID][x] for x in
+                       range(0, 7)]
+    data_container.store_week_data_vector(wdv)
+
+
+async def GraphMaker(message, day_changed):
+    GraphDataCollect(day_changed)
+    dni_tygodnia = ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela']
+    wdv = data_container.recall_week_data_vector()
+    markers = ['.', ',', 'o', 'v', '^', '<', '>', '1', '2', '3', '4', '8', 's', 'p', 'P', '*', 'h', 'H', '+', 'x',
+               'X', 'D', 'd', '|', '_']
+
+    plt.style.use('dark_background')
+    plt.figure(figsize=(10, 5), dpi=300)
+
+    evenly_spaced_interval = np.linspace(0, 1, len(data_container.channels_info))
+    colors = [cm.get_cmap('tab20')(x) for x in evenly_spaced_interval]
+
+    i = 0
+    for ID in data_container.channels_info:
+        plt.plot(dni_tygodnia, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
+                 markerfacecolor='none', markersize=8, color=colors[i])
+        i += 1
+
+    plt.grid()
+    plt.legend(title='Kanały:')
+    plt.legend(bbox_to_anchor=(1.05, 1.0), loc='upper left')
+    plt.tight_layout()
+    plt.title('Aktywność kanałów')
+    plt.xlabel('Dni tygodnia')
+    plt.ylabel('Liczba wiadomości')
+    plt.gca().get_xticklabels()[dt.datetime.today().weekday()].set_color('red')
+    plt.savefig('channelactivity.png', bbox_inches='tight', orientation='landscape', pad_inches=0.2)
+    file = discord.File("channelactivity.png", filename="channelactivity.png")
+    message = await message.channel.send("Requested graph", file=file)
+    plt.clf()
+    plt.close()
+    os.remove("channelactivity.png")
+    return message
+
+
+async def GraphMessageHandler(self, message, day_changed=False):
+    if message.channel.id == 805839570201608252 or 790949987609608212:
+        await self.GraphMaker(message, day_changed)
+    else:
+        await message.delete()
+        message = await self.GraphMaker(message, day_changed)
+        await asyncio.sleep(message_timeout)
+        await message.delete()

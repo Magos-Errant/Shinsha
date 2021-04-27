@@ -1,18 +1,13 @@
 from __future__ import unicode_literals
-import discord
-import datetime as dt
 import asyncio
-import NyaaPy
-import os
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-import numpy as np
+import datetime as dt
 from discord.ext import tasks
 #imports from internal files:
-from .data_storage import JeronimoMartins
-from .tao import TaoTeChing
 from .DanbooruFunctionality import danbo, danbo_count
 from .CustomMentionsFunctionality import *
+from .GraphFunctionality import GraphDataCollect, GraphMessageHandler
+from .NyaaTorrentFunctionality import nyaar
+from .MiscFunctionality import *
 #
 #  Witty comment here
 #
@@ -37,7 +32,7 @@ class ShinshaBrain(discord.Client):
     @tasks.loop(seconds=10)
     async def autobackup(self):
         data_container.store_data()
-        self.GraphDataCollect(day_changed=False)
+        GraphDataCollect(day_changed=False)
 
     # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
     @tasks.loop(hours=24)
@@ -48,7 +43,7 @@ class ShinshaBrain(discord.Client):
         message_channel = self.get_channel(790949987609608212)
         await message_channel.send(data_container.counter_status)
         message = await message_channel.send("Nastał nowy dzień!")
-        await self.GraphMessageHandler(message, True)
+        await GraphMessageHandler(message, True)
         await asyncio.sleep(1)
         data_container.clear_data()
 
@@ -61,25 +56,6 @@ class ShinshaBrain(discord.Client):
                 print('It is rewind time!')
                 return
             await asyncio.sleep(1)  # wait a second before looping again. Can make it more
-
-    # definicje metody wywołwywanych on message
-    async def chop_long_string(self, string, message) -> list:
-        if len(string) < 2000:
-            message = await message.channel.send(string)
-            _resulting_list = [message]
-            return _resulting_list
-        else:
-            firstpart, secondpart = string[:len(string) // 2], string[len(string) // 2:]
-
-            if len(firstpart) >= 2000:
-                message = await message.channel.send('Shiver me timbers maytey! Be more specific')
-                _resulting_list = [message]
-                return _resulting_list
-            else:
-                message = await message.channel.send(firstpart)
-                message1 = await message.channel.send(secondpart)
-                _resulting_list = [message, message1]
-                return _resulting_list
 
 
     async def hello(self, message):
@@ -121,140 +97,6 @@ class ShinshaBrain(discord.Client):
             await asyncio.sleep(message_timeout)
             await message.delete()
 
-    async def tao(self, message):
-        _taoteching = TaoTeChing()
-        if message.channel.id == 805839570201608252:
-            await message.channel.send(_taoteching.random_quote())
-        else:
-            await message.delete()
-            message = await message.channel.send(_taoteching.random_quote())
-            await asyncio.sleep(message_timeout)
-            await message.delete()
-
-    async def nyaar(self, message):
-        _tags = message.content[5:]
-        message_container = [message]
-        _selected_animu = []
-        if message.channel.id == 805839570201608252:
-            Arr = NyaaPy.Nyaa
-            _result = Arr.search(_tags)
-
-            # ensuring that server will respond and catching situation when it does not
-            _i = 20
-            while len(_result) == 0 and _i != 0:
-                await asyncio.sleep(1)
-                _i -= 1
-            if len(_result) == 0:
-                message = await message.channel.send('¯\_(ツ)_/¯')
-            else:
-                for _dict in _result:
-                    if _dict['category'] == 'Anime - English-translated':
-                        _selected_animu.append(_dict)
-                    else:
-                        continue
-
-            # formatting string to send as a message
-            string = ""
-            for _dict in _selected_animu:
-                string = string + f"{_dict['name']}\n{_dict['url']} S: {_dict['seeders']} L: {_dict['leechers']} Size: {_dict['size']}\n\n"
-
-            await self.chop_long_string(string, message)
-        else:
-            await message.delete()
-            Arr = NyaaPy.Nyaa
-            _result = Arr.search(_tags)
-            # ensuring that server will respond and catching situation when it does not
-            _i = 20
-            while len(_result) == 0 and _i != 0:
-                await asyncio.sleep(1)
-                _i -= 1
-            if len(_result) == 0:
-                message = await message.channel.send('¯\_(ツ)_/¯')
-            else:
-                _selected_animu = []
-                for _dict in _result:
-                    if _dict['category'] == 'Anime - English-translated':
-                        _selected_animu.append(_dict)
-                    else:
-                        continue
-
-                # formatting string to send as a message
-                string = ""
-                for _dict in _selected_animu:
-                    string = string + f"{_dict['name']}\n{_dict['url']} S: {_dict['seeders']} L: {_dict['leechers']} Size: {_dict['size']}\n\n"
-
-                message_container = await self.chop_long_string(string, message)
-
-        await asyncio.sleep(message_timeout)
-        for message in message_container:
-            await message.delete()
-
-    async def counter_reset(self, message):
-        data_container.clear_data()
-        await message.channel.send('Data cleared!')
-
-    def GraphDataCollect(self, day_changed):
-        day = dt.datetime.today().weekday()
-        wdv = data_container.recall_week_data_vector()
-
-        for ID in data_container.channels_info:
-            if ID not in wdv:
-                wdv[ID] = [0, 0, 0, 0, 0, 0, 0]
-            elif day_changed:
-                day = day-1
-                if day == -1:
-                    day = 6
-                wdv[ID][day] = data_container.channels_info[ID].messages_count
-            else:
-                wdv[ID] = [data_container.channels_info[ID].messages_count if x == day else wdv[ID][x] for x in
-                           range(0, 7)]
-        data_container.store_week_data_vector(wdv)
-
-    async def GraphMaker(self, message, day_changed):
-        self.GraphDataCollect(day_changed)
-        dni_tygodnia = ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela']
-        wdv = data_container.recall_week_data_vector()
-        markers = ['.', ',', 'o', 'v', '^', '<', '>', '1', '2', '3', '4', '8', 's', 'p', 'P', '*', 'h', 'H', '+', 'x',
-                   'X', 'D', 'd', '|', '_']
-
-        plt.style.use('dark_background')
-        plt.figure(figsize=(10, 5), dpi=300)
-
-        evenly_spaced_interval = np.linspace(0, 1, len(data_container.channels_info))
-        colors = [cm.get_cmap('tab20')(x) for x in evenly_spaced_interval]
-
-
-        i = 0
-        for ID in data_container.channels_info:
-            plt.plot(dni_tygodnia, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
-                     markerfacecolor='none', markersize=8, color=colors[i])
-            i += 1
-
-        plt.grid()
-        plt.legend(title='Kanały:')
-        plt.legend(bbox_to_anchor=(1.05, 1.0), loc='upper left')
-        plt.tight_layout()
-        plt.title('Aktywność kanałów')
-        plt.xlabel('Dni tygodnia')
-        plt.ylabel('Liczba wiadomości')
-        plt.gca().get_xticklabels()[dt.datetime.today().weekday()].set_color('red')
-        plt.savefig('channelactivity.png', bbox_inches='tight', orientation='landscape', pad_inches=0.2)
-        file = discord.File("channelactivity.png", filename="channelactivity.png")
-        message = await message.channel.send("Requested graph", file=file)
-        plt.clf()
-        plt.close()
-        os.remove("channelactivity.png")
-        return message
-
-    async def GraphMessageHandler(self, message, day_changed=False):
-        if message.channel.id == 805839570201608252 or 790949987609608212:
-            await self.GraphMaker(message, day_changed)
-        else:
-            await message.delete()
-            message = await self.GraphMaker(message, day_changed)
-            await asyncio.sleep(message_timeout)
-            await message.delete()
-
 
     # Functions below describe bot reactions to commands
     async def on_message(self, message):
@@ -262,20 +104,22 @@ class ShinshaBrain(discord.Client):
             '!hello': self.hello,
             '!message_count': self.message_count,
             '!help': self.commands,
-            '!tao': self.tao,
+            '!tao': tao,
             '!danbo': danbo,
             '!danbo_count': danbo_count,
-            '!arr': self.nyaar,
-            '!counter_reset': self.counter_reset,
-            '!w_graph': self.GraphMessageHandler,
+            '!arr': nyaar,
+            '!counter_reset': counter_reset,
+            '!w_graph': GraphMessageHandler,
             '!register_mentions': CustomMentionsRegister,
             '!my_mentions': CustomMentionsCheck,
             '!delete_mentions': CustomMentionsDelete
         }
 
+        #Logging
         with open("ArchiLogs2.txt", "a") as logfile:
             logfile.write(f"[{dt.datetime.now()}] on_message event triggered by {message.author}\n Posting on {message.channel.name}.\nCurrent counters: {data_container.counter_status_single_string}\n")
 
+        #Mention check
         await CheckForMentions(message)
 
         if message.author == self.user:
@@ -293,5 +137,6 @@ class ShinshaBrain(discord.Client):
                 print(e)
                 return
         else:
+            #counting message
             data_container.message_counter(message.channel.id)
 
