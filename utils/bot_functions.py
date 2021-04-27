@@ -8,9 +8,11 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import numpy as np
 from discord.ext import tasks
+#imports from internal files:
 from .data_storage import JeronimoMartins
 from .tao import TaoTeChing
 from .DanbooruFunctionality import danbo, danbo_count
+from .CustomMentionsFunctionality import *
 #
 #  Witty comment here
 #
@@ -253,57 +255,8 @@ class ShinshaBrain(discord.Client):
             await asyncio.sleep(message_timeout)
             await message.delete()
 
-    async def CustomMentionsRegister(self, message):
-        keywords = message.content.split()[1:]
-        user_id = message.author.id
-        _user_name = message.author.mention
 
-        if user_id not in data_container.UserCustomMentions:
-            data_container.UserCustomMentions[user_id] = []
-        for word in keywords:
-            if word not in data_container.UserCustomMentions[user_id]:
-                data_container.UserCustomMentions[user_id].append(word.lower())
-
-        await message.channel.send(f'Dodano następujące wzmianki {keywords} dla {_user_name}')
-        keywords.clear()
-
-    async def CustomMentionsDelete(self, message):
-        keywords = message.content.split()[1:]
-        _user_id = message.author.id
-        _user_name = message.author.mention
-
-        if _user_id not in data_container.UserCustomMentions:
-            await message.channel.send(f'Nie zarejestrowałeś jeszcze ani jednego highlighta {_user_name} :<')
-        for word in keywords:
-            if word in data_container.UserCustomMentions[_user_id]:
-                data_container.UserCustomMentions[_user_id].remove(word)
-        await message.channel.send(
-            f'Zapisane wzmianki dla użytkownika {_user_name}:\n{data_container.UserCustomMentions[_user_id]}')
-
-    async def CustomMentionsCheck(self, message):
-        _user_name = message.author.mention
-        _user_id = message.author.id
-        if _user_id not in data_container.UserCustomMentions:
-            await message.channel.send(f'Brak zarejestrowanych wzmianek {_user_name}')
-            return
-        await message.channel.send(f'Zapisane wzmianki dla użytkownika {_user_name}:\n{data_container.UserCustomMentions[_user_id]}')
-
-    async def CheckForMentions(self, message):
-        message_content = message.content.split()
-        temporary_string = ''
-        for ID in data_container.UserCustomMentions:
-            for word in message_content:
-                if word.lower in data_container.UserCustomMentions[ID]:
-                    temporary_string += f' <@{ID}>'
-                    break
-        try:
-            await message.channel.send(temporary_string)
-        except discord.errors.HTTPException:
-            pass
-        return
-
-
-    # funkcje poniżej obsługują reakcje bota na wiadomości
+    # Functions below describe bot reactions to commands
     async def on_message(self, message):
         _cases = {
             '!hello': self.hello,
@@ -315,15 +268,15 @@ class ShinshaBrain(discord.Client):
             '!arr': self.nyaar,
             '!counter_reset': self.counter_reset,
             '!w_graph': self.GraphMessageHandler,
-            '!register_mentions': self.CustomMentionsRegister,
-            '!my_mentions': self.CustomMentionsCheck,
-            '!delete_mentions': self.CustomMentionsDelete
+            '!register_mentions': CustomMentionsRegister,
+            '!my_mentions': CustomMentionsCheck,
+            '!delete_mentions': CustomMentionsDelete
         }
 
         with open("ArchiLogs2.txt", "a") as logfile:
             logfile.write(f"[{dt.datetime.now()}] on_message event triggered by {message.author}\n Posting on {message.channel.name}.\nCurrent counters: {data_container.counter_status_single_string}\n")
 
-        await self.CheckForMentions(message)
+        await CheckForMentions(message)
 
         if message.author == self.user:
             return
