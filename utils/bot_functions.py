@@ -1,6 +1,5 @@
 from __future__ import unicode_literals
 import asyncio
-import urllib3
 import datetime as dt
 from discord.ext import tasks
 #imports from internal files:
@@ -132,8 +131,6 @@ class ShinshaBrain(discord.Client):
             except KeyError as e:
                 await message.channel.send('Nieznana komenda :<')
                 print(e)
-                return
-            except urllib3.exceptions.HTTPError:
                 return
             except Exception as e:
                 await message.channel.send('Cosik nie bangala User-kun TT_TT')

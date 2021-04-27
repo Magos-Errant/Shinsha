@@ -1,5 +1,6 @@
 import asyncio
 import NyaaPy
+import urllib3
 
 # parameters
 message_timeout = 120
@@ -65,7 +66,10 @@ async def nyaar(message):
 
 async def chop_long_string(string, message):
     if len(string) < 2000:
-        message = await message.channel.send(string)
+        try:
+            message = await message.channel.send(string)
+        except urllib3.exceptions.HTTPError:
+            return
         _resulting_list = [message]
         return _resulting_list
     else:
