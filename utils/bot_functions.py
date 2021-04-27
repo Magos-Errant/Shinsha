@@ -379,7 +379,7 @@ class ShinshaBrain(discord.Client):
         temporary_string = ''
         for ID in data_container.UserCustomMentions:
             for word in message_content:
-                if word in data_container.UserCustomMentions[ID]:
+                if word.lower() in data_container.UserCustomMentions[ID].lower():
                     temporary_string += f' <@{ID}>'
                     break
         try:
