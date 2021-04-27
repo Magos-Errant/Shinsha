@@ -6,6 +6,7 @@ import datetime as dt
 import asyncio
 import discord
 from .data_storage import JeronimoMartins
+from .IDnames import *
 
 
 data_container = JeronimoMartins()
@@ -67,7 +68,7 @@ async def GraphMaker(message, day_changed):
 
 
 async def GraphMessageHandler(self, message, day_changed=False):
-    if message.channel.id == 805839570201608252 or 790949987609608212:
+    if message.channel.id == bot_channel or kucowanie_channel:
         await self.GraphMaker(message, day_changed)
     else:
         await message.delete()

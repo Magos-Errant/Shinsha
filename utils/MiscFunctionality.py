@@ -1,13 +1,16 @@
 import asyncio
 from .tao import TaoTeChing
 from .data_storage import JeronimoMartins
+from .IDnames import *
 
+#parameters
 data_container = JeronimoMartins()
 message_timeout = 120
 
+
 async def tao(message):
     taoteching = TaoTeChing()
-    if message.channel.id == 805839570201608252:
+    if message.channel.id == bot_channel:
         await message.channel.send(taoteching.random_quote())
     else:
         await message.delete()

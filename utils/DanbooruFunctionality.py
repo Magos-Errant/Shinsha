@@ -2,15 +2,18 @@ import asyncio
 from .data_storage import JeronimoMartins
 from pybooru import Danbooru
 
-
+#parameters
 data_container = JeronimoMartins()
 message_timeout = 120
+
+#ID parameters
+bot_channel = 805839570201608252
 
 #Main functions
 
 async def danbo(message):
     _tags = rating_formatter(message)
-    if message.channel.id == 805839570201608252:
+    if message.channel.id == bot_channel:
         picture = picture_generator(_tags)
         picture = next(picture)
         answer = await waiting_and_responding(_tags, data_container.banned_tags, message, picture)
@@ -31,7 +34,7 @@ async def danbo_count(message):
     this_many_posts = danbo_client.count_posts(_tags)['counts']['posts']
     tags_list = _tags.split(' ')
 
-    if message.channel.id == 805839570201608252:
+    if message.channel.id == bot_channel:
         if not len(tags_list) > 2:
             await message.channel.send(f'{this_many_posts} posts found for tag {_tags}, I will leave it here :3')
         else:

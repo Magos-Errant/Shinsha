@@ -8,9 +8,12 @@ from .CustomMentionsFunctionality import *
 from .GraphFunctionality import GraphDataCollect, GraphMessageHandler
 from .NyaaTorrentFunctionality import nyaar
 from .MiscFunctionality import *
+from .IDnames import *
 #
 #  Witty comment here
 #
+
+#parameters
 data_container = JeronimoMartins()
 message_timeout = 120
 
@@ -23,7 +26,7 @@ class ShinshaBrain(discord.Client):
         print('------')
         self.day_summary.start()
         self.autobackup.start()
-        guild = self.get_guild(602620718433304604)
+        guild = self.get_guild(skype_guild)
         text_channels = guild.text_channels
         data_container.recall_data(text_channels)
         # flags
@@ -37,10 +40,10 @@ class ShinshaBrain(discord.Client):
     # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
     @tasks.loop(hours=24)
     async def day_summary(self):
-        guild = self.get_guild(602620718433304604)
+        guild = self.get_guild(skype_guild)
         text_channels = guild.text_channels
         data_container.recall_data(text_channels)
-        message_channel = self.get_channel(790949987609608212)
+        message_channel = self.get_channel(kucowanie_channel)
         await message_channel.send(data_container.counter_status)
         message = await message_channel.send("Nastał nowy dzień!")
         await GraphMessageHandler(message, True)
@@ -59,7 +62,7 @@ class ShinshaBrain(discord.Client):
 
 
     async def hello(self, message):
-        if message.channel.id == 805839570201608252:
+        if message.channel.id == bot_channel:
             _user_name = message.author.mention
             await message.channel.send(f'Hello {_user_name}!')
         else:
@@ -70,7 +73,7 @@ class ShinshaBrain(discord.Client):
             await message.delete()
 
     async def message_count(self, message):
-        if message.channel.id == 805839570201608252:
+        if message.channel.id == bot_channel:
             await message.channel.send(data_container.counter_status)
         else:
             await message.delete()
@@ -79,7 +82,7 @@ class ShinshaBrain(discord.Client):
             await message.delete()
 
     async def commands(self, message):
-        if message.channel.id == 805839570201608252:
+        if message.channel.id == bot_channel:
             _commands_dict = data_container.avaliable_commands
             _string = '''Lista komend:\n'''
             for key in _commands_dict:

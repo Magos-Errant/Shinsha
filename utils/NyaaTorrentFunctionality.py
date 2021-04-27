@@ -1,6 +1,6 @@
 import asyncio
 import NyaaPy
-import urllib3
+from .IDnames import *
 
 # parameters
 message_timeout = 120
@@ -10,7 +10,7 @@ async def nyaar(message):
     _tags = message.content[5:]
     message_container = [message]
     _selected_animu = []
-    if message.channel.id == 805839570201608252:
+    if message.channel.id == bot_channel:
         Arr = NyaaPy.Nyaa
         _result = Arr.search(_tags)
 
