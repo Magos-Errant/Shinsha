@@ -68,7 +68,7 @@ async def chop_long_string(string, message):
     if len(string) < 2000:
         try:
             message = await message.channel.send(string)
-        except urllib3.exceptions.HTTPError:
+        except Exception:
             return
         _resulting_list = [message]
         return _resulting_list
