@@ -9,6 +9,9 @@ async def CustomMentionsRegister(message):
 
     if user_id not in data_container.UserCustomMentions:
         data_container.UserCustomMentions[user_id] = []
+    if len(data_container.UserCustomMentions[user_id]) > mention_limit or len(keywords) > mention_limit:
+        await message.channel.send(f'Przekroczono limit wzmianek {_user_name}')
+        return
     for word in keywords:
         if word not in data_container.UserCustomMentions[user_id]:
             data_container.UserCustomMentions[user_id].append(word.lower())
