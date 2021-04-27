@@ -1,15 +1,17 @@
 from __future__ import unicode_literals
-import asyncio
+
 import datetime as dt
+
 from discord.ext import tasks
-#imports from internal files:
-from .data_storage import JeronimoMartins
-from .DanbooruFunctionality import danbo, danbo_count
+
 from .CustomMentionsFunctionality import *
+from .DanbooruFunctionality import danbo, danbo_count
 from .GraphFunctionality import GraphDataCollect, GraphMessageHandler
-from .NyaaTorrentFunctionality import nyaar
 from .MiscFunctionality import *
-from .IDnames import *
+from .NyaaTorrentFunctionality import nyaar
+# imports from internal files:
+from .data_storage import JeronimoMartins
+
 #
 #  Witty comment here
 #
