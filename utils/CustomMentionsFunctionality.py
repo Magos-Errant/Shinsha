@@ -46,7 +46,7 @@ async def CheckForMentions(message):
     temporary_string = ''
     for ID in data_container.UserCustomMentions:
         for word in message_content:
-            if word.lower in data_container.UserCustomMentions[ID]:
+            if word.lower() in data_container.UserCustomMentions[ID]:
                 temporary_string += f' <@{ID}>'
                 break
     try:

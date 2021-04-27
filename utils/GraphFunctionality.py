@@ -63,11 +63,11 @@ async def GraphMaker(message, day_changed):
     return message
 
 
-async def GraphMessageHandler(self, message, day_changed=False):
+async def GraphMessageHandler(message, day_changed=False):
     if message.channel.id == bot_channel or kucowanie_channel:
-        await self.GraphMaker(message, day_changed)
+        await GraphMaker(message, day_changed)
     else:
         await message.delete()
-        message = await self.GraphMaker(message, day_changed)
+        message = await GraphMaker(message, day_changed)
         await asyncio.sleep(message_timeout)
         await message.delete()
