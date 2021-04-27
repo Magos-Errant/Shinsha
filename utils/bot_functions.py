@@ -1,24 +1,19 @@
 from __future__ import unicode_literals
-
 import datetime as dt
-
+import discord
 from discord.ext import tasks
-
-from .CustomMentionsFunctionality import *
+from .CustomMentionsFunctionality import CustomMentionsRegister, CustomMentionsDelete, CustomMentionsCheck, CheckForMentions
 from .DanbooruFunctionality import danbo, danbo_count
 from .GraphFunctionality import GraphDataCollect, GraphMessageHandler
 from .MiscFunctionality import *
 from .NyaaTorrentFunctionality import nyaar
 # imports from internal files:
-from .data_storage import JeronimoMartins
+from .Parameters import *
 
 #
 #  Witty comment here
 #
 
-#parameters
-data_container = JeronimoMartins()
-message_timeout = 120
 
 class ShinshaBrain(discord.Client):
 

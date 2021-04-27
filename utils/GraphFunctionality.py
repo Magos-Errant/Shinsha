@@ -5,9 +5,8 @@ import numpy as np
 import datetime as dt
 import asyncio
 import discord
-from .data_storage import JeronimoMartins
 from .IDnames import *
-from .bot_functions import message_timeout, data_container
+from .Parameters import *
 
 
 def GraphDataCollect(day_changed):

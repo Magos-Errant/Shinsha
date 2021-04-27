@@ -1,6 +1,6 @@
 import asyncio
 from pybooru import Danbooru
-from .bot_functions import message_timeout, data_container
+from .Parameters import *
 from .IDnames import *
 
 

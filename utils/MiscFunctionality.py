@@ -1,7 +1,7 @@
 import asyncio
 from .tao import TaoTeChing
 from .IDnames import *
-from .bot_functions import message_timeout, data_container
+from .Parameters import *
 
 async def tao(message):
     taoteching = TaoTeChing()

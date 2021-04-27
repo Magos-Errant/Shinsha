@@ -1,5 +1,5 @@
 import discord
-from .bot_functions import data_container
+from .Parameters import *
 
 
 async def CustomMentionsRegister(message):
