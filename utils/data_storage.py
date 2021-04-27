@@ -89,7 +89,7 @@ class JeronimoMartins:
         "!danbo_count tag1 tag2": "Shinsha poda liczbę postów na danbooru zawierających podane tagi",
         "!arr tags": "Shinsha wyruszy w podróż po siedmiu morzach",
         "!w_graph": "Shinsha wyśle graficzne podsumowanie aktywności kanałów",
-        "!register_mentions słowa": "Shinsha zapisze słowa i poinformuje Cię jeśli zostaną użyte",
+        "!register_mentions słowa": "Shinsha zapisze słowa i poinformuje Cię jeśli zostaną użyte (limit 10)",
         "!my_mentions": "Shinsha powie Ci jakie wzmianki masz zapisane",
         "!delete_mentions słowa": "Shinsha usunie wybrane wzmianki"
       }
