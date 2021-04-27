@@ -1,7 +1,7 @@
 import asyncio
 import NyaaPy
 
-#parameters
+# parameters
 message_timeout = 120
 
 
@@ -26,7 +26,7 @@ async def nyaar(message):
                     _selected_animu.append(_dict)
                 else:
                     continue
-# formatting string to send as a message
+    # formatting string to send as a message
     string = ""
     for _dict in _selected_animu:
         string = string + f"{_dict['name']}\n{_dict['url']} S: {_dict['seeders']} L: {_dict['leechers']} Size: {_dict['size']}\n\n"
@@ -50,7 +50,7 @@ async def nyaar(message):
                 else:
                     continue
 
-            # formatting string to send as a message
+        # formatting string to send as a message
         string = ""
         for _dict in _selected_animu:
             string = string + f"{_dict['name']}\n{_dict['url']} S: {_dict['seeders']} L: {_dict['leechers']} Size: {_dict['size']}\n\n"
@@ -62,18 +62,18 @@ async def nyaar(message):
 
 
 async def chop_long_string(string, message):
-   if len(string) < 2000:
-       message = await message.channel.send(string)
-       _resulting_list = [message]
-       return _resulting_list
-   else:
-       firstpart, secondpart = string[:len(string) // 2], string[len(string) // 2:]
-       if len(firstpart) >= 2000:
-           message = await message.channel.send('Shiver me timbers maytey! Be more specific')
-           _resulting_list = [message]
-           return _resulting_list
-       else:
-           message = await message.channel.send(firstpart)
-           message1 = await message.channel.send(secondpart)
-           _resulting_list = [message, message1]
-           return _resulting_list
+    if len(string) < 2000:
+        message = await message.channel.send(string)
+        _resulting_list = [message]
+        return _resulting_list
+    else:
+        firstpart, secondpart = string[:len(string) // 2], string[len(string) // 2:]
+        if len(firstpart) >= 2000:
+            message = await message.channel.send('Shiver me timbers maytey! Be more specific')
+            _resulting_list = [message]
+            return _resulting_list
+        else:
+            message = await message.channel.send(firstpart)
+            message1 = await message.channel.send(secondpart)
+            _resulting_list = [message, message1]
+            return _resulting_list
