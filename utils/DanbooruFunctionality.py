@@ -1,13 +1,8 @@
 import asyncio
-from .data_storage import JeronimoMartins
 from pybooru import Danbooru
+from .bot_functions import message_timeout, data_container
+from .IDnames import *
 
-#parameters
-data_container = JeronimoMartins()
-message_timeout = 120
-
-#ID parameters
-bot_channel = 805839570201608252
 
 #Main functions
 

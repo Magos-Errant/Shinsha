@@ -1,12 +1,7 @@
 import asyncio
 from .tao import TaoTeChing
-from .data_storage import JeronimoMartins
 from .IDnames import *
-
-#parameters
-data_container = JeronimoMartins()
-message_timeout = 120
-
+from .bot_functions import message_timeout, data_container
 
 async def tao(message):
     taoteching = TaoTeChing()

@@ -7,10 +7,7 @@ import asyncio
 import discord
 from .data_storage import JeronimoMartins
 from .IDnames import *
-
-
-data_container = JeronimoMartins()
-message_timeout = 120
+from .bot_functions import message_timeout, data_container
 
 
 def GraphDataCollect(day_changed):

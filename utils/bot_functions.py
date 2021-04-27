@@ -3,6 +3,7 @@ import asyncio
 import datetime as dt
 from discord.ext import tasks
 #imports from internal files:
+from .data_storage import JeronimoMartins
 from .DanbooruFunctionality import danbo, danbo_count
 from .CustomMentionsFunctionality import *
 from .GraphFunctionality import GraphDataCollect, GraphMessageHandler

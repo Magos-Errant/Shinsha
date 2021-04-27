@@ -1,7 +1,5 @@
-from .data_storage import JeronimoMartins
 import discord
-
-data_container = JeronimoMartins()
+from .bot_functions import data_container
 
 
 async def CustomMentionsRegister(message):
