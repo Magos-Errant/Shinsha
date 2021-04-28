@@ -112,7 +112,7 @@ class ShinshaBrain(discord.Client):
             '!counter_reset': counter_reset,
             '!graph': GraphMessageHandler,
             '!add_mentions': CustomMentionsRegister,
-            '!list_mentions': CustomMentionsCheck,
+            '!my_mentions': CustomMentionsCheck,
             '!delete_mentions': CustomMentionsDelete
         }
 
