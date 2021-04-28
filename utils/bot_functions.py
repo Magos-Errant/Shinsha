@@ -110,8 +110,8 @@ class ShinshaBrain(discord.Client):
             '!danbo_count': danbo_count,
             '!arr': nyaar,
             '!counter_reset': counter_reset,
-            '!w_graph': GraphMessageHandler,
-            '!register_mentions': CustomMentionsRegister,
+            '!graph': GraphMessageHandler,
+            '!add_mentions': CustomMentionsRegister,
             '!my_mentions': CustomMentionsCheck,
             '!delete_mentions': CustomMentionsDelete
         }

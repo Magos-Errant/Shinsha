@@ -29,7 +29,7 @@ def GraphDataCollect(day_changed):
 
 async def GraphMaker(message, day_changed):
     GraphDataCollect(day_changed)
-    dni_tygodnia = ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela']
+    weekdays = ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela']
     wdv = data_container.recall_week_data_vector()
     markers = ['.', ',', 'o', 'v', '^', '<', '>', '1', '2', '3', '4', '8', 's', 'p', 'P', '*', 'h', 'H', '+', 'x',
                'X', 'D', 'd', '|', '_']
@@ -42,7 +42,7 @@ async def GraphMaker(message, day_changed):
 
     i = 0
     for ID in data_container.channels_info:
-        plt.plot(dni_tygodnia, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
+        plt.plot(weekdays, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
                  markerfacecolor='none', markersize=8, color=colors[i])
         i += 1
 
