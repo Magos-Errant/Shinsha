@@ -39,7 +39,7 @@ class ShinshaBrain(discord.Client):
     async def on_guild_channel_update(self, before, after):
         changed_channel_name = after.name
         changed_channel_ID = after.id
-        data_container.channels_info[changed_channel_ID].ChannelInfo.name = changed_channel_name
+        data_container.channels_info[changed_channel_ID].name = changed_channel_name
         
 
     # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
