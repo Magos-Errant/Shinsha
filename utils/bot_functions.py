@@ -36,9 +36,8 @@ class ShinshaBrain(discord.Client):
         GraphDataCollect(day_changed=False)
 
     # check for channel name change and update bot memory accordingly
-    async def on_guild_channel_update(self):
-        guild = self.get_guild(skype_guild)
-        text_channels = guild.text_channels
+    async def on_guild_channel_update(self, before, after):
+        text_channels = after.text_channels
         data_container.recall_data(text_channels)
 
     # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
