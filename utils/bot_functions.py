@@ -37,7 +37,6 @@ class ShinshaBrain(discord.Client):
 
     # check for channel name change and update bot memory accordingly
     async def on_guild_channel_update(self):
-        print('Dupa')
         guild = self.get_guild(skype_guild)
         text_channels = guild.text_channels
         data_container.recall_data(text_channels)
