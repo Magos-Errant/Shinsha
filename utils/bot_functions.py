@@ -40,7 +40,7 @@ class ShinshaBrain(discord.Client):
         changed_channel_name = after.name
         changed_channel_ID = after.id
         data_container.channels_info[changed_channel_ID].name = changed_channel_name
-        
+
 
     # funkcje poniżej obsługują wyświetlanie i czyszczenie statstyk serwera dokładnie o północy
     @tasks.loop(hours=24)
@@ -127,9 +127,6 @@ class ShinshaBrain(discord.Client):
         with open("ArchiLogs2.txt", "a") as logfile:
             logfile.write(f"[{dt.datetime.now()}] on_message event triggered by {message.author}\n Posting on {message.channel.name}.\nCurrent counters: {data_container.counter_status_single_string}\n")
 
-        #Mention check
-        await CheckForMentions(message)
-
         if message.author == self.user:
             return
         elif message.content.split(' ')[0][:1] == '!':
@@ -146,6 +143,8 @@ class ShinshaBrain(discord.Client):
                 return
 
         else:
+            # Mention check
+            await CheckForMentions(message)
             #counting message
             data_container.message_counter(message.channel.id)
 

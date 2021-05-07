@@ -52,7 +52,7 @@ class JeronimoMartins:
         for line in file:
             splitted = line.split()
             ID = int(splitted[0])
-            slowa = [word for word in splitted[1:]]
+            slowa = set(word for word in splitted[1:])
             self.UserCustomMentions[ID] = slowa
         return
 
