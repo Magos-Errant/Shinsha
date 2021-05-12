@@ -41,7 +41,7 @@ async def GraphMaker(message, day_changed):
     colors = [cm.get_cmap('tab20')(x) for x in evenly_spaced_interval]
 
     x = np.arange(len(weekdays))
-    bar_width = 0.075
+    bar_width = 0.05
     ax = fig.add_axes([0, 0, 1, 1])
     i = 0
     for ID in data_container.channels_info:
