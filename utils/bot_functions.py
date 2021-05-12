@@ -33,7 +33,7 @@ class ShinshaBrain(discord.Client):
     @tasks.loop(seconds=10)
     async def autobackup(self):
         data_container.store_data()
-        GraphDataCollect(False)
+        GraphDataCollect(day_changed=False)
 
     # check for channel name change and update bot memory accordingly
     async def on_guild_channel_update(self, before, after):
