@@ -7,7 +7,7 @@ from .DanbooruFunctionality import danbo, danbo_count
 from .GraphFunctionality import GraphDataCollect, GraphMessageHandler
 from .MiscFunctionality import *
 from .NyaaTorrentFunctionality import nyaar
-# imports from internal files:
+from .HumorousRandomResponsesFunctionality import *
 from .Parameters import *
 
 #
@@ -120,7 +120,8 @@ class ShinshaBrain(discord.Client):
             '!graph': GraphMessageHandler,
             '!add_mentions': CustomMentionsRegister,
             '!my_mentions': CustomMentionsCheck,
-            '!delete_mentions': CustomMentionsDelete
+            '!delete_mentions': CustomMentionsDelete,
+            '!add_humour': HumourRegister
         }
 
         #Logging
@@ -147,4 +148,6 @@ class ShinshaBrain(discord.Client):
             await CheckForMentions(message)
             #counting message
             data_container.message_counter(message.channel.id)
+            # Humour
+            await RandomHumour(message)
 

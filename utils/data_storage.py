@@ -5,6 +5,7 @@ class JeronimoMartins:
         self.channels_info = {}
         self.banned_tags = ['yaoi', 'bara']
         self.UserCustomMentions = {}
+        self.humour = []
         #flags
         self.already_written_flag = False
 
@@ -31,7 +32,15 @@ class JeronimoMartins:
                     temporary_string += f' {item}'
                 formatted_string += f'{ID}{temporary_string}\n'
             file.write(formatted_string)
+
+        #humorous sentences
+        with open("humorous_messages.txt", 'w') as file:
+            formatted_string = ''
+            for sentence in self.humour:
+                formatted_string += sentence+'\n'
+            file.write(formatted_string)
         return
+
 
     def recall_data(self, text_channels):
         # tworzy listę aktualnych kanałów
@@ -54,6 +63,12 @@ class JeronimoMartins:
             ID = int(splitted[0])
             slowa = set(word for word in splitted[1:])
             self.UserCustomMentions[ID] = slowa
+
+        # load humour
+        with open("humorous_messages.txt", 'r') as file:
+            file = file.readlines()
+        for line in file:
+            self.humour.append(line)
         return
 
 
@@ -91,7 +106,8 @@ class JeronimoMartins:
         "!graph": "Shinsha wyśle graficzne podsumowanie aktywności kanałów",
         "!add_mentions słowa": "Shinsha zapisze słowa i poinformuje Cię jeśli zostaną użyte (limit 10)",
         "!my_mentions": "Shinsha powie Ci jakie wzmianki masz zapisane",
-        "!delete_mentions słowa": "Shinsha usunie wybrane wzmianki"
+        "!delete_mentions słowa": "Shinsha usunie wybrane wzmianki",
+        "!add_humour teks": "Shinsha zapamieta twój tekst na później (limit znaków 500)"
       }
       return avaliable_commands
 
