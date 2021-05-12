@@ -35,23 +35,32 @@ async def GraphMaker(message, day_changed):
                'X', 'D', 'd', '|', '_']
 
     plt.style.use('dark_background')
-    plt.figure(figsize=(10, 5), dpi=300)
+    fig = plt.figure(figsize=(10, 5), dpi=300)
 
     evenly_spaced_interval = np.linspace(0, 1, len(data_container.channels_info))
     colors = [cm.get_cmap('tab20')(x) for x in evenly_spaced_interval]
 
+    x = np.arange(len(weekdays))
+    bar_width = 0.05
+    ax = fig.add_axes([0, 0, 1, 1])
     i = 0
     for ID in data_container.channels_info:
-        plt.plot(weekdays, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
-                 markerfacecolor='none', markersize=8, color=colors[i])
+
+        ax.bar(x-(len(data_container.channels_info)*bar_width*0.5)+bar_width*i, wdv[ID],
+                  label=data_container.channels_info[ID].name, color=colors[i], width=bar_width)
+
+        # plt.plot(weekdays, wdv[ID], label=data_container.channels_info[ID].name, marker=markers[i],
+        #          markerfacecolor='none', markersize=8, color=colors[i])
         i += 1
 
     plt.grid()
     plt.legend(title='Kanały:')
     plt.legend(bbox_to_anchor=(1.05, 1.0), loc='upper left')
-    plt.tight_layout()
+    # plt.tight_layout()
     plt.title('Aktywność kanałów')
     plt.xlabel('Dni tygodnia')
+    ax.set_xticks(x)
+    ax.set_xticklabels(weekdays)
     plt.ylabel('Liczba wiadomości')
     plt.gca().get_xticklabels()[dt.datetime.today().weekday()].set_color('red')
     plt.savefig('channelactivity.png', bbox_inches='tight', orientation='landscape', pad_inches=0.2)
