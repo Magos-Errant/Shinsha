@@ -53,6 +53,7 @@ async def GraphMaker(message, day_changed):
     plt.title('Aktywność kanałów')
     plt.xlabel('Dni tygodnia')
     plt.ylabel('Liczba wiadomości')
+    plt.yscale('log')
     plt.gca().get_xticklabels()[dt.datetime.today().weekday()].set_color('red')
     plt.savefig('channelactivity.png', bbox_inches='tight', orientation='landscape', pad_inches=0.2)
     file = discord.File("channelactivity.png", filename="channelactivity.png")
