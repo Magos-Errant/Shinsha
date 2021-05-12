@@ -107,7 +107,7 @@ class JeronimoMartins:
         "!add_mentions słowa": "Shinsha zapisze słowa i poinformuje Cię jeśli zostaną użyte (limit 10)",
         "!my_mentions": "Shinsha powie Ci jakie wzmianki masz zapisane",
         "!delete_mentions słowa": "Shinsha usunie wybrane wzmianki",
-        "!add_humour teks": "Shinsha zapamieta twój tekst na później (limit znaków 500)"
+        "!add_humour text": "Shinsha zapamieta twój tekst na później (limit znaków 500)"
       }
       return avaliable_commands
 
