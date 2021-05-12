@@ -53,7 +53,6 @@ async def GraphMaker(message, day_changed):
         #          markerfacecolor='none', markersize=8, color=colors[i])
         i += 1
 
-    plt.grid()
     plt.legend(title='Kanały:')
     plt.legend(bbox_to_anchor=(1.05, 1.0), loc='upper left')
     # plt.tight_layout()
@@ -61,7 +60,10 @@ async def GraphMaker(message, day_changed):
     plt.xlabel('Dni tygodnia')
     ax.set_xticks(x)
     ax.set_xticklabels(weekdays)
+    ax.set_xticks([0.5, 1.5, 2.5, 3.5, 4.5, 5.5], minor=True)
+    ax.xaxis.grid(True, which='minor')
     plt.ylabel('Liczba wiadomości')
+    ax.yaxis.grid(True, which='major', linestyle='--')
     plt.gca().get_xticklabels()[dt.datetime.today().weekday()].set_color('red')
     plt.savefig('channelactivity.png', bbox_inches='tight', orientation='landscape', pad_inches=0.2)
     file = discord.File("channelactivity.png", filename="channelactivity.png")
