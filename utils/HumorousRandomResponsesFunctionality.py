@@ -14,4 +14,7 @@ async def HumourRegister(message):
 
 async def RandomHumour(message):
     if random.randint(1,100) <= humour_probability:
-        await message.channel.send(data_container.humour[random.randint(0,len(data_container.humour))])
+        SendHumour(message)
+
+async def SendHumour(message):
+    await message.channel.send(data_container.humour[random.randint(0,len(data_container.humour))])
