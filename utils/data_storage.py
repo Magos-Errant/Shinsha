@@ -37,7 +37,7 @@ class JeronimoMartins:
         with open("humorous_messages.txt", 'w') as file:
             formatted_string = ''
             for sentence in self.humour:
-                formatted_string += sentence+'\n'
+                formatted_string += sentence
             file.write(formatted_string)
         return
 
