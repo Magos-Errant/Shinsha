@@ -14,7 +14,9 @@ async def HumourRegister(message):
     data_container.store_data()
 
 async def RandomHumour(message):
-    if message.channel.id == yagoo_channel:
-        return
-    elif random.randint(1,100) <= humour_probability:
-        await message.channel.send(data_container.humour[random.randint(0,len(data_container.humour))])
+    if message.channel.id != yagoo_channel:
+        if random.randint(1,100) <= humour_probability:
+            SendHumour(message)
+
+async def SendHumour(message):
+    await message.channel.send(data_container.humour[random.randint(0,len(data_container.humour))])

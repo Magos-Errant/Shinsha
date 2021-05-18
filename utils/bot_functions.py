@@ -121,7 +121,8 @@ class ShinshaBrain(discord.Client):
             '!add_mentions': CustomMentionsRegister,
             '!my_mentions': CustomMentionsCheck,
             '!delete_mentions': CustomMentionsDelete,
-            '!add_humour': HumourRegister
+            '!add_humour': HumourRegister,
+            '!humour_now': SendHumour
         }
 
         #Logging
