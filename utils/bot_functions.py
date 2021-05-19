@@ -9,6 +9,7 @@ from .MiscFunctionality import *
 from .NyaaTorrentFunctionality import nyaar
 from .HumorousRandomResponsesFunctionality import *
 from .Parameters import *
+from .IChingFunctionality import send_reading_file
 
 #
 #  Witty comment here
@@ -92,6 +93,7 @@ class ShinshaBrain(discord.Client):
                 '!message_count': self.message_count,
                 '!help': self.commands,
                 '!tao': tao,
+                '!iching': send_reading_file,
                 '!danbo': danbo,
                 '!danbo_count': danbo_count,
                 '!arr': nyaar,
@@ -111,6 +113,7 @@ class ShinshaBrain(discord.Client):
                 '!message_count': self.message_count,
                 '!help': self.commands,
                 '!tao': tao,
+                '!iching': send_reading_file,
                 '!danbo': danbo,
                 '!danbo_count': danbo_count,
                 '!arr': nyaar,
