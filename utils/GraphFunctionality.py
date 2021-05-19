@@ -75,7 +75,7 @@ async def GraphMaker(message, day_changed):
 
 
 async def GraphMessageHandler(message, day_changed=False):
-    if message.channel.id == bot_channel or kucowanie_channel:
+    if message.channel.id == bot_channel or not message.guild or kucowanie_channel:
         await GraphMaker(message, day_changed)
     else:
         await message.delete()

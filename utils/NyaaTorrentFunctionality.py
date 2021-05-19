@@ -10,7 +10,7 @@ async def nyaar(message):
     _tags = message.content[5:]
     message_container = [message]
     _selected_animu = []
-    if message.channel.id == bot_channel:
+    if message.channel.id == bot_channel or not message.guild:
         Arr = NyaaPy.Nyaa
         _result = Arr.search(_tags)
 
