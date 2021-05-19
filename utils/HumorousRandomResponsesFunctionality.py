@@ -1,4 +1,5 @@
 import random
+import discord
 from .Parameters import *
 from .IDnames import yagoo_channel
 
@@ -22,8 +23,7 @@ async def SendHumour(message):
     await message.channel.send(data_container.humour[random.randint(0,len(data_container.humour))])
 
 async def SendAllHumour(message):
-    humour_lines = [line.strip() for line in data_container.humour]
-    await message.channel.send(f'{humour_lines}')
+    await message.channel.send(file=discord.File(r'humorous_messages.txt'))
 
 async def DeleteHumour(message):
     try:
@@ -33,3 +33,4 @@ async def DeleteHumour(message):
         await message.channel.send(f'Deleted "{sentence}" sucesfully')
     except Exception as e:
         await message.channel.send(f'Something went wrong: {e}')
+
