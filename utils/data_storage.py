@@ -67,6 +67,7 @@ class JeronimoMartins:
         # load humour
         with open("humorous_messages.txt", 'r') as file:
             file = file.readlines()
+            self.humour = []
         for line in file:
             self.humour.append(line)
         return
