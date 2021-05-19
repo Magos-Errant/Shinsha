@@ -16,7 +16,6 @@ from .Parameters import *
 
 
 class ShinshaBrain(discord.Client):
-
     async def on_ready(self):
         print('Logged in as')
         print(self.user.name)
@@ -86,9 +85,54 @@ class ShinshaBrain(discord.Client):
             await asyncio.sleep(message_timeout)
             await message.delete()
 
+    async def command_cases(self, case_group):
+        if case_group == 'cases':
+            cases = {
+                '!hello': self.hello,
+                '!message_count': self.message_count,
+                '!help': self.commands,
+                '!tao': tao,
+                '!danbo': danbo,
+                '!danbo_count': danbo_count,
+                '!arr': nyaar,
+                '!counter_reset': counter_reset,
+                '!graph': GraphMessageHandler,
+                '!add_mentions': CustomMentionsRegister,
+                '!my_mentions': CustomMentionsCheck,
+                '!delete_mentions': CustomMentionsDelete,
+                '!add_humour': HumourRegister,
+                '!humour_now': SendHumour
+            }
+            return cases
+
+        elif case_group == 'mod_cases':
+            mod_cases = {
+                '!hello': self.hello,
+                '!message_count': self.message_count,
+                '!help': self.commands,
+                '!tao': tao,
+                '!danbo': danbo,
+                '!danbo_count': danbo_count,
+                '!arr': nyaar,
+                '!counter_reset': counter_reset,
+                '!graph': GraphMessageHandler,
+                '!add_mentions': CustomMentionsRegister,
+                '!my_mentions': CustomMentionsCheck,
+                '!delete_mentions': CustomMentionsDelete,
+                '!add_humour': HumourRegister,
+                '!humour_now': SendHumour,
+                '!show_humour': SendAllHumour,
+                '!delete_humour': DeleteHumour
+            }
+            return mod_cases
+
+
     async def commands(self, message):
-        if message.channel.id == bot_channel:
-            _commands_dict = data_container.avaliable_commands
+        if message.channel.id == bot_channel or not message.guild:
+            if not message.guild:
+                _commands_dict = data_container.avaliable_mod_commands()
+            else:
+                _commands_dict = data_container.avaliable_commands()
             _string = '''Lista komend:\n'''
             for key in _commands_dict:
                 value = _commands_dict[key]
@@ -105,45 +149,47 @@ class ShinshaBrain(discord.Client):
             await asyncio.sleep(message_timeout)
             await message.delete()
 
+    async def command_detection(self, message, cases='cases'):
+        cases = await self.command_cases(cases)
+        command = message.content.split(' ')[0]
+        try:
+            await cases[command](message)
+        except KeyError as e:
+            await message.channel.send('Nieznana komenda :<')
+            print(e)
+            return
+        # except Exception as e:
+        #     await message.channel.send('Cosik nie bangala User-kun TT_TT')
+        #     await message.channel.send(f'{e}')
+        #     print(e)
+        #     return
 
-    # Functions below describe bot reactions to commands
+    async def mod_command_detection(self, message):
+        await self.command_detection(message, cases='mod_cases')
+
+
+
+        # Functions below describe bot reactions to commands
     async def on_message(self, message):
-        _cases = {
-            '!hello': self.hello,
-            '!message_count': self.message_count,
-            '!help': self.commands,
-            '!tao': tao,
-            '!danbo': danbo,
-            '!danbo_count': danbo_count,
-            '!arr': nyaar,
-            '!counter_reset': counter_reset,
-            '!graph': GraphMessageHandler,
-            '!add_mentions': CustomMentionsRegister,
-            '!my_mentions': CustomMentionsCheck,
-            '!delete_mentions': CustomMentionsDelete,
-            '!add_humour': HumourRegister,
-            '!humour_now': SendHumour
-        }
 
-        #Logging
-        with open("ArchiLogs2.txt", "a") as logfile:
-            logfile.write(f"[{dt.datetime.now()}] on_message event triggered by {message.author}\n Posting on {message.channel.name}.\nCurrent counters: {data_container.counter_status_single_string}\n")
+        #Logging - enable if necessary
+        # with open("ArchiLogs2.txt", "a") as logfile:
+        #     logfile.write(f"[{dt.datetime.now()}] on_message event triggered by {message.author}\n Posting on {message.channel.name}.\nCurrent counters: {data_container.counter_status_single_string}\n")
 
         if message.author == self.user:
             return
-        elif message.content.split(' ')[0][:1] == '!':
-            command = message.content.split(' ')[0]
-            try:
-                await _cases[command](message)
-            except KeyError as e:
-                await message.channel.send('Nieznana komenda :<')
-                print(e)
-                return
-            except Exception as e:
-                await message.channel.send('Cosik nie bangala User-kun TT_TT')
-                print(e)
-                return
+        if not message.guild:
+            moderators_id = []
+            for moderator in moderators:
+                moderators_id.append(moderators[moderator])
+            if message.author.id in moderators_id:
+                await self.mod_command_detection(message)
+            else:
+                await message.channel.send('Nie jesteś moderatorem')
 
+
+        elif message.content.split(' ')[0][:1] == '!':
+            await self.command_detection(message)
         else:
             # Mention check
             await CheckForMentions(message)
