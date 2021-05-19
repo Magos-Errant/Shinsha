@@ -95,40 +95,40 @@ class JeronimoMartins:
 
     @property
     def avaliable_commands(self) -> dict:
-      avaliable_commands = {
-        "!help":"Shinsha wyświetli listę komend",
-        "!hello":"Shinsha odpisze - Hello",
-        "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj.",
-        "!tao":"Shinsha podzieli się cytatem z Tao Te Ching",
-        "!danbo tag1 tag2": "Shinsha wyświetli losowy obrazek z tymi tagami",
-        "!danbo_count tag1 tag2": "Shinsha poda liczbę postów na danbooru zawierających podane tagi",
-        "!arr tags": "Shinsha wyruszy w podróż po siedmiu morzach",
-        "!graph": "Shinsha wyśle graficzne podsumowanie aktywności kanałów",
-        "!add_mentions słowa": "Shinsha zapisze słowa i poinformuje Cię jeśli zostaną użyte (limit 10)",
-        "!my_mentions": "Shinsha powie Ci jakie wzmianki masz zapisane",
-        "!delete_mentions słowa": "Shinsha usunie wybrane wzmianki",
-        "!add_humour text": "Shinsha zapamieta twój tekst na później (limit znaków 500)"
-      }
-      return avaliable_commands
+        avaliable_commands = {
+            "!help":"Shinsha wyświetli listę komend",
+            "!hello":"Shinsha odpisze - Hello",
+            "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj.",
+            "!tao":"Shinsha podzieli się cytatem z Tao Te Ching",
+            "!danbo tag1 tag2": "Shinsha wyświetli losowy obrazek z tymi tagami",
+            "!danbo_count tag1 tag2": "Shinsha poda liczbę postów na danbooru zawierających podane tagi",
+            "!arr tags": "Shinsha wyruszy w podróż po siedmiu morzach",
+            "!graph": "Shinsha wyśle graficzne podsumowanie aktywności kanałów",
+            "!add_mentions słowa": "Shinsha zapisze słowa i poinformuje Cię jeśli zostaną użyte (limit 10)",
+            "!my_mentions": "Shinsha powie Ci jakie wzmianki masz zapisane",
+            "!delete_mentions słowa": "Shinsha usunie wybrane wzmianki",
+            "!add_humour text": "Shinsha zapamieta twój tekst na później (limit znaków 500)"
+          }
+        return avaliable_commands
 
     def avaliable_mod_commands(self) -> dict:
-      avaliable_commands = {
-        "!help":"Shinsha wyświetli listę komend",
-        "!hello":"Shinsha odpisze - Hello",
-        "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj.",
-        "!tao":"Shinsha podzieli się cytatem z Tao Te Ching",
-        "!danbo tag1 tag2": "Shinsha wyświetli losowy obrazek z tymi tagami",
-        "!danbo_count tag1 tag2": "Shinsha poda liczbę postów na danbooru zawierających podane tagi",
-        "!arr tags": "Shinsha wyruszy w podróż po siedmiu morzach",
-        "!graph": "Shinsha wyśle graficzne podsumowanie aktywności kanałów",
-        "!add_mentions słowa": "Shinsha zapisze słowa i poinformuje Cię jeśli zostaną użyte (limit 10)",
-        "!my_mentions": "Shinsha powie Ci jakie wzmianki masz zapisane",
-        "!delete_mentions słowa": "Shinsha usunie wybrane wzmianki",
-        "!add_humour text": "Shinsha zapamieta twój tekst na później (limit znaków 500)",
-        "!show_humour": "Otrzymasz listę wszystkich zapisanych linii humoru",
-        "!delete_humour linia do usunięcia": "Usunie linię z pamięci Shinshy"
-      }
-      return avaliable_commands
+        avaliable_commands = {
+            "!help":"Shinsha wyświetli listę komend",
+            "!hello":"Shinsha odpisze - Hello",
+            "!message_count":"Shinsha wyświetli ilość wiadomości wysłanych na poszczególnych kanałach dzisiaj.",
+            "!tao":"Shinsha podzieli się cytatem z Tao Te Ching",
+            "!danbo tag1 tag2": "Shinsha wyświetli losowy obrazek z tymi tagami",
+            "!danbo_count tag1 tag2": "Shinsha poda liczbę postów na danbooru zawierających podane tagi",
+            "!arr tags": "Shinsha wyruszy w podróż po siedmiu morzach",
+            "!graph": "Shinsha wyśle graficzne podsumowanie aktywności kanałów",
+            "!add_mentions słowa": "Shinsha zapisze słowa i poinformuje Cię jeśli zostaną użyte (limit 10)",
+            "!my_mentions": "Shinsha powie Ci jakie wzmianki masz zapisane",
+            "!delete_mentions słowa": "Shinsha usunie wybrane wzmianki",
+            "!add_humour text": "Shinsha zapamieta twój tekst na później (limit znaków 500)",
+            "!show_humour": "Otrzymasz listę wszystkich zapisanych linii humoru",
+            "!delete_humour linia do usunięcia": "Usunie linię z pamięci Shinshy"
+          }
+        return avaliable_commands
 
     def store_week_data_vector(self, wdv):
         with open("wdv.txt", 'w') as file:

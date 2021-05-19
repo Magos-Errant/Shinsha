@@ -132,7 +132,7 @@ class ShinshaBrain(discord.Client):
             if not message.guild:
                 _commands_dict = data_container.avaliable_mod_commands()
             else:
-                _commands_dict = data_container.avaliable_commands()
+                _commands_dict = data_container.avaliable_commands
             _string = '''Lista komend:\n'''
             for key in _commands_dict:
                 value = _commands_dict[key]
