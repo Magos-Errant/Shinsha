@@ -4,5 +4,5 @@ from .data_storage import JeronimoMartins
 data_container = JeronimoMartins()
 message_timeout = 120
 mention_limit = 10
-humour_probability = 2
+humour_probability = 1
 humour_lenght = 500
