@@ -51,7 +51,7 @@ async def CustomMentionsCheck(message):
 
 async def CheckForMentions(message):
     message_content = message.content.split()
-    regex = re.compile('[^a-zA-Z]')
+    regex = re.compile('[^a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]')
     filtered_message_content = [regex.sub('', element) for element in message_content]
     temporary_string = ''
     _user_id = message.author.id
