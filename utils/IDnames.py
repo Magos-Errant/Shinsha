@@ -1,7 +1,7 @@
 #ID parameters
 skype_guild = 602620718433304604
 kucowanie_channel = 790949987609608212
-bot_channel = 805839570201608252
+bot_channel = 923390886488993843
 yagoo_channel = 829004519517192232
 
 #ID moderation

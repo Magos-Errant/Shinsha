@@ -67,7 +67,7 @@ class ShinshaBrain(discord.Client):
 
 
     async def hello(self, message):
-        if message.channel.id == bot_channel or not message.guild:
+        if message.channel.id == bot_channel or message.guild:
             _user_name = message.author.mention
             await message.channel.send(f'Hello {_user_name}!')
         else:
@@ -78,7 +78,7 @@ class ShinshaBrain(discord.Client):
             await message.delete()
 
     async def message_count(self, message):
-        if message.channel.id == bot_channel or not message.guild:
+        if message.channel.id == bot_channel or message.guild:
             await message.channel.send(data_container.counter_status)
         else:
             await message.delete()
@@ -131,7 +131,7 @@ class ShinshaBrain(discord.Client):
 
 
     async def commands(self, message):
-        if message.channel.id == bot_channel or not message.guild:
+        if message.channel.id == bot_channel or message.guild:
             if not message.guild:
                 _commands_dict = data_container.avaliable_mod_commands()
             else:

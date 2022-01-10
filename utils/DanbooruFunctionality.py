@@ -8,7 +8,7 @@ from .IDnames import *
 
 async def danbo(message):
     _tags = rating_formatter(message)
-    if message.channel.id == bot_channel or not message.guild:
+    if message.channel.id == bot_channel or message.guild:
         picture = picture_generator(_tags)
         picture = next(picture)
         answer = await waiting_and_responding(_tags, data_container.banned_tags, message, picture)
@@ -29,7 +29,7 @@ async def danbo_count(message):
     this_many_posts = danbo_client.count_posts(_tags)['counts']['posts']
     tags_list = _tags.split(' ')
 
-    if message.channel.id == bot_channel or not message.guild:
+    if message.channel.id == bot_channel or message.guild:
         if not len(tags_list) > 2:
             await message.channel.send(f'{this_many_posts} posts found for tag {_tags}, I will leave it here :3')
         else:

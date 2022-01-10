@@ -5,7 +5,7 @@ from .Parameters import *
 
 async def tao(message):
     taoteching = TaoTeChing()
-    if message.channel.id == bot_channel or not message.guild:
+    if message.channel.id == bot_channel or message.guild:
         await message.channel.send(taoteching.random_quote())
     else:
         await message.delete()
