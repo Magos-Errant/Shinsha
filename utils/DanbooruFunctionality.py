@@ -4,14 +4,22 @@ from .Parameters import *
 from .IDnames import *
 
 
-#Main functions
+# Main functions
 
 async def danbo(message):
     _tags = rating_formatter(message)
     if message.channel.id == bot_channel or message.guild:
-        picture = picture_generator(_tags)
-        picture = next(picture)
-        answer = await waiting_and_responding(_tags, data_container.banned_tags, message, picture)
+        _i = 10
+        image_sent = False
+        answer = ''
+        while _i != 0 or image_sent == True:
+            try:
+                picture = picture_generator(_tags)
+                picture = next(picture)
+                answer = await waiting_and_responding(_tags, data_container.banned_tags, message, picture)
+                image_sent = True
+            except Exception:
+                _i -= 1
         await message.channel.send(answer)
     else:
         await message.delete()
@@ -41,7 +49,8 @@ async def danbo_count(message):
         else:
             await message.channel.send(f'{this_many_posts} posts found for tags {_tags}, I will leave it here :3')
 
-#Functions used by main functions
+
+# Functions used by main functions
 def picture_generator(_tags):
     danbo_client = Danbooru('danbooru')
     while 1:
