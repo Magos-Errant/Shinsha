@@ -1,6 +1,7 @@
 #import logging
 import os
 from utils import bot_functions
+from discord_components import DiscordComponents
 
 #logowanie błędów
 # logger = logging.getLogger('discord')
@@ -11,6 +12,7 @@ from utils import bot_functions
 
 #Uruchamianie bota i jego funkcji.
 client = bot_functions.ShinshaBrain()
+DiscordComponents(client)
 with open('Token.txt', 'r') as token:
     tok = str(token.readlines()[0]).strip()
 client.run(tok)
