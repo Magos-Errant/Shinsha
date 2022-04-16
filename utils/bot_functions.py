@@ -13,13 +13,13 @@ from .IChingFunctionality import send_reading_file
 from .StrategemsFunctionality import strategems
 from discord_components import DiscordComponents, ComponentsBot, Button, SelectOption, Select
 import  discord.ext.commands as commands
-
+from main import client
 #
 #  Witty comment here
 #
 
 
-class ShinshaBrain(discord.Client):
+class ShinshaBrain(client):
     async def on_ready(self):
         print('Logged in as')
         print(self.user.name)
