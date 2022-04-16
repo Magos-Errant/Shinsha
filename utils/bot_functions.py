@@ -10,6 +10,8 @@ from .NyaaTorrentFunctionality import nyaar
 from .HumorousRandomResponsesFunctionality import *
 from .Parameters import *
 from .IChingFunctionality import send_reading_file
+from discord_components import DiscordComponents, ComponentsBot, Button, SelectOption, Select
+import  discord.ext.commands as commands
 
 #
 #  Witty comment here
@@ -94,6 +96,7 @@ class ShinshaBrain(discord.Client):
                 '!help': self.commands,
                 '!tao': tao,
                 '!iching': send_reading_file,
+                '!strategem': strategems,
                 '!danbo': danbo,
                 '!danbo_count': danbo_count,
                 '!arr': nyaar,
