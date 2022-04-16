@@ -77,4 +77,4 @@ async def strategems(self, message):
 
         select_interaction = await self.wait_for("select_option")
         await select_interaction.send(content = f"{select_interaction.values[0]}", ephemeral = False)
-        select.disable = True
+        select.disabled = True
