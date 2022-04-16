@@ -65,8 +65,8 @@ async def strategems(message):
         await message.channel.send('What strategem do you desire?', components = [
             [Button(label="Hi", style=3, custom_id="button1"), Button(label="Bye", style=4, custom_id="button2")]
         ])
-        interaction = await discord.Client.wait_for('button_click', check= lambda i: i.custom_id == "button1")
-        await interaction.send(content = 'Button clicked!', ephemeral=True)
+        interaction = await discord.Client.wait_for(event='button_click', check= lambda i: i.custom_id == "button1")
+        await interaction.message.channel.send(content='Button clicked!', ephemeral=True)
     else:
         await message.delete()
         message = await message.channel.send('dupa')
