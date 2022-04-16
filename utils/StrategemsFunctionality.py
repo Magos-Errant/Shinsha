@@ -4,6 +4,8 @@
 import  discord
 import asyncio
 import  discord.ext.commands as commands
+from discord import client
+
 from .IDnames import *
 from .Parameters import *
 from discord_components import DiscordComponents, ComponentsBot, Button, SelectOption, Select
@@ -65,7 +67,10 @@ async def strategems(message):
         await message.channel.send('What strategem do you desire?', components = [
             [Button(label="Hi", style=3, custom_id="button1"), Button(label="Bye", style=4, custom_id="button2")]
         ])
-        interaction = await discord.Client.wait_for("button_click", check= lambda i: i.custom_id == "button1")
+
+        def check(reaction, user):
+            return user == message.author and str(reaction.emoji) == '👍'
+        interaction = await discord.Client.wait_for('reaction_add', timeout=60.0, check=check)
         await interaction.message.channel.send(content='Button clicked!', ephemeral=False)
     else:
         await message.delete()
