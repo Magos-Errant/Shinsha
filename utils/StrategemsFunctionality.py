@@ -62,22 +62,20 @@ async def strategems(self, message):
 
     if message.channel.id == bot_channel or message.guild:
         key_list = list(strategem_dict.keys())
-
-        select = Select(
-            placeholder="Select strategem!",
-            options=[
-                SelectOption(label=key_list[0], value=strategem_dict[key_list[0]][random.randint(0, 5)]),
-                SelectOption(label=key_list[1], value=strategem_dict[key_list[1]][random.randint(0, 5)]),
-                SelectOption(label=key_list[2], value=strategem_dict[key_list[2]][random.randint(0, 5)]),
-                SelectOption(label=key_list[3], value=strategem_dict[key_list[3]][random.randint(0, 5)]),
-                SelectOption(label=key_list[4], value=strategem_dict[key_list[4]][random.randint(0, 5)]),
-                SelectOption(label=key_list[5], value=strategem_dict[key_list[5]][random.randint(0, 5)]),
-            ]
-        )
-        await message.channel.send('What strategem do you desire?', components=select
-        )
+        await message.channel.send('What strategem do you desire?', components=[
+        Select(
+                placeholder="Select strategem!",
+                options=[
+                    SelectOption(label=key_list[0], value=strategem_dict[key_list[0]][random.randint(0,5)]),
+                    SelectOption(label=key_list[1], value=strategem_dict[key_list[1]][random.randint(0,5)]),
+                    SelectOption(label=key_list[2], value=strategem_dict[key_list[2]][random.randint(0,5)]),
+                    SelectOption(label=key_list[3], value=strategem_dict[key_list[3]][random.randint(0,5)]),
+                    SelectOption(label=key_list[4], value=strategem_dict[key_list[4]][random.randint(0,5)]),
+                    SelectOption(label=key_list[5], value=strategem_dict[key_list[5]][random.randint(0,5)]),
+                ]
+            )
+        ])
 
         select_interaction = await self.wait_for("select_option")
         await select_interaction.send(content = f"{select_interaction.values[0]}", ephemeral = False)
-        select.disabled=True
-        
+        select_interaction.disable = True
