@@ -10,6 +10,7 @@ from .NyaaTorrentFunctionality import nyaar
 from .HumorousRandomResponsesFunctionality import *
 from .Parameters import *
 from .IChingFunctionality import send_reading_file
+from .StrategemsFunctionality import strategems
 from discord_components import DiscordComponents, ComponentsBot, Button, SelectOption, Select
 import  discord.ext.commands as commands
 
