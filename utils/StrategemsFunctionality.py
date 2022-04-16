@@ -1,5 +1,6 @@
 # Functionality file that allows Shinsha to
 # provide random strategem from one of 6 categories
+import random
 import asyncio
 from .IDnames import *
 from .Parameters import *
@@ -59,20 +60,21 @@ async def strategems(self, message):
     }
 
     if message.channel.id == bot_channel or message.guild:
+        message = message
+        key_list = list(strategem_dict.keys()[0])
         await message.channel.send('What strategem do you desire?', components=[
             Select(
                 placeholder="Select something!",
                 options=[
-                    SelectOption(label="A", value="A"),
-                    SelectOption(label="B", value="B")
+                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
+                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
+                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
+                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
+                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
+                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
                 ]
             )
         ])
 
         select_interaction = await self.wait_for("select_option")
-        await select_interaction.send(content = f"{select_interaction.values[0]} selected!", ephemeral = True)
-    else:
-        await message.delete()
-        message = await message.channel.send('dupa')
-        await asyncio.sleep(message_timeout)
-        await message.delete()
+        await select_interaction.send(content = f"{select_interaction.values[0]} selected!", ephemeral = False)
