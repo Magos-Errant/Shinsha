@@ -65,11 +65,17 @@ async def strategems(self, message):
 
     if message.channel.id == bot_channel or message.guild:
         await message.channel.send('What strategem do you desire?', components=[
-            [Button(label="Hi", style=3, custom_id="button1"), Button(label="Bye", style=4, custom_id="button2")]
+            Select(
+                placeholder="Select something!",
+                options=[
+                    SelectOption(label="A", value="A"),
+                    SelectOption(label="B", value="B")
+                ]
+            )
         ])
 
-        interaction = await self.wait_for('button_click', check=lambda i: i.custom_id == "button1")
-        await interaction.message.channel.send(content='Button clicked!', ephemeral=True)
+        select_interaction = await client.wait_for("select_option")
+        await select_interaction.send(content = f"{select_interaction.values[0]} selected!", ephemeral = True)
     else:
         await message.delete()
         message = await message.channel.send('dupa')
