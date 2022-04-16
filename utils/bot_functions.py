@@ -159,6 +159,8 @@ class ShinshaBrain(discord.Client):
     async def command_detection(self, message, cases='cases'):
         cases = await self.command_cases(cases)
         command = message.content.split(' ')[0]
+        if command == '!strategem':
+            await cases['!strategem'](self, message)
         try:
             await cases[command](message)
         except KeyError as e:
