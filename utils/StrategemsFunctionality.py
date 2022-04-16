@@ -74,7 +74,7 @@ async def strategems(self, message):
             )
         ])
 
-        select_interaction = await client.wait_for("select_option")
+        select_interaction = await self.wait_for("select_option")
         await select_interaction.send(content = f"{select_interaction.values[0]} selected!", ephemeral = True)
     else:
         await message.delete()
