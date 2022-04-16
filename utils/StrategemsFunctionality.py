@@ -1,7 +1,11 @@
 # Functionality file that allows Shinsha to
 # provide random strategem from one of 6 categories
 
+import discord
 import asyncio
+import discord.ext.commands as commands
+from discord import client
+
 from .IDnames import *
 from .Parameters import *
 from discord_components import DiscordComponents, ComponentsBot, Button, SelectOption, Select
