@@ -62,8 +62,7 @@ async def strategems(self, message):
 
     if message.channel.id == bot_channel or message.guild:
         key_list = list(strategem_dict.keys())
-        await message.channel.send('What strategem do you desire?', components=[
-        Select(
+        select = Select(
                 placeholder="Select strategem!",
                 options=[
                     SelectOption(label=key_list[0], value=strategem_dict[key_list[0]][random.randint(0,5)]),
@@ -74,8 +73,8 @@ async def strategems(self, message):
                     SelectOption(label=key_list[5], value=strategem_dict[key_list[5]][random.randint(0,5)]),
                 ]
             )
-        ])
+        await message.channel.send('What strategem do you desire?', components=[select])
 
         select_interaction = await self.wait_for("select_option")
         await select_interaction.send(content = f"{select_interaction.values[0]}", ephemeral = False)
-        select_interaction.disable = True
+        select.disable = True
