@@ -73,9 +73,12 @@ async def strategems(self, message):
                     SelectOption(label=key_list[5], value=strategem_dict[key_list[5]][random.randint(0,5)]),
                 ]
             )
-        await message.channel.send('What strategem do you desire?', components=[select])
-        select_interaction = await self.wait_for("select_option")
-        await message.delete()
-        await select_interaction.send(content = f"{select_interaction.values[0]}", ephemeral = False)
 
+        message2 = await message.channel.send('What strategem do you desire?', components=[select])
+        select_interaction = await self.wait_for("select_option")
+        await select_interaction.send(content = f"{select_interaction.values[0]}", ephemeral = False)
+        for key in strategem_dict:
+            if select_interaction.values[0] in strategem_dict[key]:
+                selected_key = key
+        await message2.edit(content=f'{selected_key} were selected' ,components=[])
 
