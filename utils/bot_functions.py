@@ -161,12 +161,13 @@ class ShinshaBrain(discord.Client):
         command = message.content.split(' ')[0]
         if command == '!strategem':
             await cases['!strategem'](self, message)
-        try:
-            await cases[command](message)
-        except KeyError as e:
-            await message.channel.send('Nieznana komenda :<')
-            print(e)
-            return
+        else:
+            try:
+                await cases[command](message)
+            except KeyError as e:
+                await message.channel.send('Nieznana komenda :<')
+                print(e)
+                return
         # except Exception as e:
         #     await message.channel.send('Cosik nie bangala User-kun TT_TT')
         #     await message.channel.send(f'{e}')
