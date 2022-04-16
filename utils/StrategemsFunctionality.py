@@ -66,12 +66,12 @@ async def strategems(self, message):
             Select(
                 placeholder="Select something!",
                 options=[
-                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
-                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
-                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
-                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
-                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
-                    SelectOption(label=key_list[0], value=strategem_dict[key_list[random.randint(0,5)]]),
+                    SelectOption(label=key_list[0], value=strategem_dict[key_list[0][random.randint(0,5)]]),
+                    SelectOption(label=key_list[1], value=strategem_dict[key_list[1][random.randint(0,5)]]),
+                    SelectOption(label=key_list[2], value=strategem_dict[key_list[2][random.randint(0,5)]]),
+                    SelectOption(label=key_list[3], value=strategem_dict[key_list[3][random.randint(0,5)]]),
+                    SelectOption(label=key_list[4], value=strategem_dict[key_list[4][random.randint(0,5)]]),
+                    SelectOption(label=key_list[5], value=strategem_dict[key_list[5][random.randint(0,5)]]),
                 ]
             )
         ])
