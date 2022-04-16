@@ -74,7 +74,9 @@ async def strategems(self, message):
                 ]
             )
         await message.channel.send('What strategem do you desire?', components=[select])
-
         select_interaction = await self.wait_for("select_option")
         await select_interaction.send(content = f"{select_interaction.values[0]}", ephemeral = False)
-        select.disabled = True
+        async def disable_list(select_interaction):
+            select_interaction.select.disabled = True
+        await disable_list(select_interaction)
+        
