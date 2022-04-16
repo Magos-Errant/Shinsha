@@ -61,7 +61,7 @@ async def strategems(self, message):
 
     if message.channel.id == bot_channel or message.guild:
         message = message
-        key_list = list(strategem_dict.keys()[0])
+        key_list = list(strategem_dict.keys())
         await message.channel.send('What strategem do you desire?', components=[
             Select(
                 placeholder="Select something!",
